@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Goodrich | Sustainable Potatoes</title>
+  <meta name="description" content="Goodrich Cereals" />
+  <script src="./assets/js/jquery.min.js "></script>
+  <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+  <script src="./assets/js/script.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/components.css" />
+  <link rel="stylesheet" href="./assets/css/content-box.css" />
+  <link rel="stylesheet" href="./assets/js/social.stream.css" />
+  <link rel="stylesheet" href="./assets/css/animations.css" />
+  <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css" />
+  <link rel="stylesheet" href="./assets/js/php/contact-form.css" />
+  <link rel="stylesheet" href="./assets/css/skin.css" />
+  <link rel="icon" href="./assets/images/logos/logo.png" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div id="preloader"></div>
+  <div class="footer-parallax-container">
+    <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in"
+      id="section-header"></header>
+    <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850"
+      data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-5.jpg">
+      <div class="container">
+        <div class="title-base">
+          <hr class="anima" />
+          <p>Sustainability at Goodrich Cereals</p>
+          <h1>Sustainable Potatoes</h1>
+        </div>
+      </div>
+    </div>
+    <div class="section-empty no-padding-bottom">
+      <div class="container content">
+        <div class="row">
+          <ol class="breadcrumb" style="font-style: italic;">
+            <li><a href="./">Home</a></li>
+            <li>Our Story</li>
+            <li class="active">Sustainable Potatoes</li>
+          </ol>
+        </div>
+        <div class="row vission-img">
+          <div class="col-lg-8 col-xs-8">
+            <div class="title-base text-left">
+              <h2>Nurturing Nature, </br> Nourishing Future</h2>
+            </div>
+            <p class="text-justify">
+              At Goodrich Cereals, we don't just produce potato products; we
+              cultivate sustainability. Our commitment to the environment goes
+              beyond the production line, ensuring a future where nature
+              thrives and communities flourish.
+            </p>
+          </div>
+          <div class="col-lg-4 col-xs-4 image-responsive">
+            <img src="./assets/images/sustainable-potatoes/Applications.png" alt="Fresh potatoes in a sack on a white background, showcasing the natural beauty of these wholesome vegetables." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-bleed="0"
+      data-parallax="scroll" data-image-src="./assets/images/sustainable-potatoes/high-angle.jpg">
+      <div class="container content">
+        <div class="title-base white">
+          <hr />
+          <h2>Three Pillars of Sustainability</h2>
+          <p>Empowering Farmers, Nurturing Growth</p>
+        </div>
+        <hr class="space m" />
+        <div class="row proporzional-row">
+          <div class="col-md-6 col-sm-12 boxed-inverse bg-cover middle-content white text-center"
+            style="background-image: url(./assets/images/sustainable-potatoes/block-14.jpg)">
+            <p class="text-normal text-italic text-l">
+              Potato Contract Farming
+            </p>
+            <hr class="space s" />
+            <p class="text-s" style="text-align: justify">
+              Potatoes, with 80% moisture content, pose a challenge for
+              farmers due to rapid perishability. Forced to sell at low prices
+              during procurement seasons, farmers endure losses, demotivating
+              further cultivation. In 2011, Goodrich witnessed Punjab &
+              Haryana farmers selling potatoes below Rs. 1 per kg due to
+              bumper harvests. Responding decisively, Goodrich set up a
+              cutting-edge potato flakes facility at Village Nagla, Karnal.
+              This strategic move aims to offer farmers a profitable
+              alternative. With a firm belief that farmers deserve fair
+              prices, Goodrich purchases potatoes at assured rates directly
+              from farms. Despite challenges like open sun storage, our
+              commitment remains: ensuring farmers get the value they truly
+              deserve for their hard work.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="img-box">
+                        <img src="./assets/images/sustainable-potatoes/Biomass-utilization.jpeg" alt="Potatoes growing in a field, with green leaves and brown soil." />
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <h3>Biomass Utilization</h3>
+                      <span class="extra-content">Sustainable Resource Management</span>
+                      <hr class="anima" />
+                      <p class="text-justify">
+                        Environmental sustainability is a core focus, and we
+                        understand the impact of industrial biomass on our
+                        planet. Through Biomass Utilization, we've embraced
+                        eco-friendly practices in our production processes. By
+                        efficiently utilizing biomass, we minimize waste,
+                        reduce our carbon footprint, and contribute to a
+                        healthier environment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr class="space m" />
+                <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="img-box">
+                        <img src="./assets/images/sustainable-potatoes/SolarEnergy.jpg" alt="Solar panels in a field with city skyline in the background. Harnessing renewable energy for a sustainable future." />
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <h3>Solar Energy Integration</h3>
+                      <span class="extra-content">Sustainable Power Solutions</span>
+                      <hr class="anima" />
+                      <p class="text-justify">
+                        The energy demands of modern production can strain the
+                        environment, often relying on non-renewable sources.
+                        Embracing Solar Energy Integration, we've invested in
+                        harnessing clean, renewable energy to power our
+                        operations. Our commitment to solar energy reflects
+                        our dedication to sustainable practices, minimizing
+                        our ecological impact.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-bg-image box-middle-container overlay-container row-19"
+      style="background-image: url(./assets/images/bg-img/Doodles2.jpg);">
+      <div class="bg-overlay"></div>
+      <div class="container content overlay-content box-middle green text-center">
+        <div class="title-base" data-anima="fade-top">
+          <hr />
+          <h2>HARVESTING JOY</h2>
+          <p>Goodrich's Commitment to Potato Farmers</p>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-center">
+            <p data-anima="fade-bottom">
+              Our expert team tirelessly travels from village to village,
+              educating farmers on optimal potato varieties for cultivation.
+              This initiative is not just about yields; it's about realizing
+              farmers' dreams of earning assured and proper remunerative
+              prices.
+            </p>
+            <hr class="space m">
+            <h4>Have questions or need guidance?</h4>
+            <h4>We're here to support farmers every step of the way.</h4>
+            <p class="playfair-font">Farmer's Helpdesk: <span class="playfair-font1">8307854336</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+  <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
+  <link property="" rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
+  <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/imagesloaded.min.js"></script>
+  <script src="./assets/js/jquery.progress-counter.js"></script>
+  <script src="./assets/js/parallax.min.js"></script>
+  <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
+  <script src="./assets/js/social.stream.min.js"></script>
+  <script src="./assets/js/jquery.tab-accordion.js"></script>
+  <script src="./assets/js/smooth.scroll.min.js"></script>
+  <script src="./assets/js/header-footer.js"></script>
+</body>
+</html>

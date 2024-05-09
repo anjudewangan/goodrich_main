@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Goodrich | Privacy Policy</title>
+    <meta name="description" content="Site Map" />
+    <script src="./assets/js/jquery.min.js "></script>
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <script src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/content-box.css" />
+    <link rel="stylesheet" href="./assets/css/image-box.css" />
+    <link rel="stylesheet" href="./assets/js/php/contact-form.css" />
+    <link rel="icon" href="./assets/images/logos/logo.png" />
+    <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
+    <link rel="stylesheet" href="./assets/css/skin.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="footer-parallax-container">
+        <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in"
+            id="section-header"></header>
+        <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top"
+            data-natural-height="850" data-natural-width="1920"
+            data-image-src="./assets/images/bg-img/privacy-policy.jpg">
+            <div class="container">
+                <div class="title-base">
+                    <hr class="anima" />
+                    <p>Protecting Your Privacy: Our Commitment to Your Data Security</p>
+                    <h1>Privacy Policy</h1>
+                </div>
+            </div>
+        </div>
+        <div class="section-empty">
+            <div class="container content">
+                <div class="row">
+                    <ol class="breadcrumb" style="font-style: italic;">
+                        <li><a href="./">Home</a></li>
+                        <li class="active">Privacy Policy</li>
+                    </ol>
+                </div>
+                <hr class="space m" />
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-justify">At Goodrich Cereals, we are committed to protecting your privacy and
+                            ensuring
+                            the security of your personal information. This Privacy Policy outlines how we collect, use,
+                            and
+                            protect your data when you visit our website or interact with us in any way.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Information We Collect</h3>
+                        <h4>Personal Information</h4>
+                        <p class="text-justify">
+                            When you visit our website, we may collect personal information such
+                            as your name, email address, phone number, and address if you choose to provide it
+                            voluntarily, for example, when filling out a contact form or career form.
+                        </p>
+                        <h4>Automatically Collected Information</h4>
+                        <p class="text-justify">
+                            We may also collect certain information automatically
+                            when you visit our website, such as your IP address, browser type, device type, and
+                            operating system.
+                        </p>
+                        <hr class="space m" />
+                        <h3>How We Use Your Information</h3>
+                        <h4>To Provide Services</h4>
+                        <p class="text-justify"> We may use the information you provide to respond to your inquiries,
+                            process your orders, and provide you with the services and information you request.
+                        </p>
+                        <h4>To Improve Our Website</h4>
+                        <p class="text-justify">
+                            We may use the information we collect to analyze trends, administer
+                            the website, track users' movements around the site, and gather demographic information to
+                            improve our website's functionality and user experience.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Information Sharing and Disclosure</h3>
+                        <p class="text-justify">
+                            We do not sell, trade, or otherwise transfer your personal information to outside parties
+                            unless we provide you with advance notice or are required to do so by law.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Data Security</h3>
+                        <p class="text-justify">
+                            We take the security of your personal information seriously and have implemented appropriate
+                            technical and organizational measures to safeguard your data against unauthorized access,
+                            alteration, disclosure, or destruction.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Third-Party Links</h3>
+                        <p class="text-justify">
+                            Our website may contain links to third-party websites. Please note that we are not
+                            responsible for the privacy practices of these third-party sites. We encourage you to read
+                            the privacy policies of those websites when you visit them.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Your Consent</h3>
+                        <p class="text-justify">
+                            By using our website, you consent to the terms of this Privacy Policy and agree to the
+                            collection, use, and disclosure of your information as described herein.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Changes to this Privacy Policy</h3>
+                        <p class="text-justify">
+                            We reserve the right to modify or update this Privacy Policy at any time. Any changes will
+                            be effective immediately upon posting the revised Privacy Policy on this page.
+                        </p>
+                        <hr class="space m" />
+                        <h3>Contact Us</h3>
+                        <p class="text-justify">
+                            If you have any questions or concerns about this Privacy Policy or our data practices,
+                            please contact us at <a target="_blank" href="mailto:info@goodrichcereals.com"
+                                class="heading-green">info@goodrichcereals.com</a>
+                        </p>
+                        <hr class="space m" />
+                        <p class="text-center">
+                            <b>This Privacy Policy was last updated on 17th February 2024</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
+    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
+    <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/imagesloaded.min.js"></script>
+    <script src="./assets/js/php/contact-form.js"></script>
+    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/jquery.progress-counter.js"></script>
+    <script src="./assets/js/jquery.tab-accordion.js"></script>
+    <script src="./assets/js/smooth.scroll.min.js"></script>
+    <script src="./assets/js/header-footer.js"></script>
+</body>
+</html>
