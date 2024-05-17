@@ -150,7 +150,6 @@
   </div>
   <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
   <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
-  <link property="" rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
   <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="./assets/js/imagesloaded.min.js"></script>
   <script src="./assets/js/jquery.progress-counter.js"></script>
@@ -158,7 +157,6 @@
   <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
   <script src="./assets/js/social.stream.min.js"></script>
   <script src="./assets/js/jquery.tab-accordion.js"></script>
-  <script src="./assets/js/smooth.scroll.min.js"></script>
   <script src="./assets/js/header-footer.js"></script>
 </body>
 </html>

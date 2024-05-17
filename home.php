@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Goodrich | Home</title>
   <meta name="description" content="Goodrich Cereals" />
-  <script src="./assets/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/jquery.min.js" async></script>
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <script src="./assets/js/script.js" defer></script>
   <link rel="stylesheet" href="./assets/css/style.css" />
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css" />
   <link rel="stylesheet" href="./assets/css/image-box.css" />
   <link rel="stylesheet" href="./assets/css/animations.css" />
@@ -25,8 +26,7 @@
   <link href="./assets/css/owl.carousel.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="./assets/css/swiper.min.css" />
-  <link rel="stylesheet" href="./assets/css/LineIcons.min.css" />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -1470,7 +1470,6 @@
   <script src="./assets/js/parallaxie.min.js"></script>
   <script src="./assets/js/jquery.fancybox.min.js"></script>
   <script src="./assets/js/swiper.min.js"></script>
-  <script src="./assets/js/script.js"></script>
   <script src="./assets/js/jquery.appear.js"></script>
 </body>
 <script>
