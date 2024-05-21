@@ -2109,7 +2109,6 @@ function isScrollView(t) {
           }, 800)
           const sliders = document.querySelectorAll(".swiper-slide").forEach(element => {
             if(!element.classList.contains("swiper-slide-active")){
-              console.log(element.childNodes[3])
               element.childNodes[3].pause()
               element.childNodes[3].currentTime = 0
             }

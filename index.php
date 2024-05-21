@@ -29,6 +29,9 @@
 
 <body>
   <div id="preloader"></div>
+  <?php
+  include_once("includes/connection_inner.php");
+  ?>
   <div class="footer-parallax-container">
     <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in">
       <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
@@ -114,25 +117,22 @@
     <section class="slider p-md-0">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <?php
-          require_once('includes/connection_inner.php');
-          $rsData = $Q_obj->BannersList('asc');
-          if (count($rsData) > 0) {
-            foreach ($rsData as $i=>$record) {
-              if ($record['banner_type'] == 'video'):
-          ?>
-                <div class="swiper-slide">
-                  <div class="bg-overlay"></div>
-                  <video muted autoplay type='video/mp4' src="./assets/uploads/<?= $record['attached_file'] ?>"></video>
-                </div>
-              <?php else:?>
-                <div class="swiper-slide">
-                  <div class="bg-overlay"></div>
-                  <img src="./assets/uploads/<?= $record['attached_file'] ?>" alt="<?php echo $record['banner_title']; ?>">
-                </div>
-              <?php endif; ?>
-          <?php }
-          } ?>
+          <div class="swiper-slide">
+            <div class="bg-overlay"></div>
+            <video muted preload="none"  type='video/mp4' src="./assets/uploads/video-photo/goodrich1713963849.mp4"></video>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-overlay"></div>
+            <video muted preload="none" type='video/mp4' src="./assets/uploads/video-photo/goodrich1713964187.mp4"></video>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-overlay"></div>
+            <video muted preload="none" type='video/mp4' src="./assets/uploads/video-photo/goodrich1713963784.mp4"></video>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-overlay"></div>
+            <video muted preload="none" type='video/mp4' src="./assets/uploads/video-photo/goodrich1712576843.mp4"></video>
+          </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -1114,102 +1114,57 @@
         </table>
       </div>
     </div>
-    <div class="section-bg-image box-middle-container overlay-container row-21" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/Doodles2.jpg">
-      <div class="container content overlay-content box-middle text-center">
-        <div class="title-base">
-          <hr />
-          <h2>Latest Blogs & Publications</h2>
-          <p>New Things Everyday</p>
-        </div>
-        <hr class="space s" />
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="grid-list grid-layout col-margins">
-              <div class="grid-box row">
-                <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                    <div class="block-infos">
-                      <div class="block-data">
-                        <p class="bd-day">26</p>
-                        <p class="bd-month">January 2024</p>
+    <?php
+    $rsData = $Q_obj->BlogsList(3);
+    if (count($rsData) > 0) :
+    ?>
+      <div class="section-bg-image box-middle-container overlay-container row-21" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/Doodles2.jpg">
+        <div class="container content overlay-content box-middle text-center">
+          <div class="title-base">
+            <hr />
+            <h2>Latest Blogs & Publications</h2>
+            <p>New Things Everyday</p>
+          </div>
+          <hr class="space s" />
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="grid-list grid-layout col-margins">
+                <div class="grid-box row">
+                  <?php
+                  foreach ($rsData as $key => $record) :
+                    $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog-detail.html/' . $record['id'] . '"';
+                  ?>
+                    <div class="grid-item col-md-4">
+                      <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                          <div class="block-data">
+                            <p class="bd-day"><?= date("d", strtotime($record['blog_date'])); ?></p>
+                            <p class="bd-month"><?= date("F, Y", strtotime($record['blog_date'])); ?></p>
+                          </div>
+                          <a class="block-comment" <?php echo $bloglink; ?>>2
+                            <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box" <?php echo $bloglink; ?>><img class="anima blog-img" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>" /></a>
+                        <div class="advs-box-content blog-box" style="min-height:130px;">
+                          <h2>
+                            <a class="blog-link-headiing" <?php echo $bloglink; ?>><?php echo $record['title']; ?></a>
+                          </h2>
+                        </div>
+                        <div class="blog-read-more-btn">
+                          <a class="circle-button btn-border btn btn-xs cursor-on-hover" <?php echo $bloglink; ?>>Read more</a>
+                        </div>
                       </div>
-                      <a class="block-comment" target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">2
-                        <i class="fa fa-comment-o"></i></a>
                     </div>
-                    <a class="img-box" target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future"><img class="anima blog-img" src="https://media.potatopro.com/goodrich-cereals-%20potato-flakes-product-1200.jpg" alt="A bowl of white potato flakes on a wooden table" /></a>
-                    <div class="advs-box-content">
-                      <h2>
-                        <a target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">Sustainability
-                          at Goodrich Cereals: Nurturing Nature, Nourishing Future</a>
-                      </h2>
-                      <div class="tag-row">
-                        <span><i class="fa fa-pencil"></i><a href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">potatopro.com</a></span>
-                      </div>
-                      <p class="niche-box-content">
-                        Goodrich Cereals, a manufacturer specialized in the production of dehydrated potato products
-                        based in ...
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                    <div class="block-infos">
-                      <div class="block-data">
-                        <p class="bd-day">27</p>
-                        <p class="bd-month">November 2023</p>
-                      </div>
-                      <a class="block-comment" target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">2
-                        <i class="fa fa-comment-o"></i></a>
-                    </div>
-                    <a class="img-box" target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"><img class="anima blog-img" src="https://media.potatopro.com/goodrich-cereals-facility-1200.jpg" alt="Aerial view of Goodrich, depicting industrial activity and manufacturing process." /></a>
-                    <div class="advs-box-content">
-                      <h2>
-                        <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">Goodrich
-                          Cereals entered the global dehydrated potato market with a splash</a>
-                      </h2>
-                      <div class="tag-row">
-                        <span><i class="fa fa-pencil"></i><a href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">potatopro.com</a></span>
-                      </div>
-                      <p class="niche-box-content">
-                        Goodrich Cereals proudly stands as a star member within the prestigious Goodrich Group of
-                        Companies, India.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                    <div class="block-infos">
-                      <div class="block-data">
-                        <p class="bd-day">07</p>
-                        <p class="bd-month">January 2020</p>
-                      </div>
-                      <a class="block-comment" href="blog1.html">2 <i class="fa fa-comment-o"></i></a>
-                    </div>
-                    <a class="img-box" href="blog1.html"><img class="anima blog-img" src="./assets/images/dashboard/blog1.jpg" alt="Potatoes in a sack with a white flower, representing a bountiful harvest of freshly harvested produce." /></a>
-                    <div class="advs-box-content">
-                      <h2>
-                        <a href="blog1.html">Rwanda pilots ‘revolutionary’ potato seeds</a>
-                      </h2>
-                      <hr class="space xs">
-                      <div class="tag-row">
-                        <span><i class="fa fa-pencil"></i><a href="blog1.html">Admin</a></span>
-                      </div>
-                      <p class="niche-box-content">
-                        The Rwanda Agriculture Board (RAB) has started testing
-                        True Potato Seeds, which are produced by Solynta, a
-                        ...
-                      </p>
-                    </div>
-                  </div>
+                  <?php
+                  endforeach; ?>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    <?php
+    endif; ?>
   </div>
   <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
   <footer class="footer-base footer-parallax">
@@ -1376,56 +1331,57 @@
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/jquery.appear.js"></script>
   <script>
-  const counters = document.querySelectorAll(".counter1");
-  counters.forEach((counter1) => {
-    let initial_count = 0;
-    const final_count = counter1.dataset.count;
-    const intervalDuration = 30; // Set your desired interval duration (in milliseconds)
+    const counters = document.querySelectorAll(".counter1");
+    counters.forEach((counter1) => {
+      let initial_count = 0;
+      const final_count = counter1.dataset.count;
+      const intervalDuration = 30; // Set your desired interval duration (in milliseconds)
 
-    let counting = setInterval(updateCounting, intervalDuration);
+      let counting = setInterval(updateCounting, intervalDuration);
 
-    function updateCounting() {
-      if (initial_count <= 1000) {
-        initial_count += 5;
+      function updateCounting() {
+        if (initial_count <= 1000) {
+          initial_count += 5;
 
-        counter1.innerText = initial_count;
+          counter1.innerText = initial_count;
+        }
+
+        if (initial_count >= 1000) {
+          initial_count += 100;
+          counter1.innerText = (initial_count / 1000).toFixed(1) + "K+";
+        }
+
+        if (initial_count >= 10000) {
+          initial_count += 5000;
+        }
+
+        if (initial_count >= 1000000) {
+          initial_count += 500000;
+          counter1.innerText = (initial_count / 1000000).toFixed(1) + "M+";
+        }
+
+        if (initial_count >= final_count) {
+          clearInterval(counting);
+        }
       }
+    });
 
-      if (initial_count >= 1000) {
-        initial_count += 100;
-        counter1.innerText = (initial_count / 1000).toFixed(1) + "K+";
-      }
-
-      if (initial_count >= 10000) {
-        initial_count += 5000;
-      }
-
-      if (initial_count >= 1000000) {
-        initial_count += 500000;
-        counter1.innerText = (initial_count / 1000000).toFixed(1) + "M+";
-      }
-
-      if (initial_count >= final_count) {
-        clearInterval(counting);
-      }
+    function flakesClick() {
+      document.getElementById("flakesClick").click()
     }
-  });
 
-  function flakesClick() {
-    document.getElementById("flakesClick").click()
-  }
+    function flourClick() {
+      document.getElementById("flourClick").click()
+    }
 
-  function flourClick() {
-    document.getElementById("flourClick").click()
-  }
+    function granulesClick() {
+      document.getElementById("granulesClick").click()
+    }
 
-  function granulesClick() {
-    document.getElementById("granulesClick").click()
-  }
-
-  function airdriedClick() {
-    document.getElementById("airdriedClick").click()
-  }
-</script>
+    function airdriedClick() {
+      document.getElementById("airdriedClick").click()
+    }
+  </script>
 </body>
+
 </html>
