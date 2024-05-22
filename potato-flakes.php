@@ -202,7 +202,7 @@
                 <div class="video-content">
                     <h3>HERE’S HOW YOU CAN GET MASHED POTATOES
                         <hr class="space s" /> INSTANTLY FROM GOODRICH POTATO FLAKES
-                    </h3> <a href="https://www.youtube.com/watch?v=G6oi23IWLcc" class="video-btn lightbox shadow-1" data-lightbox-anima="show-scale"> <i class="im-video"></i> </a>
+                    </h3> <a href="https://www.youtube.com/watch?v=G6oi23IWLcc" class="video-btn lightbox shadow-1" data-lightbox-anima="show-scale">  <i class="fa fa-youtube-play"></i> </a>
                 </div>
             </div>
         </div>
