@@ -5,5 +5,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 #RewriteRule ^([a-zA-Z-]+).html?$ ?page=$1
 RewriteRule ^([a-zA-Z-]+).html?$ $1.php [NC,L]
+RewriteRule ^([a-zA-Z-]+)$ $1.php [NC,L]
 
 RewriteRule ^blog-detail.html/?([0-9]+)$ ./blog-detail.php?id=$1 [NC,L]
+RewriteRule ^blog-detail/?([0-9]+)$ ./blog-detail.php?id=$1 [NC,L]
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

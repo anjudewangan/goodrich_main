@@ -9,9 +9,8 @@
   <meta name="description" content="Goodrich" />
   <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
-  <script src="./assets/js/parallax.min.js"></script>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" async></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css" />
   <link rel="stylesheet" href="./assets/css/animations.css" />
@@ -101,7 +100,7 @@
                       <div data-sort="<?php echo $record['photo_sorting']; ?>" class="maso-item col-md-6 <?php echo $galryid; ?>">
                         <div class="img-box adv-img adv-img-full-content">
                           <div class="img-box">
-                            <img src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['photo_title']; ?>" />
+                            <img loading="lazy" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['photo_title']; ?>" />
                           </div>
                           <a href="#" class="caption-bg img-box">
                             <div class="caption">

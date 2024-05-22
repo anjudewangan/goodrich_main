@@ -9,7 +9,7 @@
     <meta name="description" content="Goodrich Careers" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
@@ -137,7 +137,7 @@
     <script src="./assets/js/isotope.min.js"></script>
     <script src="./assets/js/jquery.tab-accordion.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
-    <script src="./assets/js/header-footer.js"></script> 
+    <script src="./assets/js/header-footer.js"></script>
     <script src="./assets/js/toast.js"></script>
     <script>
         const textarea = document.getElementById('messagge');

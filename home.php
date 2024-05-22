@@ -9,8 +9,8 @@
   <meta name="description" content="Goodrich Cereals" />
   <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" async></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css" />
   <link rel="stylesheet" href="./assets/css/image-box.css" />
@@ -41,9 +41,9 @@
                 <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand" href="./">
-                <img class="logo-default scroll-hide" src="./assets/images/logos/logo.png" alt="goodric-logo" />
-                <img class="logo-default scroll-show" src="./assets/images/logos/logo.png" alt="goodric-logo" />
-                <img class="logo-retina" src="./assets/images/logos/logo.png" alt="goodric-logo" />
+                <img loading="lazy" class="logo-default scroll-hide" src="./assets/images/logos/logo.png" alt="goodric-logo" />
+                <img loading="lazy" class="logo-default scroll-show" src="./assets/images/logos/logo.png" alt="goodric-logo" />
+                <img loading="lazy" class="logo-retina" src="./assets/images/logos/logo.png" alt="goodric-logo" />
               </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -94,7 +94,7 @@
                 </li>
                 <li class="logo-item">
                   <a href="./">
-                    <img src="./assets/images/logos/logo.png" alt="goodric-logo" />
+                    <img loading="lazy" src="./assets/images/logos/logo.png" alt="goodric-logo" />
                   </a>
                 </li>
                 <li class="dropdown">
@@ -112,8 +112,8 @@
         </div>
       </div>
     </header>
-       <!-- Start Slider Section -->
-       <section class="slider p-md-0">
+    <!-- Start Slider Section -->
+    <section class="slider p-md-0">
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <!-- First Slide -->
@@ -143,29 +143,24 @@
       <!-- Social Icons -->
       <ul class="social-icons social-icons-simple revicon white d-none d-lg-block">
         <li class="d-table">
-          <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL" class="social-icon"><i
-              class="fa fa-facebook"></i>
+          <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL" class="social-icon"><i class="fa fa-facebook"></i>
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://twitter.com/goodrichcereals" class="social-icon"><i
-              class="fa fa-twitter"></i>
+          <a target="_blank" href="https://twitter.com/goodrichcereals" class="social-icon"><i class="fa fa-twitter"></i>
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/" class="social-icon"><i
-              class="fa fa-linkedin"></i>
+          <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/" class="social-icon"><i class="fa fa-linkedin"></i>
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://www.instagram.com/goodrichcereals?igsh=YThmZnp0ZTNoYnB2 class="
-            social-icon"><i class="fa fa-instagram"></i>
+          <a target="_blank" href="https://www.instagram.com/goodrichcereals?igsh=YThmZnp0ZTNoYnB2 class=" social-icon"><i class="fa fa-instagram"></i>
           </a>
         </li>
       </ul>
     </section>
-    <div class="section-bg-image parallax-window" data-sub-height="0" data-bleed="0" data-natural-height="850"
-      data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-1.jpg">
+    <div class="section-bg-image parallax-window" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-1.jpg">
       <div class="container content">
         <div class="title-base">
           <hr />
@@ -188,14 +183,12 @@
               across the globe in over 40 countries and counting.
             </p>
             <hr class="space" />
-            <div class="flexslider carousel"
-              data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+            <div class="flexslider carousel" data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
               <ul class="slides">
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon3.jpg"
-                        alt=" A spoonful of potato flakes on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon3.jpg" alt=" A spoonful of potato flakes on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Flakes</h2>
@@ -209,8 +202,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon1.jpg"
-                        alt=" A spoonful of potato flour on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon1.jpg" alt=" A spoonful of potato flour on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Salmonella</h2>
@@ -224,8 +216,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon2.jpg"
-                        alt=" A spoonful of potato granules on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon2.jpg" alt=" A spoonful of potato granules on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Granules</h2>
@@ -239,8 +230,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon4.jpg"
-                        alt=" A spoonful of potato slices on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon4.jpg" alt=" A spoonful of potato slices on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Slices</h2>
@@ -253,8 +243,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon6.jpg"
-                        alt=" A spoonful of potato dices on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon6.jpg" alt=" A spoonful of potato dices on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Dices</h2>
@@ -267,8 +256,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img class="anima" src="./assets/images/products/Spoon5.jpg"
-                        alt=" A spoonful of potato shreds on a white background ." />
+                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon5.jpg" alt=" A spoonful of potato shreds on a white background ." />
                     </a>
                     <div class="content-box">
                       <h2>Shreds</h2>
@@ -299,14 +287,12 @@
         </div>
         <div class="row">
           <div class="col-md-12 col-center text-center">
-            <img src="./assets/images/dashboard/map.png" alt="A world map with pins indicating various countries.">
+            <img loading="lazy" src="./assets/images/dashboard/map.png" alt="A world map with pins indicating various countries.">
           </div>
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0"
-      data-natural-height="1080" data-natural-width="1920" data-parallax="scroll"
-      data-image-src="./assets/images/dashboard/bg-3.jpg">
+    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-3.jpg">
       <div class="container content">
         <div class="title-base">
           <hr />
@@ -340,16 +326,13 @@
       <div class="container">
         <div class="video-content">
           <h3>Watch Group Video</h3>
-          <a href="https://www.youtube.com/watch?v=jBeElzn7AF4" class="video-btn lightbox shadow-1"
-            data-lightbox-anima="show-scale">
+          <a href="https://www.youtube.com/watch?v=jBeElzn7AF4" class="video-btn lightbox shadow-1" data-lightbox-anima="show-scale">
             <i class="fa fa-youtube-play"></i>
           </a>
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920"
-      data-natural-height="1080" data-parallax="scroll" data-bleed="0"
-      data-image-src="./assets/images/dashboard/bg-4.jpg">
+    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/dashboard/bg-4.jpg">
       <div class="container content padding-bottom-col">
         <div class="row">
           <div class="col-lg-3 col-xs-3">
@@ -459,77 +442,58 @@
             <hr class="space m" />
           </div>
         </div>
-        <div class="flexslider carousel nav-inner"
-          data-options="minWidth:120,itemMargin:0,numItems:6,controlNav:true,directionNav:false">
+        <div class="flexslider carousel nav-inner" data-options="minWidth:120,itemMargin:0,numItems:6,controlNav:true,directionNav:false">
           <ul class="slides">
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/brcgs.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/brcgs.png"
-                  alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards." />
+              <a class="img-box lightbox" href="./assets/images/certificates/brcgs.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/brcgs.png" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards." />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/fda-us.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/fda-us.png"
-                  alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions." />
+              <a class="img-box lightbox" href="./assets/images/certificates/fda-us.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/fda-us.png" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions." />
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fieo.png" data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/fieo.png"
-                  alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves." />
+                <img loading="lazy" src="./assets/images/certificates/fieo.png" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves." />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/fssai.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/fssai.png"
-                  alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions." />
+              <a class="img-box lightbox" href="./assets/images/certificates/fssai.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/fssai.png" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions." />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/haccp-certified.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/haccp-certified.png"
-                  alt="HACCP certified logo depicting Certifications & Recognitions." />
+              <a class="img-box lightbox" href="./assets/images/certificates/haccp-certified.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/haccp-certified.png" alt="HACCP certified logo depicting Certifications & Recognitions." />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/halal.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/halal.png"
-                  alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage" />
+              <a class="img-box lightbox" href="./assets/images/certificates/halal.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/halal.png" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage" />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/iso-22000-2015.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/iso-22000-2015.png"
-                  alt="CCL Ltd isco: Registered Indian company. Certified and recognized." />
+              <a class="img-box lightbox" href="./assets/images/certificates/iso-22000-2015.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/iso-22000-2015.png" alt="CCL Ltd isco: Registered Indian company. Certified and recognized." />
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/paa.png" data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/paa.png"
-                  alt="The Potato Association of America logo, indicating Certifications & Recognitions." />
+                <img loading="lazy" src="./assets/images/certificates/paa.png" alt="The Potato Association of America logo, indicating Certifications & Recognitions." />
               </a>
             </li>
             <li>
-              <a class="img-box lightbox" href="./assets/images/certificates/star-export.png"
-                data-lightbox-anima="show-scale">
-                <img src="./assets/images/certificates/star-export.png"
-                  alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions." />
+              <a class="img-box lightbox" href="./assets/images/certificates/star-export.png" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/star-export.png" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions." />
               </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920"
-      data-natural-height="1080" data-parallax="scroll" data-bleed="0"
-      data-image-src="./assets/images/dashboard/bg-7.jpg">
+    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/dashboard/bg-7.jpg">
       <div class="container content">
         <div class="title-base white">
           <hr />
@@ -537,13 +501,11 @@
           <p>One of the Largest Manufacturers and Exporters of Dehydrated Potatoes</p>
         </div>
         <hr class="space m" />
-        <div class="flexslider carousel outer-navs white-slider"
-          data-options="controlNav:true,directionNav:true,numItems:3,itemMargin:15,minWidth:250">
+        <div class="flexslider carousel outer-navs white-slider" data-options="controlNav:true,directionNav:true,numItems:3,itemMargin:15,minWidth:250">
           <ul class="slides">
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img class="anima" src="./assets/images/dashboard/karnal-plant1.jpg"
-                    alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.jpg" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
                 <div class="circle anima-rotate-20 anima">
                   18 <span>MAY, 18</span>
                 </div>
@@ -555,8 +517,7 @@
             </li>
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img class="anima" src="./assets/images/dashboard/karnal-plant.jpg"
-                    alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana)  Plant building." /></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.jpg" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana)  Plant building." /></a>
                 <div class="circle anima-rotate-20 anima">
                   02 <span>APR, 18</span>
                 </div>
@@ -568,8 +529,7 @@
             </li>
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg"
-                    alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
                 <div class="circle anima-rotate-20 anima">
                   21 <span>MAY, 18</span>
                 </div>
@@ -582,9 +542,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0"
-      data-natural-height="850" data-natural-width="1920" data-parallax="scroll"
-      data-image-src="./assets/images/dashboard/bg-6.jpg">
+    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-6.jpg">
       <div class="container content">
         <div class="title-base">
           <hr />
@@ -605,8 +563,7 @@
               <div class="process-step">
                 <div class="process-step-circle"><strong class="process-step-circle-content">1</strong></div>
               </div>
-              <img src="./assets/images/dashboard/sorting.jpg"
-                alt="Potatoes being loaded onto a conveyor belt for cleaning, sorting, and washing." />
+              <img loading="lazy" src="./assets/images/dashboard/sorting.jpg" alt="Potatoes being loaded onto a conveyor belt for cleaning, sorting, and washing." />
               <div class="caption-bottom">
                 <h2>SORTING, CLEANING & WASHING</h2>
                 <p>After the sorting of potatoes, the quality potatoes are then subjected to cleaning and washing.</p>
@@ -618,8 +575,7 @@
               <div class="process-step">
                 <div class="process-step-circle"><strong class="process-step-circle-content">2</strong></div>
               </div>
-              <img src="./assets/images/dashboard/peeling.jpg"
-                alt="Potatoes being steam peeled in a machine, undergoing processing for further use." />
+              <img loading="lazy" src="./assets/images/dashboard/peeling.jpg" alt="Potatoes being steam peeled in a machine, undergoing processing for further use." />
               <div class="caption-bottom">
                 <h2>STEAM PEELING</h2>
                 <p>The washed potatoes go for skin removal process called Steam Peeling, followed by brushing</p>
@@ -631,8 +587,7 @@
               <div class="process-step3">
                 <div class="process-step-circle3"><strong class="process-step-circle3-content">3</strong></div>
               </div>
-              <img src="./assets/images/dashboard/finished.jpg"
-                alt="Two men in white coats standing in front of a machine, possibly used for cooking and mashing potatoes." />
+              <img loading="lazy" src="./assets/images/dashboard/finished.jpg" alt="Two men in white coats standing in front of a machine, possibly used for cooking and mashing potatoes." />
               <div class="caption-bottom">
                 <h2>COOKING & DRYING</h2>
                 <p>After Inspection, Blanching, Cooling the potatoes are cooked to mashed potatoes and then dried using
@@ -656,9 +611,8 @@
               <div class="col-lg-3 col-xs-6" onclick="flakesClick()">
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
-                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                      data-anima-out="hide">
-                      <img alt="A bowl of white potato flakes" src="./assets/images/products/flake.png" />
+                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
+                      <img loading="lazy" alt="A bowl of white potato flakes" src="./assets/images/products/flake.png" />
                       <div class="caption anima">
                         <h3>FLAKES</h3>
                         <p>
@@ -679,9 +633,8 @@
               <div class="col-lg-3 col-xs-6" onclick="granulesClick()">
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
-                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                      data-anima-out="hide">
-                      <img alt="A bowl of white potato granules" src="./assets/images/products/granule.png" />
+                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
+                      <img loading="lazy" alt="A bowl of white potato granules" src="./assets/images/products/granule.png" />
                       <div class="caption anima">
                         <h3>GRANULES</h3>
                         <p>
@@ -703,9 +656,8 @@
               <div class="col-lg-3 col-xs-6" onclick="flourClick()">
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
-                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                      data-anima-out="hide">
-                      <img alt="A bowl of white potato flour" src="./assets/images/products/flour.png" />
+                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
+                      <img loading="lazy" alt="A bowl of white potato flour" src="./assets/images/products/flour.png" />
                       <div class="caption anima">
                         <h3>SALMONELLA</h3>
                         <p>Cooked, dried, ground potatoes with no additives</p>
@@ -724,9 +676,8 @@
               <div class="col-lg-3 col-xs-6 air-dried-responsive" onclick="airdriedClick()">
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
-                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                      data-anima-out="hide">
-                      <img alt="A bowl of white potato cubes" src="./assets/images/products/cube.png" />
+                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
+                      <img loading="lazy" alt="A bowl of white potato cubes" src="./assets/images/products/cube.png" />
                       <div class="caption anima">
                         <h3>AIR DRIED</h3>
                         <p>
@@ -751,11 +702,9 @@
             <div class="row products-row">
               <div class="col-md-6">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="potato-flakes.html">
-                      <img alt="A bowl of white potato flakes on a wooden table"
-                        src="./assets/images/products/L1-Flake.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato flakes on a wooden table" src="./assets/images/products/L1-Flake.jpg" />
                     </a>
                     <div class="caption anima">
                       <h3>Potato Flakes</h3>
@@ -792,11 +741,9 @@
             <div class="row products-row">
               <div class="col-md-6">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#granule-sec">
-                      <img alt="A bowl of white potato granules on a wooden table"
-                        src="./assets/images/products/L1-Granules.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato granules on a wooden table" src="./assets/images/products/L1-Granules.jpg" />
                     </a>
                     <div class="caption anima">
                       <h3>Potato Granules</h3>
@@ -830,11 +777,9 @@
             <div class="row products-row">
               <div class="col-md-6">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#flour-sec">
-                      <img alt="A bowl of white potato flour on a wooden table"
-                        src="./assets/images/products/L1-Flour.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato flour on a wooden table" src="./assets/images/products/L1-Flour.jpg" />
                     </a>
                     <div class="caption anima">
                       <h3>Potato Salmonella</h3>
@@ -870,11 +815,9 @@
             <div class="row products-row">
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
-                      <img alt="A bowl of white potato slices on a wooden table"
-                        src="./assets/images/products/L1-Slices.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato slices on a wooden table" src="./assets/images/products/L1-Slices.jpg" />
 
                       <div class="caption anima">
                         <h3>SLICES</h3>
@@ -885,11 +828,9 @@
               </div>
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
-                      <img alt="A bowl of white potato dices on a wooden table"
-                        src="./assets/images/products/L1-cube.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato dices on a wooden table" src="./assets/images/products/L1-cube.jpg" />
 
                       <div class="caption anima">
                         <h3>DICES</h3>
@@ -900,11 +841,9 @@
               </div>
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
-                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
-                    data-anima-out="hide">
+                  <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
-                      <img alt="A bowl of white potato shreds on a wooden table"
-                        src="./assets/images/products/L1-shreds.jpg" />
+                      <img loading="lazy" alt="A bowl of white potato shreds on a wooden table" src="./assets/images/products/L1-shreds.jpg" />
 
                       <div class="caption anima">
                         <h3>SHREDS</h3>
@@ -939,9 +878,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0"
-      data-natural-height="850" data-natural-width="1920" data-parallax="scroll"
-      data-image-src="./assets/images/dashboard/bg-5.jpg">
+    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.jpg">
       <div class="container content">
         <div class="title-base">
           <hr />
@@ -953,8 +890,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img src="./assets/images/dashboard/1.jpg"
-                  alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish." />
+                <img loading="lazy" src="./assets/images/dashboard/1.jpg" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish." />
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -976,7 +912,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img src="./assets/images/dashboard/2.jpg" alt="Various types of bread on a wooden table." />
+                <img loading="lazy" src="./assets/images/dashboard/2.jpg" alt="Various types of bread on a wooden table." />
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -998,7 +934,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img src="./assets/images/dashboard/3.jpg" alt="A delectable burger adorned with veggies ." />
+                <img loading="lazy" src="./assets/images/dashboard/3.jpg" alt="A delectable burger adorned with veggies ." />
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -1021,8 +957,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img src="./assets/images/dashboard/4.jpg"
-                  alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs." />
+                <img loading="lazy" src="./assets/images/dashboard/4.jpg" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs." />
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -1045,8 +980,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920"
-      data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/bg-8.jpg">
+    <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/bg-8.jpg">
       <div class="container content">
         <div class="row">
           <div class="col-md-5 col-sm-12 text-center-sm">
@@ -1075,8 +1009,7 @@
           </div>
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-right">
             <hr class="space m visible-sm" />
-            <img src="./assets/images/dashboard/farmer.jpeg"
-              alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene." />
+            <img loading="lazy" src="./assets/images/dashboard/farmer.jpeg" alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene." />
           </div>
         </div>
         <hr />
@@ -1084,8 +1017,7 @@
         <div class="row order-reverse">
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-left">
             <hr class="space m visible-sm" />
-            <img src="./assets/images/dashboard/Sustainable.jpeg"
-              alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background." />
+            <img loading="lazy" src="./assets/images/dashboard/Sustainable.jpeg" alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background." />
           </div>
           <div class="col-md-5 col-sm-12 text-center-sm">
             <div class="title-base text-left text-center-sm">
@@ -1127,67 +1059,65 @@
           <tbody>
             <tr>
               <td>
-                <img class="anima" src="./assets/images/clients/al-kabeer.jpg" alt="al-kabeer" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/al-kabeer.jpg" alt="al-kabeer" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/alnutri.jpg" alt="alnutri" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/alnutri.jpg" alt="alnutri" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/balaji.jpg" alt="balaji" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/balaji.jpg" alt="balaji" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/bikaji.jpg" alt="bikaji" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="anima" src="./assets/images/clients/dfm.jpg" alt="dfm" />
-              </td>
-              <td>
-                <img class="anima" src="./assets/images/clients/diamond.jpg" alt="diamond" />
-              </td>
-              <td>
-                <img class="anima" src="./assets/images/clients/engel.jpg" alt="engel" />
-              </td>
-              <td>
-                <img class="anima" src="./assets/images/clients/haldiram.jpg" alt="haldiram" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/bikaji.jpg" alt="bikaji" />
               </td>
             </tr>
             <tr>
               <td>
-                <img class="anima" src="./assets/images/clients/indian-army.jpg" alt="indian-army" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/dfm.jpg" alt="dfm" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/itc.jpg" alt="itc" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/diamond.jpg" alt="diamond" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/parle.jpg" alt="parle" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/engel.jpg" alt="engel" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/ttk.jpg" alt="ttk" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/haldiram.jpg" alt="haldiram" />
               </td>
             </tr>
             <tr>
               <td>
-                <img class="anima" src="./assets/images/clients/bikanervala.jpg" alt="bikanervala" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/indian-army.jpg" alt="indian-army" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/cl5.jpg" alt="lotte" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/itc.jpg" alt="itc" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/cl7.jpg" alt="chhajed" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/parle.jpg" alt="parle" />
               </td>
               <td>
-                <img class="anima" src="./assets/images/clients/cl6.jpg" alt="roble" />
+                <img loading="lazy" class="anima" src="./assets/images/clients/ttk.jpg" alt="ttk" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img loading="lazy" class="anima" src="./assets/images/clients/bikanervala.jpg" alt="bikanervala" />
+              </td>
+              <td>
+                <img loading="lazy" class="anima" src="./assets/images/clients/cl5.jpg" alt="lotte" />
+              </td>
+              <td>
+                <img loading="lazy" class="anima" src="./assets/images/clients/cl7.jpg" alt="chhajed" />
+              </td>
+              <td>
+                <img loading="lazy" class="anima" src="./assets/images/clients/cl6.jpg" alt="roble" />
               </td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
-    <div class="section-bg-image box-middle-container overlay-container row-21" data-natural-height="1080"
-      data-natural-width="1920" data-parallax="scroll" data-bleed="0"
-      data-image-src="./assets/images/bg-img/Doodles2.jpg">
+    <div class="section-bg-image box-middle-container overlay-container row-21" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/Doodles2.jpg">
       <div class="container content overlay-content box-middle text-center">
         <div class="title-base">
           <hr />
@@ -1200,31 +1130,23 @@
             <div class="grid-list grid-layout col-margins">
               <div class="grid-box row">
                 <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate"
-                    data-trigger="hover">
+                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                     <div class="block-infos">
                       <div class="block-data">
                         <p class="bd-day">26</p>
                         <p class="bd-month">January 2024</p>
                       </div>
-                      <a class="block-comment" target="_blank"
-                        href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">2
+                      <a class="block-comment" target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">2
                         <i class="fa fa-comment-o"></i></a>
                     </div>
-                    <a class="img-box" target="_blank"
-                      href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future"><img
-                        class="anima blog-img"
-                        src="https://media.potatopro.com/goodrich-cereals-%20potato-flakes-product-1200.jpg"
-                        alt="A bowl of white potato flakes on a wooden table" /></a>
+                    <a class="img-box" target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future"><img loading="lazy" class="anima blog-img" src="https://media.potatopro.com/goodrich-cereals-%20potato-flakes-product-1200.jpg" alt="A bowl of white potato flakes on a wooden table" /></a>
                     <div class="advs-box-content">
                       <h2>
-                        <a target="_blank"
-                          href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">Sustainability
+                        <a target="_blank" href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">Sustainability
                           at Goodrich Cereals: Nurturing Nature, Nourishing Future</a>
                       </h2>
                       <div class="tag-row">
-                        <span><i class="fa fa-pencil"></i><a
-                            href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">potatopro.com</a></span>
+                        <span><i class="fa fa-pencil"></i><a href="https://www.potatopro.com/news/2024/sustainability-goodrich-cereals-nurturing-nature-nourishing-future">potatopro.com</a></span>
                       </div>
                       <p class="niche-box-content">
                         Goodrich Cereals, a manufacturer specialized in the production of dehydrated potato products
@@ -1234,30 +1156,23 @@
                   </div>
                 </div>
                 <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate"
-                    data-trigger="hover">
+                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                     <div class="block-infos">
                       <div class="block-data">
                         <p class="bd-day">27</p>
                         <p class="bd-month">November 2023</p>
                       </div>
-                      <a class="block-comment" target="_blank"
-                        href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">2
+                      <a class="block-comment" target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">2
                         <i class="fa fa-comment-o"></i></a>
                     </div>
-                    <a class="img-box" target="_blank"
-                      href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"><img
-                        class="anima blog-img" src="https://media.potatopro.com/goodrich-cereals-facility-1200.jpg"
-                        alt="Aerial view of Goodrich, depicting industrial activity and manufacturing process." /></a>
+                    <a class="img-box" target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"><img loading="lazy" class="anima blog-img" src="https://media.potatopro.com/goodrich-cereals-facility-1200.jpg" alt="Aerial view of Goodrich, depicting industrial activity and manufacturing process." /></a>
                     <div class="advs-box-content">
                       <h2>
-                        <a target="_blank"
-                          href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">Goodrich
+                        <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">Goodrich
                           Cereals entered the global dehydrated potato market with a splash</a>
                       </h2>
                       <div class="tag-row">
-                        <span><i class="fa fa-pencil"></i><a
-                            href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">potatopro.com</a></span>
+                        <span><i class="fa fa-pencil"></i><a href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash">potatopro.com</a></span>
                       </div>
                       <p class="niche-box-content">
                         Goodrich Cereals proudly stands as a star member within the prestigious Goodrich Group of
@@ -1267,8 +1182,7 @@
                   </div>
                 </div>
                 <div class="grid-item col-md-4">
-                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate"
-                    data-trigger="hover">
+                  <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                     <div class="block-infos">
                       <div class="block-data">
                         <p class="bd-day">07</p>
@@ -1276,9 +1190,7 @@
                       </div>
                       <a class="block-comment" href="blog1.html">2 <i class="fa fa-comment-o"></i></a>
                     </div>
-                    <a class="img-box" href="blog1.html"><img class="anima blog-img"
-                        src="./assets/images/dashboard/blog1.jpg"
-                        alt="Potatoes in a sack with a white flower, representing a bountiful harvest of freshly harvested produce." /></a>
+                    <a class="img-box" href="blog1.html"><img loading="lazy" class="anima blog-img" src="./assets/images/dashboard/blog1.jpg" alt="Potatoes in a sack with a white flower, representing a bountiful harvest of freshly harvested produce." /></a>
                     <div class="advs-box-content">
                       <h2>
                         <a href="blog1.html">Rwanda pilots ‘revolutionary’ potato seeds</a>
@@ -1304,152 +1216,147 @@
   </div>
   <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
   <footer class="footer-base footer-parallax">
-  <div class="content">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-xs-12 footer-left">
-      <img src="./assets/images/logos/logo.png" alt="goodrich logo" class="footer-logo" />
-      <hr class="space s" />
-      <p>Bulk supplies of all dehydrated potato products</p>
-      <div class="row vission-img">
-        <div class="col-lg-6 col-xs-4">
-          <img src="./assets/images/goodrich-cereals/cereals-story-potato.png" width="100px"
-            alt="footer potato image">
-        </div>
-        <div class="col-lg-6 col-xs-4">
-          <div class="row">
-            <div class="col-lg-6 col-xs-6">
-              <div class="btn-group social-group btn-group-icons">
-                <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL"><i
-                    class="fa fa-facebook"></i></a>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-xs-12 footer-left">
+            <img loading="lazy" src="./assets/images/logos/logo.png" alt="goodrich logo" class="footer-logo" />
+            <hr class="space s" />
+            <p>Bulk supplies of all dehydrated potato products</p>
+            <div class="row vission-img">
+              <div class="col-lg-6 col-xs-4">
+                <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.png" width="100px" alt="footer potato image">
               </div>
-            </div>
-            <div class="col-lg-6 col-xs-6">
-              <div class="btn-group social-group btn-group-icons">
-                <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118"><i
-                    class="fa fa-youtube"></i></a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-xs-6">
-              <div class="btn-group social-group btn-group-icons">
-                <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2"><i
-                    class="fa fa-instagram"></i></a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-xs-6">
-              <div class="btn-group social-group btn-group-icons">
-                <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/"><i
-                    class="fa fa-linkedin"></i></a>
+              <div class="col-lg-6 col-xs-4">
+                <div class="row">
+                  <div class="col-lg-6 col-xs-6">
+                    <div class="btn-group social-group btn-group-icons">
+                      <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xs-6">
+                    <div class="btn-group social-group btn-group-icons">
+                      <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118"><i class="fa fa-youtube"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xs-6">
+                    <div class="btn-group social-group btn-group-icons">
+                      <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2"><i class="fa fa-instagram"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xs-6">
+                    <div class="btn-group social-group btn-group-icons">
+                      <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-lg-3 col-xs-12 footer-right text-left padding-none">
+            <h5 class="text-bold">USEFUL LINKS</h5>
+            <hr class="space s" />
+            <div class="col-lg-12 col-xs-6 col-padding">
+              <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6">
+              <p><a href="potato-flakes.html">Potato Flakes</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6 col-padding">
+              <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6">
+              <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6 col-padding">
+              <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6">
+              <p><a href="blogs.html">Blogs</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6 col-padding">
+              <p><a href="careers.html">Careers</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6">
+              <p><a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xs-6 footer-right text-left">
+            <h5 class="text-bold">CONTACT DETAILS</h5>
+            <hr class="space s" />
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> GOODRICH
+              CEREALS
+            </p>
+            <p>
+              Opposite Hotel Deventure, 1st Floor, Bank of Baroda Building,
+              Namastey Chowk, Karnal - 132001, Haryana (India)
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> PLANT ADDRESS
+            </p>
+            <p>
+              01, Meerut Road, Nagla, Karnal, Haryana, 132001
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a target="_blank" href="mailto:info@goodrichworld.com">info@goodrichworld.com</a>
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <a href="tel: +91-8059800945"> +91-8059800945</a>
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              <a href="tel: +91-8059800945"> +91-8059800945</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-xs-6 footer-right text-left">
+            <h5 class="text-bold">OUR OFFICES</h5>
+            <hr class="space s" />
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> LONDON</p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a target="_blank" href="mailto:hb.intl@goodrichcereals.in">hb.intl@goodrichcereals.in</a>
+            </p>
+            <hr />
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> VIETNAM</p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a target="_blank" href="mailto:veitnam@goodrichcereals.in">veitnam@goodrichcereals.in</a>
+            </p>
+            <hr />
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> LATAM</p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a target="_blank" href="mailto:latam@goodrichcereals.in">latam@goodrichcereals.in</a>
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> MELBOURNE
+            </p>
+            <hr />
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> AHMEDABAD
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row copy-row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-xs-6">
+          © 2024 -
+          <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
+        </div>
+        <div class="col-lg-5 col-xs-6 text-right">
+          <p><a href="site-map.html">Site Map</a></p>
         </div>
       </div>
     </div>
-    <div class="col-lg-3 col-xs-12 footer-right text-left padding-none">
-      <h5 class="text-bold">USEFUL LINKS</h5>
-      <hr class="space s" />
-      <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6">
-        <p><a href="potato-flakes.html">Potato Flakes</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6">
-        <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6">
-        <p><a href="blogs.html">Blogs</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="careers.html">Careers</a></p>
-      </div>
-      <div class="col-lg-12 col-xs-6">
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
-      </div>
-    </div>
-    <div class="col-lg-3 col-xs-6 footer-right text-left">
-      <h5 class="text-bold">CONTACT DETAILS</h5>
-      <hr class="space s" />
-      <p>
-        <i class="fa fa-map-marker" aria-hidden="true"></i> GOODRICH
-        CEREALS
-      </p>
-      <p>
-        Opposite Hotel Deventure, 1st Floor, Bank of Baroda Building,
-        Namastey Chowk, Karnal - 132001, Haryana (India)
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-map-marker" aria-hidden="true"></i> PLANT ADDRESS
-      </p>
-      <p>
-        01, Meerut Road, Nagla, Karnal, Haryana, 132001
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a target="_blank" href="mailto:info@goodrichworld.com">info@goodrichworld.com</a>
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-mobile" aria-hidden="true"></i>
-        <a href="tel: +91-8059800945"> +91-8059800945</a>
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        <a href="tel: +91-8059800945"> +91-8059800945</a>
-      </p>
-    </div>
-    <div class="col-lg-3 col-xs-6 footer-right text-left">
-      <h5 class="text-bold">OUR OFFICES</h5>
-      <hr class="space s" />
-      <p><i class="fa fa-map-marker" aria-hidden="true"></i> LONDON</p>
-      <p>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a target="_blank" href="mailto:hb.intl@goodrichcereals.in">hb.intl@goodrichcereals.in</a>
-      </p>
-      <hr />
-      <p><i class="fa fa-map-marker" aria-hidden="true"></i> VIETNAM</p>
-      <p>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a target="_blank" href="mailto:veitnam@goodrichcereals.in">veitnam@goodrichcereals.in</a>
-      </p>
-      <hr />
-      <p><i class="fa fa-map-marker" aria-hidden="true"></i> LATAM</p>
-      <p>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a target="_blank" href="mailto:latam@goodrichcereals.in">latam@goodrichcereals.in</a>
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-map-marker" aria-hidden="true"></i> MELBOURNE
-      </p>
-      <hr />
-      <p>
-        <i class="fa fa-map-marker" aria-hidden="true"></i> AHMEDABAD
-      </p>
-    </div>
-  </div>
-</div>
-<div class="row copy-row">
-  <div class="col-lg-1"></div>
-  <div class="col-lg-5 col-xs-6">
-    © 2024 -
-    <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
-  </div>
-  <div class="col-lg-5 col-xs-6 text-right">
-    <p><a href="site-map.html">Site Map</a></p>
-  </div>
-</div>
-</div>
   </footer>
   <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
   <script src="./assets/js/jquery.flipster.min.js"></script>
@@ -1507,15 +1414,19 @@
       }
     }
   });
+
   function flakesClick() {
     document.getElementById("flakesClick").click()
   }
+
   function flourClick() {
     document.getElementById("flourClick").click()
   }
+
   function granulesClick() {
     document.getElementById("granulesClick").click()
   }
+
   function airdriedClick() {
     document.getElementById("airdriedClick").click()
   }

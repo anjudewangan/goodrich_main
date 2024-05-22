@@ -9,7 +9,7 @@
     <meta name="description" content="About page with company informations." />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css" />
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-3 col-center potato-img-responsive"> <img src="./assets/images/goodrich-cereals/cereals-story-potato.png" alt="A cartoon potato chef wearing a chef's hat and apron, holding a spatula and smiling." /> </div>
+                    <div class="col-lg-3 col-xs-3 col-center potato-img-responsive"> <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.png" alt="A cartoon potato chef wearing a chef's hat and apron, holding a spatula and smiling." /> </div>
                 </div>
                 <hr class="space m" />
                 <div class="row vertical-row">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-xs-12 vission-img">
-                        <div class="img-box lightbox circle shadow-1 small-img"> <img src="./assets/images/goodrich-cereals/circle-img-1.jpg" alt="Two bowls filled with chopped up pieces of potato product. " /> </div>
+                        <div class="img-box lightbox circle shadow-1 small-img"> <img loading="lazy" src="./assets/images/goodrich-cereals/circle-img-1.jpg" alt="Two bowls filled with chopped up pieces of potato product. " /> </div>
                     </div>
                     <div class="col-lg-5 col-xs-12">
                         <div class="row">
@@ -168,7 +168,7 @@
                             <p>Bringing Quality to Your Table</p>
                         </div>
                         <p class="text-justify-sm"> Goodrich Cereals has emerged as a trailblazer in the export industry, exporting Potato Flakes & other Dehydrated Potato Products in more than 40 Countries. With strategically established offices in Karnal, Delhi, Ahmedabad, London, and Melbourne, our global presence reflects our dedication to meeting the diverse needs of consumers worldwide. </p>
-                        <hr class="space s" /> <img src="./assets/images/goodrich-cereals/world-map.jpeg" alt="A world map with pins indicating various countries." />
+                        <hr class="space s" /> <img loading="lazy" src="./assets/images/goodrich-cereals/world-map.jpeg" alt="A world map with pins indicating various countries." />
                     </div>
                 </div>
             </div>
@@ -189,28 +189,28 @@
                 <table class="grid-table border-table" data-anima="fade-bottom" data-timeline="asc">
                     <tbody>
                         <tr>
-                            <td> <img class="anima" src="./assets/images/clients/al-kabeer.jpg" alt="al-kabeer" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/alnutri.jpg" alt="alnutri" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/balaji.jpg" alt="balaji" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/bikaji.jpg" alt="bikaji" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/al-kabeer.jpg" alt="al-kabeer" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/alnutri.jpg" alt="alnutri" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/balaji.jpg" alt="balaji" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikaji.jpg" alt="bikaji" /> </td>
                         </tr>
                         <tr>
-                            <td> <img class="anima" src="./assets/images/clients/dfm.jpg" alt="dfm" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/diamond.jpg" alt="diamond" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/engel.jpg" alt="engel" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/haldiram.jpg" alt="haldiram" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/dfm.jpg" alt="dfm" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/diamond.jpg" alt="diamond" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/engel.jpg" alt="engel" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/haldiram.jpg" alt="haldiram" /> </td>
                         </tr>
                         <tr>
-                            <td> <img class="anima" src="./assets/images/clients/indian-army.jpg" alt="indian-army" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/itc.jpg" alt="itc" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/parle.jpg" alt="parle" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/ttk.jpg" alt="ttk" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/indian-army.jpg" alt="indian-army" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/itc.jpg" alt="itc" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/parle.jpg" alt="parle" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/ttk.jpg" alt="ttk" /> </td>
                         </tr>
                         <tr>
-                            <td> <img class="anima" src="./assets/images/clients/bikanervala.jpg" alt="bikanervala" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/cl5.jpg" alt="lotte" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/cl7.jpg" alt="chhajed" /> </td>
-                            <td> <img class="anima" src="./assets/images/clients/cl6.jpg" alt="roble" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikanervala.jpg" alt="bikanervala" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl5.jpg" alt="lotte" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl7.jpg" alt="chhajed" /> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl6.jpg" alt="roble" /> </td>
                         </tr>
                     </tbody>
                 </table>

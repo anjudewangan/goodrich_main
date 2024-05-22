@@ -1,7 +1,7 @@
 <?php
 
-$linkurl = "http://localhost:8080/projects/goodrich/";
-$aminlinkurl = "http://localhost:8080/projects/goodrich/admin/";
+$linkurl = "http://localhost/goodrich/";
+$aminlinkurl = "http://localhost/goodrich/admin/";
 
 //--------Check session-------
 function session_admincheck($loguid, $logname)

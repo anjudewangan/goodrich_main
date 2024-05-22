@@ -9,7 +9,7 @@
     <meta name="description" content="Site Map" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css" />

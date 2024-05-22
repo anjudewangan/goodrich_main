@@ -8,8 +8,8 @@
   <meta name="description" content="Goodrich Cereals" />
   <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" async></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
   <link rel="stylesheet" href="./assets/css/animations.css" />
   <link rel="stylesheet" href="./assets/css/components.css" />
@@ -70,9 +70,9 @@
           </div>
           <div class="col-sm-12 col-md-6">
             <div class="about-img">
-              <img src="./assets/images/goodrich-legacy/about.jpg" alt="Goodrich products" />
+              <img loading="lazy" src="./assets/images/goodrich-legacy/about.jpg" alt="Goodrich products" />
               <div class="year-shape">
-                <img src="./assets/images/goodrich-legacy/dots.png" alt="Image">
+                <img loading="lazy" src="./assets/images/goodrich-legacy/dots.png" alt="Image">
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/logo agrochem.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/logo agrochem.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -158,7 +158,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/gd-carbs.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/gd-carbs.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -183,7 +183,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/gd-fd-tech.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/gd-fd-tech.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -208,7 +208,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/gd-nu.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/gd-nu.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -233,7 +233,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/gd-cereals.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/gd-cereals.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -257,7 +257,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img src="./assets/images/logos/gd-farm.png" class="ag-timeline-card_img" />
+                            <img loading="lazy" src="./assets/images/logos/gd-farm.png" class="ag-timeline-card_img" />
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -411,7 +411,7 @@
             </p>
           </div>
           <div class="col-md-4 col-sm-4 vission-img">
-            <img src="./assets/images/goodrich-legacy/vision.jpg" class="visionImg1" alt="A man in a red shirt uses binoculars to view something in the distance." />
+            <img loading="lazy" src="./assets/images/goodrich-legacy/vision.jpg" class="visionImg1" alt="A man in a red shirt uses binoculars to view something in the distance." />
           </div>
         </div>
       </div>
@@ -420,7 +420,7 @@
       <div class="container content">
         <div class="row order-nowrap-reverse">
           <div class="col-md-4  col-sm-4 vission-img">
-            <img src="./assets/images/goodrich-legacy/mission.png" class="visionImg2" alt="A red target with a heart and arrows, representing the Goodrich mission of hitting the mark with precision." />
+            <img loading="lazy" src="./assets/images/goodrich-legacy/mission.png" class="visionImg2" alt="A red target with a heart and arrows, representing the Goodrich mission of hitting the mark with precision." />
           </div>
           <div class="col-md-8">
             <div class="title-base text-right text-center-sm">

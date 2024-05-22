@@ -9,7 +9,7 @@
     <meta name="description" content="Goodrich Cereals" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/components.css" />
@@ -66,28 +66,28 @@
                 <div class="flexslider carousel nav-inner" data-options="minWidth:120,itemMargin:1,numItems:5,controlNav:true,directionNav:true,minWidth:250">
                     <ul class="slides">
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/trucks-carrying-potatoes.jpg" alt="A group of people gathered around a machine, observing and discussing its functions and features." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/trucks-carrying-potatoes.jpg" alt="A group of people gathered around a machine, observing and discussing its functions and features." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/goodrich-potato-sorting.jpg" alt="A worker in blue gloves picks potatoes from a conveyor belt, ensuring quality and efficiency." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/goodrich-potato-sorting.jpg" alt="A worker in blue gloves picks potatoes from a conveyor belt, ensuring quality and efficiency." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/goodrich-potato-flakes-factory.jpg" alt="A group of masked men standing in front of a machine at the Goodrich Potato Factory, some of them showing the victory V sign." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/goodrich-potato-flakes-factory.jpg" alt="A group of masked men standing in front of a machine at the Goodrich Potato Factory, some of them showing the victory V sign." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/potato-cleaning.jpg" alt="" /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/potato-cleaning.jpg" alt="" /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/5.jpg" alt="A potato factory with workers on a conveyor belt, diligently engaged in their tasks, ensuring efficient production." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/5.jpg" alt="A potato factory with workers on a conveyor belt, diligently engaged in their tasks, ensuring efficient production." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/6.jpg" alt="A machine producing a white substance which is potato flour." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/6.jpg" alt="A machine producing a white substance which is potato flour." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/7.jpg" alt="A factory assembly line with workers diligently working on a conveyor belt to manufacture products efficiently." /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/7.jpg" alt="A factory assembly line with workers diligently working on a conveyor belt to manufacture products efficiently." /></a> </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img class="anima" src="./assets/images/manufacturing/8.jpg" alt="A giant potato machine in action, producing a some potato products" /></a> </div>
+                            <div class="advs-box advs-box-top-icon-img niche-box-post"> <a class="img-box img-scale-up"><img loading="lazy" class="anima" src="./assets/images/manufacturing/8.jpg" alt="A giant potato machine in action, producing a some potato products" /></a> </div>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +108,7 @@
                 <div class="flexslider carousel outer-navs white-slider" data-options="controlNav:true,directionNav:true,numItems:3,itemMargin:15,minWidth:250">
                     <ul class="slides">
                         <li>
-                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img class="anima" src="./assets/images/dashboard/karnal-plant1.jpg" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
+                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.jpg" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
                                 <div class="circle anima-rotate-20 anima"> 18 <span>MAY, 18</span> </div>
                                 <div class="advs-box-content">
                                     <h3>Main Campus in Karnal (Haryana) India</h3>
@@ -117,7 +117,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img class="anima" src="./assets/images/dashboard/karnal-plant.jpg" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana) Plant building." /></a>
+                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.jpg" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana) Plant building." /></a>
                                 <div class="circle anima-rotate-20 anima"> 02 <span>APR, 18</span> </div>
                                 <div class="advs-box-content">
                                     <h3>Campus in Kutail (Haryana) India</h3>
@@ -126,7 +126,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
+                            <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
                                 <div class="circle anima-rotate-20 anima"> 21 <span>MAY, 18</span> </div>
                                 <div class="advs-box-content" style="padding-bottom: 74px">
                                     <h3>Campus in Ahmednagar (Maharashtra) India</h3>

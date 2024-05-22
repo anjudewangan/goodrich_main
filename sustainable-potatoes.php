@@ -9,7 +9,7 @@
     <meta name="description" content="Sustainable Potatoes" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/components.css" />
@@ -52,7 +52,7 @@
                         </div>
                         <p class="text-justify"> At Goodrich Cereals, we don't just produce potato products; we cultivate sustainability. Our commitment to the environment goes beyond the production line, ensuring a future where nature thrives and communities flourish. </p>
                     </div>
-                    <div class="col-lg-4 col-xs-4 image-responsive"> <img src="./assets/images/sustainable-potatoes/Applications.png" alt="Fresh potatoes in a sack on a white background, showcasing the natural beauty of these wholesome vegetables." /> </div>
+                    <div class="col-lg-4 col-xs-4 image-responsive"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Applications.png" alt="Fresh potatoes in a sack on a white background, showcasing the natural beauty of these wholesome vegetables." /> </div>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                                 <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="img-box"> <img src="./assets/images/sustainable-potatoes/Biomass-utilization.jpeg" alt="Potatoes growing in a field, with green leaves and brown soil." /> </div>
+                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Biomass-utilization.jpeg" alt="Potatoes growing in a field, with green leaves and brown soil." /> </div>
                                         </div>
                                         <div class="col-md-8">
                                             <h3>Biomass Utilization</h3> <span class="extra-content">Sustainable Resource Management</span>
@@ -89,7 +89,7 @@
                                 <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="img-box"> <img src="./assets/images/sustainable-potatoes/SolarEnergy.jpg" alt="Solar panels in a field with city skyline in the background. Harnessing renewable energy for a sustainable future." /> </div>
+                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/SolarEnergy.jpg" alt="Solar panels in a field with city skyline in the background. Harnessing renewable energy for a sustainable future." /> </div>
                                         </div>
                                         <div class="col-md-8">
                                             <h3>Solar Energy Integration</h3> <span class="extra-content">Sustainable Power Solutions</span>

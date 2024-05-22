@@ -9,8 +9,7 @@
     <meta name="description" content="Goodrich | Deydrated Potato Products">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" defer></script>
-    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/animations.css">
@@ -53,19 +52,19 @@
                 <div class="row">
                     <div class="col-lg-6 col-xs-6">
                         <div class="row">
-                            <div class="col-lg-12 col-xs-12 overlay-container" data-lightbox-anima="show-scale"> <img alt="A plate of creamy mashed potatoes garnished with a generous amount of butter and a sprinkle of salt" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img1.jpg">
+                            <div class="col-lg-12 col-xs-12 overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="A plate of creamy mashed potatoes garnished with a generous amount of butter and a sprinkle of salt" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img1.jpg">
                                 <div class="overlay">
                                     <h2 class="album-name">Mashed Potatoes</h2>
                                     <p class="sub-text"> Perfect Mash Everytime </p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-xs-6 padding-column overlay-container" data-lightbox-anima="show-scale"> <img alt="A bowl and a bag of potato flakes" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img6.jpg">
+                            <div class="col-lg-6 col-xs-6 padding-column overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="A bowl and a bag of potato flakes" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img6.jpg">
                                 <div class="overlay">
                                     <h2 class="album-name album-padding">Flakes</h2>
                                     <p class="sub-text"> Most important form of dehydrated potato products. </p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-xs-6 padding-column middle-text-container"> <a href="./potato-flakes.html"> <img alt="potato flakes" src="./assets/images/products/img7.jpg" class="zoom-img">
+                            <div class="col-lg-6 col-xs-6 padding-column middle-text-container"> <a href="./potato-flakes.html"> <img loading="lazy" alt="potato flakes" src="./assets/images/products/img7.jpg" class="zoom-img">
                                     <div class="middle">
                                         <div class="text">Know more</div>
                                     </div>
@@ -74,18 +73,18 @@
                     </div>
                     <div class="col-lg-6 col-xs-6">
                         <div class="row">
-                            <div class="col-lg-6 col-xs-6 middle-text-container"> <a href="#flour-sec"> <img alt="potato flour" src="./assets/images/products/img2.jpg" class="zoom-img" />
+                            <div class="col-lg-6 col-xs-6 middle-text-container"> <a href="#flour-sec"> <img loading="lazy" alt="potato flour" src="./assets/images/products/img2.jpg" class="zoom-img" />
                                     <div class="middle">
                                         <div class="text">Know more</div>
                                     </div>
                                 </a> </div>
-                            <div class="col-lg-6 col-xs-6 overlay-container" data-lightbox-anima="show-scale"> <img alt="Potato cubes falling from the air, creating a delicious and savory mix of flavors." class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img3.jpg">
+                            <div class="col-lg-6 col-xs-6 overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="Potato cubes falling from the air, creating a delicious and savory mix of flavors." class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img3.jpg">
                                 <div class="overlay">
                                     <h2 class="album-name album-padding">Dices</h2>
                                     <p class="sub-text">Dices for foodservice and manufacturing</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-xs-6 padding-column overlay-container" data-lightbox-anima="show-scale"> <img alt="Two bowls of potato flour placed on a wooden table." class="img-box i-center flour-responsive" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img4.jpg">
+                            <div class="col-lg-6 col-xs-6 padding-column overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="Two bowls of potato flour placed on a wooden table." class="img-box i-center flour-responsive" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img4.jpg">
                                 <div class="overlay">
                                     <h2 class="album-name">Flour</h2>
                                     <p class="sub-text">Cooked, dried, ground potatoes with no additives</p>
@@ -93,13 +92,13 @@
                             </div>
                             <div class="col-lg-6 col-xs-6" data-lightbox-anima="show-scale">
                                 <div class="row">
-                                    <div class="col-lg-12 col-xs-12 padding-column overlay-container" data-lightbox-anima="show-scale"> <img alt="A pile of shredded potato on a white surface" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img5.jpg">
+                                    <div class="col-lg-12 col-xs-12 padding-column overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="A pile of shredded potato on a white surface" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img5.jpg">
                                         <div class="overlay">
                                             <h2 class="album-name album-padding">Shreds</h2>
                                             <p class="sub-text">Shreds for foodservice and manufacturing</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-xs-12 overlay-container" data-lightbox-anima="show-scale"> <img alt="Potato slices on a white surface" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img8.jpg">
+                                    <div class="col-lg-12 col-xs-12 overlay-container" data-lightbox-anima="show-scale"> <img loading="lazy" alt="Potato slices on a white surface" class="img-box i-center" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" src="./assets/images/products/img8.jpg">
                                         <div class="overlay">
                                             <h2 class="album-name album-padding">Slices</h2>
                                             <p class="sub-text">Slices for foodservice and manufacturing</p>
@@ -111,18 +110,18 @@
                     </div>
                     <div class="col-lg-12 col-xs-12">
                         <div class="row">
-                            <div class="col-lg-3 col-xs-3 middle-text-container"> <a href="#granule-sec"> <img alt="Potato Granules" src="./assets/images/products/img9.jpg" class="zoom-img">
+                            <div class="col-lg-3 col-xs-3 middle-text-container"> <a href="#granule-sec"> <img loading="lazy" alt="Potato Granules" src="./assets/images/products/img9.jpg" class="zoom-img">
                                     <div class="middle">
                                         <div class="text">Know more</div>
                                     </div>
                                 </a> </div>
-                            <div class="col-lg-6 col-xs-6 overlay-container"> <img alt="A close-up of a bowl filled with yellow powder, which is potato granules." src="./assets/images/products/img10.jpg" class="granules-responsive">
+                            <div class="col-lg-6 col-xs-6 overlay-container"> <img loading="lazy" alt="A close-up of a bowl filled with yellow powder, which is potato granules." src="./assets/images/products/img10.jpg" class="granules-responsive">
                                 <div class="overlay">
                                     <h2 class="album-name album-padding">Granules</h2>
                                     <p class="sub-text"> Prepared using top-quality sliced, cooked and dried potatoes </p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-xs-3 middle-text-container"> <a href="#air-dried-sec"> <img alt="Air Dried Potato" src="./assets/images/products/img11.jpg" class="zoom-img">
+                            <div class="col-lg-3 col-xs-3 middle-text-container"> <a href="#air-dried-sec"> <img loading="lazy" alt="Air Dried Potato" src="./assets/images/products/img11.jpg" class="zoom-img">
                                     <div class="middle">
                                         <div class="text">Know more</div>
                                     </div>
