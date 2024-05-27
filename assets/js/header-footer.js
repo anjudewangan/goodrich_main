@@ -159,7 +159,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
         <p><a href="privacy-policy.html">Privacy Policy</a></p>
       </div>
       <div class="col-lg-12 col-xs-6">
-      <p><a href="get-in-touch.html">Contact Sell</a></p>
+      <p><a href="get-in-touch.html">Contact Sales</a></p>
     </div>
     </div>
     <div class="col-lg-3 col-xs-6 footer-right text-left">

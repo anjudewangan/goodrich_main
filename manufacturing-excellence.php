@@ -113,7 +113,7 @@
                         <li>
                             <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.jpg" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
                                 <div class="advs-box-content">
-                                    <h3>Main Campus in Karnal (Haryana) India</h3>
+                                <h3>Main Campus in <span class="heading-green">Karnal</span> (Haryana), India</h3>
                                     <p>23,04,000 Sq. Ft.</p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                         <li>
                             <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.jpg" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana) Plant building." /></a>
                                 <div class="advs-box-content">
-                                    <h3>Campus in Kutail (Haryana) India</h3>
+                                <h3>Campus in <span class="heading-green">Kutail</span> (Haryana), India</h3>
                                     <p>2,16,000 Sq. Ft.</p>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                         <li>
                             <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
                                 <div class="advs-box-content" style="padding-bottom: 74px">
-                                    <h3>Campus in Ahmednagar (Maharashtra) India</h3>
+                                <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                                 </div>
                             </div>
                         </li>

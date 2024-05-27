@@ -43,6 +43,7 @@ p {
 }
 .footer-base p{
     font-size: 13px;
+    text-align: justify;
 }
 .accordion-list .list-group-item>a,
 .adv-big h2,
