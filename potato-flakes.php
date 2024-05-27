@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Goodrich | Potato Flakes</title>
-    <meta name="description" content="Goodrich Cereals" />
+    <meta name="description" content="Potato Flakes" />
+    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
     <script src="./assets/js/script.js" async></script>

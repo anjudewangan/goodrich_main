@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Get In Touch</title>
     <meta name="description" content="Goodrich Cereals">
+    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
@@ -66,9 +69,9 @@
                         <p class="text-justify-sm"> Whether you have questions about our products, want to explore partnership opportunities, or need assistance with your potato-related endeavors, we're here to help. Reach out to us today to discover how we can support your needs and cultivate success together! </p>
                     </div>
                 </div>
-                <hr class="space m">
+                <hr class="space lg">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <h3>Send a Message</h3>
                         <p> We value your thoughts and inquiries. Please fill out the form below, and we'll get back to you as soon as possible. </p>
                         <hr class="space s" />
@@ -112,7 +115,10 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <hr class="space lg">
+                <div class="row">
+                    <div class="col-md-12">
                         <hr class="space visible-sm" />
                         <h3>How to reach us</h3>
                         <hr class="space s" />

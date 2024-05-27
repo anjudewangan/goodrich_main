@@ -21,7 +21,8 @@ class sqlConnection
 
 	private function connectToDb()
 	{
-		$this->connection = new mysqli('localhost', 'goodrflr_user', '(Z5_p9JjM;zm', 'goodrflr_goodrich');
+		//$this->connection = new mysqli('localhost', 'goodrflr_user', '(Z5_p9JjM;zm', 'goodrflr_goodrich');
+		$this->connection = new mysqli('localhost', 'root', '', 'goodrich_db');
 		mysqli_set_charset($this->connection, 'utf8');
 		if (mysqli_connect_error()) {
 			return "can not connect to database " . mysqli_connect_error();

@@ -6,12 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Goodrich | Home</title>
-  <meta name="description" content="Goodrich Cereals" />
+  <meta name="description" content="Goodrich Home" />
+  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
   <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
-    <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+  <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+  <script src="./assets/js/script.js" async></script>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <noscript>
+    <link rel="stylesheet" href="style.css">
+  </noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css" />
   <link rel="stylesheet" href="./assets/css/image-box.css" />
   <link rel="stylesheet" href="./assets/css/animations.css" />
@@ -504,9 +507,6 @@
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                 <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.jpg" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." /></a>
-                <div class="circle anima-rotate-20 anima">
-                  18 <span>MAY, 18</span>
-                </div>
                 <div class="advs-box-content">
                   <h3>Main Campus in Karnal (Haryana) India</h3>
                   <p>23,04,000 Sq. Ft.</p>
@@ -516,9 +516,6 @@
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                 <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.jpg" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana)  Plant building." /></a>
-                <div class="circle anima-rotate-20 anima">
-                  02 <span>APR, 18</span>
-                </div>
                 <div class="advs-box-content">
                   <h3>Campus in Kutail (Haryana) India</h3>
                   <p>2,16,000 Sq. Ft.</p>
@@ -528,9 +525,6 @@
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                 <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.jpg" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." /></a>
-                <div class="circle anima-rotate-20 anima">
-                  21 <span>MAY, 18</span>
-                </div>
                 <div class="advs-box-content" style="padding-bottom: 74px">
                   <h3>Campus in Ahmednagar (Maharashtra) India</h3>
                 </div>
@@ -1232,6 +1226,9 @@
             </div>
             <div class="col-lg-12 col-xs-6">
               <p><a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+            <div class="col-lg-12 col-xs-6">
+              <p><a href="get-in-touch.html">Contact Sell</a></p>
             </div>
           </div>
           <div class="col-lg-3 col-xs-6 footer-right text-left">

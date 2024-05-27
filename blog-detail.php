@@ -21,6 +21,7 @@ endif;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Blogs | <?php echo $rsData[0]['title']; ?></title>
   <meta name="description" content="Goodrich Cereals" />
+  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
   <script src="../assets/js/jquery.min.js "></script>
   <link rel="stylesheet" href="../assets/js/bootstrap/css/bootstrap.css" />
   <script src="../assets/js/script.js"></script>

@@ -158,6 +158,9 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
       <div class="col-lg-12 col-xs-6">
         <p><a href="privacy-policy.html">Privacy Policy</a></p>
       </div>
+      <div class="col-lg-12 col-xs-6">
+      <p><a href="get-in-touch.html">Contact Sell</a></p>
+    </div>
     </div>
     <div class="col-lg-3 col-xs-6 footer-right text-left">
       <h5 class="text-bold">CONTACT DETAILS</h5>
