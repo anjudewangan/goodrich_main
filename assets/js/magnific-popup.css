@@ -140,7 +140,7 @@
 
 .mfp-preloader:before {
     content: "\f110";
-    text-indent: each-line;
+    text-indent: -9999px;
 }
 
 .mfp-preloader {

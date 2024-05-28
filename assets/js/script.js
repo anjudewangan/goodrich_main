@@ -21,6 +21,7 @@ function cssInit(delay, speed) {
     "transition-delay": delay,
   };
 }
+
 function initAnima(obj) {
   (function ($) {
     var animaTimeout = $.fn.getGlobalVar("animaTimeout");
@@ -153,7 +154,7 @@ function outAnima(obj) {
                     da_ = arr_a[i].replace("anima-", "");
                 }
               }
-            } catch (e) {}
+            } catch (e) { }
             $(this).css(cssInit(0, t)).removeClass(da_);
             var op = parseFloat($(this).css("opacity"));
             if (op > 0 && op < 1) $(this).css("opacity", 1);
@@ -193,7 +194,7 @@ window.onload = function () {
     };
     try {
       d.open("GET", b, !0), d.send();
-    } catch (f) {}
+    } catch (f) { }
   }
   var b,
     c = document.getElementsByTagName("*");
@@ -230,13 +231,13 @@ function openWindow(link, width, height) {
     link,
     "targetWindow",
     "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=" +
-      width +
-      ",height=" +
-      height +
-      ", top=" +
-      top +
-      ", left=" +
-      left
+    width +
+    ",height=" +
+    height +
+    ", top=" +
+    top +
+    ", left=" +
+    left
   );
   return false;
 }
@@ -263,7 +264,7 @@ function onePageScroll(t) {
                     window.location.hash = target;
                   }
                 );
-            } catch (e) {}
+            } catch (e) { }
           }
         } else {
           if (
@@ -302,10 +303,10 @@ function correctValue(n) {
   return typeof n == "number"
     ? parseFloat(n)
     : n == "true"
-    ? !0
-    : n == "false"
-    ? !1
-    : n;
+      ? !0
+      : n == "false"
+        ? !1
+        : n;
 }
 function isScrollView(t) {
   var tp = jQuery(window).height() * 0.5 + jQuery(window).scrollTop();
@@ -313,7 +314,7 @@ function isScrollView(t) {
   if (
     e < tp + 300 ||
     jQuery(window).scrollTop() + jQuery(window).height() ==
-      jQuery(document).height()
+    jQuery(document).height()
   )
     return true;
   else return false;
@@ -369,12 +370,12 @@ function isScrollView(t) {
           f = n({ path: "/" }, r.defaults, f);
           typeof f.expires == "number" &&
             ((s = new Date()),
-            s.setMilliseconds(s.getMilliseconds() + f.expires * 864e5),
-            (f.expires = s));
+              s.setMilliseconds(s.getMilliseconds() + f.expires * 864e5),
+              (f.expires = s));
           try {
             o = JSON.stringify(u);
             /^[\{\[]/.test(o) && (u = o);
-          } catch (y) {}
+          } catch (y) { }
           return (
             (u = encodeURIComponent(String(u))),
             (u = u.replace(
@@ -398,8 +399,8 @@ function isScrollView(t) {
         t || (o = {});
         for (
           var l = document.cookie ? document.cookie.split("; ") : [],
-            a = /(%[0-9A-Z]{2})+/g,
-            h = 0;
+          a = /(%[0-9A-Z]{2})+/g,
+          h = 0;
           h < l.length;
           h++
         ) {
@@ -410,17 +411,17 @@ function isScrollView(t) {
           try {
             if (
               ((e = (i && i(e, c)) || e.replace(a, decodeURIComponent)),
-              this.json)
+                this.json)
             )
               try {
                 e = JSON.parse(e);
-              } catch (y) {}
+              } catch (y) { }
             if (t === c) {
               o = e;
               break;
             }
             t || (o[c] = e);
-          } catch (y) {}
+          } catch (y) { }
         }
         return o;
       }
@@ -451,7 +452,7 @@ function isScrollView(t) {
           t[u].apply(this, arguments) || !1
         );
       };
-    for (u.guid = r; i < t.length; ) t[i++].guid = r;
+    for (u.guid = r; i < t.length;) t[i++].guid = r;
     return this.click(u);
   };
   $.fn.showAnima = function (a, b) {
@@ -912,9 +913,9 @@ function isScrollView(t) {
       var lh = $(t).attr("data-height-remove");
       if (isEmpty(vh) || vh == "auto") {
         var h =
-            wh -
-            $(t)[0].getBoundingClientRect().top -
-            $("footer").outerHeight(),
+          wh -
+          $(t)[0].getBoundingClientRect().top -
+          $("footer").outerHeight(),
           ch = $(t).outerHeight();
         if (!isEmpty(lh)) h = wh - lh;
         vh = ch < h ? ch + 30 : h - 30;
@@ -1456,12 +1457,12 @@ function isScrollView(t) {
       }
       $(this).html(
         '<iframe frameborder="0" allowfullscreen="0" src="https://www.youtube.com/embed/' +
-          id +
-          "?playlist=" +
-          id +
-          "&amp;vq=hd1080&amp;loop=1&amp;start=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0&amp;wmode=transparent&amp;iv_load_policy=3&amp;modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;volume=0" +
-          pars +
-          '"></iframe>'
+        id +
+        "?playlist=" +
+        id +
+        "&amp;vq=hd1080&amp;loop=1&amp;start=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0&amp;wmode=transparent&amp;iv_load_policy=3&amp;modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;volume=0" +
+        pars +
+        '"></iframe>'
       );
     });
     if ($(".background-page iframe").length) {
@@ -1528,7 +1529,7 @@ function isScrollView(t) {
       if (isEmpty(t)) t = $(this).attr("href");
       try {
         $(t).scrollTo();
-      } catch (e) {}
+      } catch (e) { }
       if (
         t.indexOf("#") == 0 &&
         ($(this).hasClass("btn") || $(this).hasClass("btn-text"))
@@ -1933,23 +1934,23 @@ function isScrollView(t) {
         if (url.indexOf("list") > -1) {
           $(
             id +
-              ".grid-box .grid-item:nth-child(" +
-              url.replace("list-", "") +
-              ") .img-box"
+            ".grid-box .grid-item:nth-child(" +
+            url.replace("list-", "") +
+            ") .img-box"
           ).click();
           $(
             id +
-              ".maso-box .maso-item:nth-child(" +
-              url.replace("list-", "") +
-              ") .img-box"
+            ".maso-box .maso-item:nth-child(" +
+            url.replace("list-", "") +
+            ") .img-box"
           ).click();
         } else {
           if (url.indexOf("slide") > -1) {
             $(
               id +
-                ".slides > li:nth-child(" +
-                url.replace("slide-", "") +
-                ") .img-box"
+              ".slides > li:nth-child(" +
+              url.replace("slide-", "") +
+              ") .img-box"
             ).click();
           } else {
             var t = $("#" + url);
@@ -2101,22 +2102,22 @@ function isScrollView(t) {
         delay: 7000,
         disableOnInteraction: false,
       },
-      on:{
-        slideChange: function (){
+      on: {
+        slideChange: function () {
           const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
-          setTimeout(()=> {
+          setTimeout(() => {
             activeElement.play()
           }, 800)
           const sliders = document.querySelectorAll(".swiper-slide").forEach(element => {
-            if(!element.classList.contains("swiper-slide-active")){
+            if (!element.classList.contains("swiper-slide-active")) {
               element.childNodes[3].pause()
               element.childNodes[3].currentTime = 0
             }
           })
         },
-        init: function (){
+        init: function () {
           const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
-           setTimeout(()=> {
+          setTimeout(() => {
             activeElement.play()
           }, 800)
         }

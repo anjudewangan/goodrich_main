@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Deydrated Potato Products</title>
     <meta name="description" content="Goodrich | Deydrated Potato Products">
-    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
+    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href='./assets/css/components.css'>
     <link rel="stylesheet" href="./assets/js/php/contact-form.css">
     <link rel="stylesheet" href="./assets/css/content-box.css">
-    <link rel="icon" href="./assets/images/logos/logo.png" />
+    <link rel="icon" href="./assets/images/logos/logo.png">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,9 +29,9 @@
         <div class="header-title ken-burn-center dark" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-10.jpg">
             <div class="container">
                 <div class="title-base">
-                    <hr class="anima" />
+                    <hr class="anima">
                     <p>Take a Look at our Potato Delights</p>
-                    <h1>Dehydrated Potato Products</h1>
+                    <h1>Dehydrated Potato Products</h1> 
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                 </div>
                 <p class="text-justify-sm">All dehydrated potato products start out as sound, whole potatoes — the fluffy, white fleshed potatoes that consumers love. Several washings and steam-peeling under high pressure prepare the potatoes for subsequent steps on their journey to becoming premium dehydrated products.</p>
                 <p class="text-justify-sm">Our dehydrated potato products are different from others in the sense that only the finest potatoes are utilized for the production. Additionally, we use the best machinery and equipment to produce products that are on par with international standards.</p>
-                <hr class="space m" />
+                <hr class="space m">
                 <div class="row">
                     <div class="col-lg-6 col-xs-6">
                         <div class="row">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-lg-6 col-xs-6">
                         <div class="row">
-                            <div class="col-lg-6 col-xs-6 middle-text-container"> <a href="#flour-sec"> <img loading="lazy" alt="potato flour" src="./assets/images/products/img2.jpg" class="zoom-img" />
+                            <div class="col-lg-6 col-xs-6 middle-text-container"> <a href="#flour-sec"> <img loading="lazy" alt="potato flour" src="./assets/images/products/img2.jpg" class="zoom-img">
                                     <div class="middle">
                                         <div class="text">Know more</div>
                                     </div>
@@ -139,7 +139,7 @@
                     <p>Granular and Fine Flour</p>
                 </div>
                 <p class="text-justify-sm">Put simply, potato flour is cooked, dried, ground potatoes with no additives. Yet, while potato flour may look like finely ground potato flakes, the two products are very different. True potato flour produces a stickier product when liquid is added and is best used in small amounts to extend other flours. As far as particle size goes, granular potato flour will pass through a 40 mesh, or 420 micron, screen, while fine flour passes through an 80 mesh, or 177 micron, screen.</p>
-                <hr class="space m" />
+                <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>
@@ -201,7 +201,7 @@
                 </div>
                 <p class="text-justify-sm">Potato granules are precooked, dehydrated potatoes produced in particulate form consisting substantially of whole tissue cells or small aggregates of cells. The product is characterized by high bulk density and great convenience of preparation, requiring only a simple mixing with hot liquid.</p>
                 <p class="text-justify-sm"> Like potato flakes, granules are prepared using top-quality sliced, cooked, and dried potatoes. The production process involves milling the flakes to achieve the desired granular texture, resulting in individual or small aggregates of potato cells. This granular structure increases the product’s bulk density and shipping economy; potato granules also reconstitute exceptionally well thanks to the cell-wall toughening that occurs during multiple cycles of cooking and partial rehydration involved in their production.</p>
-                <hr class="space m" />
+                <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>
@@ -263,7 +263,7 @@
                 </div>
                 <p class="text-justify-sm">We offer a wide variety of dehydrated potato slices, dices or cubes and shreds for foodservice and manufacturing. These products are remarkably convenient, delivering fresh potato flavor and nutrition without washing, peeling, slicing, dicing or shredding. Once rehydrated, they cook up as firmly as freshly prepared potatoes, which wins them favor with consumers who appreciate their real potato identity, flavor and texture.</p>
                 <p class="text-justify-sm">It is used as a main ingredient of stackable chips (like Pringles and Jackers) and favourite South Asian snack (Aloo Bhujia).</p>
-                <hr class="space m" />
+                <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>

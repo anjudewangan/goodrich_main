@@ -2,32 +2,34 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Potato Flakes</title>
-    <meta name="description" content="Potato Flakes" />
-    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
+    <meta name="description" content="Potato Flakes">
+    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
-    <link rel="stylesheet" href="./assets/css/content-box.css" />
-    <link rel="stylesheet" href="./assets/css/image-box.css" />
-    <link rel="stylesheet" href="./assets/css/animations.css" />
-    <link rel="stylesheet" href="./assets/css/components.css" />
-    <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css" />
-    <link rel="stylesheet" href="./assets/js/magnific-popup.css" />
-    <link rel="stylesheet" href="./assets/js/php/contact-form.css" />
-    <link rel="stylesheet" href="./assets/js/social.stream.css" />
-    <link rel="icon" href="./assets/images/logos/logo.png" />
-    <link rel="stylesheet" href="./assets/css/skin.css" />
-    <link rel="stylesheet" href='./assets/js/jquery.flipster.min.css'> 
-    <link href="./assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
+    <link rel="stylesheet" href="./assets/css/content-box.css">
+    <link rel="stylesheet" href="./assets/css/image-box.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css">
+    <link rel="stylesheet" href="./assets/js/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/js/php/contact-form.css">
+    <link rel="stylesheet" href="./assets/js/social.stream.css">
+    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="stylesheet" href="./assets/css/skin.css">
+    <link rel="stylesheet" href='./assets/js/jquery.flipster.min.css'>
+    <link href="./assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -37,7 +39,7 @@
         <div class="header-title ken-burn-center dark" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-6.jpg">
             <div class="container">
                 <div class="title-base">
-                    <hr class="anima" />
+                    <hr class="anima">
                     <p>Most Important Form of Dehydrated Potato Product</p>
                     <h1>Potato Flakes</h1>
                 </div>
@@ -59,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center">
                         <div class="title-base">
-                            <hr />
+                            <hr>
                             <h2>WHY POTATOES?</h2>
                             <p>How Important is it</p>
                         </div>
@@ -75,9 +77,9 @@
                         </div>
                     </div>
                 </div>
-                <hr class="space s" />
-                <hr />
-                <hr class="space s" />
+                <hr class="space s">
+                <hr>
+                <hr class="space s">
                 <div class="social-feed-tw flexslider carousel hidden-sm" data-social-id="envato" data-options="minWidth:250,show_media:false,limit:10,directionNav:false,numItems:4"></div>
             </div>
         </div>
@@ -86,11 +88,11 @@
                 <div class="row">
                     <div class="col-md-10 col-center boxed-inverse big-padding-small">
                         <div class="title-base">
-                            <hr />
+                            <hr>
                             <h2>POTATO FLAKES</h2>
                             <p>Goodrich Cereals</p>
                         </div>
-                        <hr class="space xs" />
+                        <hr class="space xs">
                         <div class="row text-center">
                             <div class="col-md-12">
                                 <p>Potato Flakes are a cornerstone of our dehydrated potato products, renowned for their ability to reconstitute even with cold water. At Goodrich, we pride ourselves on using only the finest potatoes and state-of-the-art machinery to produce flakes that meet international standards. These flakes are ideal for use anywhere one would require potato mash.</p>
@@ -99,7 +101,7 @@
                                 <p>Standard potato flakes are among the most well-known and widely used potato products available. Their colour can vary as per the variety of potato and ingredients in the flakes and when reconstituted, have the dry, mealy texture and delicious flavor that consumers expect from freshly cooked mashed potatoes. They belong atop any list of all-purpose ingredients for use in food service, bakery and general food manufacturing.</p>
                             </div>
                         </div>
-                        <hr class="space l" />
+                        <hr class="space l">
                         <div class="row" data-anima="fade-top" data-timeline="asc" data-timeline-time="200">
                             <div class="col-lg-2 hidden-sm"> </div>
                             <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/mashed.jpg" alt="A delectable bowl of mashed potatoes"> </a> </div>
@@ -114,11 +116,11 @@
         </div>
         <div class="section-two-blocks blocks-right bg-white">
             <div class="row">
-                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/bg-img/bg-14.png" alt="A bowl filled with mashed potatoes, a spoon resting on top." /></a> </div>
+                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/bg-img/bg-14.png" alt="A bowl filled with mashed potatoes, a spoon resting on top."></a> </div>
                 <div class="col-md-6">
                     <div class="content">
                         <div class="title-base text-left">
-                            <hr />
+                            <hr>
                             <h2>PREPARATION PROCESS</h2>
                             <p>From Farm to Flake</p>
                         </div>
@@ -157,11 +159,11 @@
         </div>
         <div class="section-two-blocks bg-white">
             <div class="row">
-                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/products/flake6.png" alt="A bowl of white potato flakes" /></a> </div>
+                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/products/flake6.png" alt="A bowl of white potato flakes"></a> </div>
                 <div class="col-md-6">
                     <div class="content">
                         <div class="title-base text-left">
-                            <hr />
+                            <hr>
                             <h2>WHAT’S SPECIAL?</h2>
                             <p>Our Unique Features</p>
                         </div>
@@ -201,10 +203,13 @@
         <div class="video-area ptb-100">
             <div class="container">
                 <div class="video-content">
-                    <h3>HERE’S HOW YOU CAN GET MASHED POTATOES
-                        <hr class="space s" /> INSTANTLY FROM GOODRICH POTATO FLAKES
-                    </h3> <a href="https://www.youtube.com/watch?v=G6oi23IWLcc" class="video-btn lightbox shadow-1" data-lightbox-anima="show-scale">  <i class="fa fa-youtube-play"></i> </a>
+                    <h3>HERE’S HOW YOU CAN GET MASHED POTATOES</h3>
+                    <h3>INSTANTLY FROM GOODRICH POTATO FLAKES</h3>
+                    <a href="https://www.youtube.com/watch?v=G6oi23IWLcc" class="video-btn lightbox shadow-1" data-lightbox-anima="show-scale">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
                 </div>
+
             </div>
         </div>
         <div class="section-bg-color">
@@ -212,15 +217,15 @@
                 <div class="row image-center-align">
                     <div class="col-md-6 col-sm-12 text-center-sm">
                         <div class="title-base text-left text-center-sm">
-                            <hr />
+                            <hr>
                             <h2>WHY CHOOSE GOODRICH POTATO FLAKES?</h2>
                             <p>Unmatched Quality and Convenience</p>
                         </div>
                         <p class="text-justify"> Our Potato Flakes offer delicious flavor with quick and easy preparation. We meticulously select, wash, peel, slice, mash, and dry the potatoes using our proprietary process to extract top-grade flakes that deliver farm-fresh taste. With Goodrich's Potato Flakes, you can save time, labor, and costs compared to scratch, refrigerated, or frozen potatoes. All you have to do is add some water to the flakes and watch your profits pile up. </p>
-                        <hr class="space s" />
+                        <hr class="space s">
                     </div>
                     <div class="col-md-6 col-sm-12 text-center-sm" data-anima="fade-right">
-                        <hr class="space m visible-sm" /> <img loading="lazy" src="./assets/images/products/potato-flakes-mashed.png" alt="Step-by-step guide on making potato flakes from mashed potato" />
+                        <hr class="space m visible-sm"> <img loading="lazy" src="./assets/images/products/potato-flakes-mashed.png" alt="Step-by-step guide on making potato flakes from mashed potato">
                     </div>
                 </div>
             </div>
@@ -228,18 +233,18 @@
         <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.jpg">
             <div class="container content">
                 <div class="title-base">
-                    <hr />
+                    <hr>
                     <h2>Applications</h2>
                     <p>Ways to Use our Potato Flakes</p>
                 </div>
-                <hr class="space s" />
+                <hr class="space s">
                 <div class="row padding-bottom-col">
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/1.jpg" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish." /> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/1.jpg" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
-                                        <h2> For <br /> Thickening </h2>
+                                        <h2> For <br> Thickening </h2>
                                         <p class="sub"> As a replacement for cornstarch and wheat salmonella, dehydrated potato products add volume to soups, sauces, etc. and are suitable to use as a thickening agent. </p>
                                     </div>
                                 </div>
@@ -248,10 +253,10 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/2.jpg" alt="Various types of bread on a wooden table." /> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/2.jpg" alt="Various types of bread on a wooden table."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
-                                        <h2> For <br /> Baking </h2>
+                                        <h2> For <br> Baking </h2>
                                         <p class="sub"> Because of their subtle earthy flavor, dehydrated potato products are popular in baked goods. Use Goodrich's dehydrated potato products for baked food. </p>
                                     </div>
                                 </div>
@@ -260,10 +265,10 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/3.jpg" alt="A delectable burger adorned with veggies ." /> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/3.jpg" alt="A delectable burger adorned with veggies ."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
-                                        <h2> For Formed <br /> Products </h2>
+                                        <h2> For Formed <br> Products </h2>
                                         <p class="sub"> Formed products like burgers, patties, etc. can be conveniently made from dehydrated potato products. At Goodrich, only the finest potatoes are utilized for producing Dehydrated Potato Products. </p>
                                     </div>
                                 </div>
@@ -272,10 +277,10 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/4.jpg" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs." /> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/4.jpg" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
-                                        <h2> For Packed <br /> Snacks </h2>
+                                        <h2> For Packed <br> Snacks </h2>
                                         <p class="sub"> Long shelf snacks like extruded products, fabricated chips are made from dehydrated potato products. Goodrich's dehydrated potato products are ideal for manufacturing a variety of packed snacks as well. </p>
                                     </div>
                                 </div>
@@ -289,7 +294,7 @@
             <div class="bg-overlay"></div>
             <div class="container content overlay-content box-middle green text-center">
                 <div class="title-base" data-anima="fade-top">
-                    <hr />
+                    <hr>
                     <h2>FOR BULK BUYING OF POTATO FLAKES</h2>
                 </div>
                 <div class="row">
@@ -297,7 +302,7 @@
                         <p data-anima="fade-bottom"> Discover the unmatched convenience and quality of Goodrich's Potato Flakes – your secret ingredient for culinary success. </p>
                     </div>
                 </div>
-                <hr class="space m" /> <a href="./get-in-touch.html" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Contact Us</a>
+                <hr class="space m"> <a href="./get-in-touch.html" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Contact Us</a>
             </div>
         </div>
         <div class="section-empty no-paddings">
@@ -316,25 +321,24 @@
                         <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake2.jpg" alt=" Image of a bowl filled with potato flakes."> </a> </li>
                     </ul>
                 </div>
-                <hr class="space m" />
+                <hr class="space m">
             </div>
         </div>
     </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base footer-parallax" id="section-footer"></footer>
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
+    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./assets/js/imagesloaded.min.js"></script>
-    <script type="text/javascript" src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/imagesloaded.min.js"></script>
+    <script src="./assets/js/parallax.min.js"></script>
     <script src='./assets/js/jquery.flipster.min.js'></script>
-    <script type="text/javascript" src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" async src="./assets/js/isotope.min.js"></script>
-    <script type="text/javascript" async src="./assets/js/php/contact-form.js"></script>
-    <script type="text/javascript" async src="./assets/js/jquery.progress-counter.js"></script>
-    <script type="text/javascript" async src="./assets/js/jquery.tab-accordion.js"></script>
-    <script type="text/javascript" async src="./assets/js/bootstrap/js/bootstrap.popover.min.js"></script>
-    <script type="text/javascript" async src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
+    <script async src="./assets/js/isotope.min.js"></script>
+    <script async src="./assets/js/php/contact-form.js"></script>
+    <script async src="./assets/js/jquery.progress-counter.js"></script>
+    <script async src="./assets/js/jquery.tab-accordion.js"></script>
+    <script async src="./assets/js/bootstrap/js/bootstrap.popover.min.js"></script>
+    <script async src="./assets/js/jquery.magnific-popup.min.js"></script>
     <script src="./assets/js/social.stream.min.js"></script>
-    <script type="text/javascript" src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
 

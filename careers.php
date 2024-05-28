@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Goodrich | Careers</title>
-    <meta name="description" content="Goodrich Careers" />
-    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
+    <meta name="description" content="Goodrich Careers">
+    <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
@@ -21,8 +23,8 @@
     <link rel="stylesheet" href='./assets/js/social.stream.css'>
     <link rel="stylesheet" href='./assets/js/magnific-popup.css'>
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="icon" href="./assets/images/logos/logo.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,12 +33,12 @@
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
         <div class="header-video">
             <div class="videobox"> <video muted autoplay>
-                    <source src="./assets//video/career.mp4" type="video/mp4" />
+                    <source src="./assets//video/career.mp4" type="video/mp4">
                 </video> </div>
             <div class="overlaybox">
                 <div class="container">
                     <div class="title-base white">
-                        <hr class="anima" />
+                        <hr class="anima">
                         <p>Ready to Shape the Future of Potato Processing</p>
                         <h1>Careers</h1>
                     </div>
@@ -60,18 +62,18 @@
                         <form method="post" class="form-box actionForm" action="./assets/php/form-functions.php" enctype="multipart/form-data"> <input type="hidden" name="btnform" value="career">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <p>Name</p> <input id="name" name="name" maxlength="50" placeholder="" type="text" class="form-control" required />
+                                    <p>Name</p> <input id="name" name="name" maxlength="50" placeholder="" type="text" class="form-control" required>
                                     <div class="Inpt name"></div>
                                 </div>
                                 <div class="col-md-6">
-                                    <p>Surname</p> <input id="surname" name="surname" maxlength="50" placeholder="" type="text" class="form-control" required />
+                                    <p>Surname</p> <input id="surname" name="surname" maxlength="50" placeholder="" type="text" class="form-control" required>
                                     <div class="Inpt surname"></div>
                                 </div>
                             </div>
-                            <hr class="space xs" />
+                            <hr class="space xs">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <p>Town/City</p> <input id="town" name="city" maxlength="50" placeholder="" type="text" class="form-control" required />
+                                    <p>Town/City</p> <input id="town" name="city" maxlength="50" placeholder="" type="text" class="form-control" required>
                                     <div class="Inpt city"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -79,49 +81,59 @@
                                     <div class="Inpt country"></div>
                                 </div>
                                 <div class="col-md-4">
-                                    <p>Address</p> <input id="address" name="address" maxlength="100" placeholder=" " type="text" class="form-control" required />
+                                    <p>Address</p> <input id="address" name="address" maxlength="100" placeholder=" " type="text" class="form-control" required>
                                     <div class="Inpt address"></div>
                                 </div>
                                 <div class="col-md-2">
-                                    <p>Zip Code</p> <input id="zip" name="zipcode" maxlength="6" placeholder=" " type="text" class="form-control TypeInt" required />
+                                    <p>Zip Code</p> <input id="zip" name="zipcode" maxlength="6" placeholder=" " type="text" class="form-control TypeInt" required>
                                     <div class="Inpt zipcode"></div>
                                 </div>
                             </div>
-                            <hr class="space xs" />
+                            <hr class="space xs">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <p>Phone</p> <input id="phone" name="phone" maxlength="10" placeholder=" " type="text" class="form-control TypeInt" required />
+                                    <p>Phone</p> <input id="phone" name="phone" maxlength="10" placeholder=" " type="text" class="form-control TypeInt" required>
                                     <div class="Inpt phone"></div>
                                 </div>
                                 <div class="col-md-4">
-                                    <p>Email</p> <input id="email" name="email" maxlength="100" placeholder=" " type="email" class="form-control" required />
+                                    <p>Email</p> <input id="email" name="email" maxlength="100" placeholder=" " type="email" class="form-control" required>
                                     <div class="Inpt email"></div>
                                 </div>
                                 <div class="col-md-4">
-                                    <p>Job Title</p> <input id="tob_title" name="tob_title" maxlength="100" placeholder=" " type="text" class="form-control" required />
+                                    <p>Job Title</p> <input id="tob_title" name="tob_title" maxlength="100" placeholder=" " type="text" class="form-control" required>
                                     <div class="Inpt tob_title"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <hr class="space xs" />
+                                    <hr class="space xs">
                                     <p>About you</p> <textarea id="messagge" name="about_us" rows="4" maxlength="1000" class="form-control" required></textarea>
                                     <div class="Inpt about_us" id="charCount"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <hr class="space s" /> <button class="circle-button btn-border btn btn-xs" type="button" onclick="document.getElementById('cvInput').click()"> Attach File <input type="file" id="cvInput" name="attached_file" style="display: none" /> </button> <button class="anima-button circle-button btn-xs btn" type="submit"><i class="im-envelope-2"></i>Submit</button>
+                                    <hr class="space s">
+                                    <div class="circle-button btn-border btn btn-xs" style="display: inline-block;">
+                                        <label for="cvInput" style="cursor: pointer;">
+                                            Attach File
+                                        </label>
+                                        <input type="file" id="cvInput" name="attached_file" style="display: none;">
+                                    </div>
+                                    <button class="anima-button circle-button btn-xs btn" type="submit">
+                                        <i class="im-envelope-2"></i>Submit
+                                    </button>
                                     <div class="Inpt attached_file"></div>
                                 </div>
+
                             </div>
                         </form>
                     </div>
                     <div class="col-md-4">
-                        <hr class="space visible-sm" />
+                        <hr class="space visible-sm">
                         <p class="" style="font-style: italic;">Your career journey starts here</p>
                         <div class="title-base text-left">
-                            <hr />
+                            <hr>
                             <h2>Send your details</h2>
                         </div>
                         <h4 class="heading-green text-center-sm"> APPLY NOW</h4>
@@ -132,7 +144,7 @@
         </div>
     </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
+    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/imagesloaded.min.js"></script>
     <script src="./assets/js/isotope.min.js"></script>

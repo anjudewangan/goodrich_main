@@ -2,25 +2,25 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Goodrich | Media</title>
-  <meta name="description" content="Media" />
-  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs" />
+  <meta name="description" content="Media">
+  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <noscript><link rel="stylesheet" href="style.css"></noscript>
-  <link rel="stylesheet" href="./assets/css/content-box.css" />
-  <link rel="stylesheet" href="./assets/css/animations.css" />
-  <link rel="stylesheet" href="./assets/css/components.css" />
-  <link rel="stylesheet" href="./assets/css/image-box.css" />
-  <link rel="stylesheet" href="./assets/js/php/contact-form.css" />
-  <link rel="icon" href="./assets/images/logos/logo.png" />
-  <link rel="stylesheet" href="./assets/css/skin.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/content-box.css">
+  <link rel="stylesheet" href="./assets/css/animations.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/image-box.css">
+  <link rel="stylesheet" href="./assets/js/php/contact-form.css">
+  <link rel="icon" href="./assets/images/logos/logo.png">
+  <link rel="stylesheet" href="./assets/css/skin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <?php include_once("includes/connection_inner.php"); ?>
@@ -32,7 +32,7 @@
     <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/Media/media-bg.jpg">
       <div class="container">
         <div class="title-base">
-          <hr class="anima" />
+          <hr class="anima">
           <p>Images, Videos and Press Release</p>
           <h1>Media</h1>
         </div>
@@ -46,7 +46,7 @@
             <li class="active">Media</li>
           </ol>
         </div>
-        <hr class="space m" />
+        <hr class="space m">
         <div class="row">
           <div class="col-xs-12 col-lg-3 order-last">
             <div class="fixed-area" data-bottom="150">
@@ -101,7 +101,7 @@
                       <div data-sort="<?php echo $record['photo_sorting']; ?>" class="maso-item col-md-6 <?php echo $galryid; ?>">
                         <div class="img-box adv-img adv-img-full-content">
                           <div class="img-box">
-                            <img loading="lazy" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['photo_title']; ?>" />
+                            <img loading="lazy" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['photo_title']; ?>">
                           </div>
                           <a href="#" class="caption-bg img-box">
                             <div class="caption">
@@ -119,7 +119,7 @@
                 <div class="clear"></div>
               </div>
             </div>
-            <hr class="space" />
+            <hr class="space">
             <h3 id="videos" class="text-black hidden-sm">Videos</h3>
             <div class="navbar navbar-inner">
               <div class="navbar-toggle">
@@ -146,7 +146,7 @@
                     foreach ($rsVideoData as $recordVideo) :
                   ?>
                       <div class="col-md-6 cat<?php echo $recordVideo['media_type_id']; ?> all video-sec" data-sort="<?php echo $recordVideo['video_sorting']; ?>">
-                        <iframe width="100%" height="250" src="<?php echo $recordVideo['video_url']; ?>" title="<?php echo $recordVideo['video_title']; ?>" allowfullscreen></iframe>
+                        <iframe class="media-video" src="<?php echo $recordVideo['video_url']; ?>" title="<?php echo $recordVideo['video_title']; ?>" allowfullscreen></iframe>
                       </div>
                   <?php
                     endforeach;
@@ -162,7 +162,7 @@
   </div>
   <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
   <footer class="footer-base footer-parallax" id="section-footer"></footer>
-  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css" />
+  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
   <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="./assets/js/imagesloaded.min.js"></script>
   <script src="./assets/js/isotope.min.js"></script>
@@ -171,45 +171,45 @@
   <script src="./assets/js/parallax.min.js"></script>
   <script src="./assets/js/smooth.scroll.min.js"></script>
   <script src="./assets/js/header-footer.js"></script>
-</body>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const tabLinks = document.querySelectorAll(".nav.navbar-nav2 a");
-    const videoSection = document.getElementById("video-section");
-    const tabContents = videoSection.querySelectorAll(".video-sec");
-
-    tabLinks.forEach(function(tab) {
-      tab.addEventListener("click", function(e) {
-        e.preventDefault();
-
-        // Remove 'active' class from all tab links
-        tabLinks.forEach(function(link) {
-          link.classList.remove("active");
-        });
-
-        // Add 'active' class to the clicked tab link
-        tab.classList.add("active");
-
-        const target = this.getAttribute("data-filter");
-
-        // Hide all tab contents in video section
-        tabContents.forEach(function(content) {
-          content.style.display = "none";
-        });
-
-        // Display the tab content corresponding to the clicked link in video section
-        if (target === "all") {
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const tabLinks = document.querySelectorAll(".nav.navbar-nav2 a");
+      const videoSection = document.getElementById("video-section");
+      const tabContents = videoSection.querySelectorAll(".video-sec");
+  
+      tabLinks.forEach(function(tab) {
+        tab.addEventListener("click", function(e) {
+          e.preventDefault();
+  
+          // Remove 'active' class from all tab links
+          tabLinks.forEach(function(link) {
+            link.classList.remove("active");
+          });
+  
+          // Add 'active' class to the clicked tab link
+          tab.classList.add("active");
+  
+          const target = this.getAttribute("data-filter");
+  
+          // Hide all tab contents in video section
           tabContents.forEach(function(content) {
-            content.style.display = "block";
+            content.style.display = "none";
           });
-        } else {
-          videoSection.querySelectorAll("." + target).forEach(function(content) {
-            content.style.display = "block";
-          });
-        }
+  
+          // Display the tab content corresponding to the clicked link in video section
+          if (target === "all") {
+            tabContents.forEach(function(content) {
+              content.style.display = "block";
+            });
+          } else {
+            videoSection.querySelectorAll("." + target).forEach(function(content) {
+              content.style.display = "block";
+            });
+          }
+        });
       });
     });
-  });
-</script>
+  </script>
+</body>
 
 </html>
