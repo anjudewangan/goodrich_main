@@ -15,7 +15,6 @@
     <noscript><link rel="stylesheet" href="style.css"></noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
-    <link rel="stylesheet" href="./assets/js/php/contact-form.css">
     <link rel="icon" href="./assets/images/logos/logo.png">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/components.css">
@@ -88,11 +87,7 @@
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/js/imagesloaded.min.js"></script>
-    <script src="./assets/js/php/contact-form.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
-    <script src="./assets/js/jquery.progress-counter.js"></script>
-    <script src="./assets/js/jquery.tab-accordion.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
 

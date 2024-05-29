@@ -21,13 +21,9 @@
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css">
     <link rel="stylesheet" href="./assets/js/magnific-popup.css">
-    <link rel="stylesheet" href="./assets/js/php/contact-form.css">
-    <link rel="stylesheet" href="./assets/js/social.stream.css">
     <link rel="icon" href="./assets/images/logos/logo.png">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="stylesheet" href='./assets/js/jquery.flipster.min.css'>
-    <link href="./assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -328,17 +324,10 @@
     <footer class="footer-base footer-parallax" id="section-footer"></footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/js/imagesloaded.min.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
     <script src='./assets/js/jquery.flipster.min.js'></script>
     <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
-    <script async src="./assets/js/isotope.min.js"></script>
-    <script async src="./assets/js/php/contact-form.js"></script>
-    <script async src="./assets/js/jquery.progress-counter.js"></script>
-    <script async src="./assets/js/jquery.tab-accordion.js"></script>
-    <script async src="./assets/js/bootstrap/js/bootstrap.popover.min.js"></script>
     <script async src="./assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="./assets/js/social.stream.min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
 

@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href='./assets/css/components.css'>
-    <link rel="stylesheet" href="./assets/js/php/contact-form.css">
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="icon" href="./assets/images/logos/logo.png">
     <link rel="stylesheet" href="./assets/css/skin.css">
@@ -31,14 +32,14 @@
                 <div class="title-base">
                     <hr class="anima">
                     <p>Take a Look at our Potato Delights</p>
-                    <h1>Dehydrated Potato Products</h1> 
+                    <h1>Dehydrated Potato Products</h1>
                 </div>
             </div>
         </div>
         <div class="section-empty section-item">
             <div class="container content grid-image text-center">
                 <div class="row">
-                    <ol class="breadcrumb" style="font-style: italic;">
+                    <ol class="breadcrumb text-left" style="font-style: italic;">
                         <li><a href="./">Home</a></li>
                         <li class="active">Dehydrated Potato Products</li>
                     </ol>
@@ -321,9 +322,6 @@
     <footer class="footer-base footer-parallax" id="section-footer"> </footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/js/imagesloaded.min.js"></script>
-    <script src='./assets/js/isotope.min.js'></script>
-    <script src='./assets/js/jquery.twbsPagination.min.js'></script>
     <script src='./assets/js/jquery.tab-accordion.js'></script>
     <script src='./assets/js/parallax.min.js'></script>
     <script src="./assets/js/header-footer.js"></script>

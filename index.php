@@ -21,12 +21,9 @@
   <link rel="stylesheet" href="./assets/css/components.css">
   <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css">
   <link rel="stylesheet" href="./assets/js/magnific-popup.css">
-  <link rel="stylesheet" href="./assets/js/social.stream.css">
   <link rel="icon" href="./assets/images/logos/logo.png">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <!-- Plugin Css -->
-  <link href="./assets/css/owl.carousel.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -119,7 +116,7 @@
       </div>
     </header>
     <!-- Start Slider Section -->
-    <div class="slider p-md-0">
+    <section class="slider p-md-0">
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -161,7 +158,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </section>
     <div class="section-bg-image parallax-window" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-1.jpg">
       <div class="container content">
         <div class="title-base">
@@ -1310,25 +1307,14 @@
     </div>
   </footer>
   <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
-  <script src="./assets/js/jquery.flipster.min.js"></script>
   <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="./assets/js/imagesloaded.min.js"></script>
   <script src="./assets/js/parallax.min.js"></script>
   <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
-  <script async src="./assets/js/isotope.min.js"></script>
-  <script async src="./assets/js/jquery.progress-counter.js"></script>
   <script async src="./assets/js/jquery.tab-accordion.js"></script>
-  <script async src="./assets/js/bootstrap/js/bootstrap.popover.min.js"></script>
   <script async src="./assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="./assets/js/social.stream.min.js"></script>
-  <script src="./assets/js/smooth.scroll.min.js"></script>
-  <script src="./assets/js/owl.carousel.min.js"></script>
-  <script src="./assets/js/wow.min.js"></script>
-  <script src="./assets/js/parallaxie.min.js"></script>
-  <script src="./assets/js/jquery.fancybox.min.js"></script>
   <script src="./assets/js/swiper.min.js"></script>
   <script src="./assets/js/script.js" async></script>
-  <script src="./assets/js/jquery.appear.js"></script>
   <script>
     const counters = document.querySelectorAll(".counter1");
     counters.forEach((counter1) => {

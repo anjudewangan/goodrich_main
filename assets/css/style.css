@@ -4480,14 +4480,6 @@ hr.d-dark {
     height: 3px;
 }
 
-hr.d {
-    background: url(images/assets/gradient-line.png) center/contain no-repeat;
-}
-
-hr.d-dark {
-    background: url(images/assets/gradient-line-dark.png) center/contain no-repeat;
-}
-
 hr.e {
     max-width: 50px;
     width: 50px;
@@ -6558,6 +6550,7 @@ html {
     margin: 10px 20px;
 }
 
+
 .social-icons-simple {
     margin-bottom: 0;
     margin-left: -10px;
@@ -6566,6 +6559,10 @@ html {
 .social-icons-simple li {
     display: inline-block;
     padding-left: 8px;
+}
+
+.side-menu .social-icons-simple li:first-child {
+    padding-left: 0;
 }
 
 .social-icons-simple li a {
@@ -6580,10 +6577,14 @@ html {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    -webkit-transition: background-color .5s;
-    -o-transition: background-color .5s;
-    transition: background-color .5s;
-    color: #fff;
+    -webkit-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+    color: #ffffff;
+}
+
+.social-icons-simple li a:hover {
+    background-color: #FFFFFF;
 }
 
 .social-icons-simple li a:hover i {
@@ -6591,7 +6592,11 @@ html {
 }
 
 .get-started-btn {
-    margin: 30px 0 0;
+    margin: 30px 0 0 0;
+}
+
+.social-icons-simple li.animated-wrap a:hover {
+    background-color: transparent;
 }
 
 .d-table {
@@ -6600,6 +6605,10 @@ html {
 
 .revicon {
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
     right: 34px;
     z-index: 11;
@@ -6607,7 +6616,7 @@ html {
 }
 
 .revicon li a {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .btn.btn-rounded {

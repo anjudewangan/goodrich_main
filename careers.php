@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href='./assets/css/components.css'>
-    <link rel="stylesheet" href='./assets/js/flexslider/flexslider.css'>
-    <link rel="stylesheet" href='./assets/js/social.stream.css'>
-    <link rel="stylesheet" href='./assets/js/magnific-popup.css'>
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -146,9 +143,6 @@
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/js/imagesloaded.min.js"></script>
-    <script src="./assets/js/isotope.min.js"></script>
-    <script src="./assets/js/jquery.tab-accordion.js"></script>
     <script src="./assets/js/parallax.min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
     <script src="./assets/js/toast.js"></script>

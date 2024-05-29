@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="./assets/css/animations.css">
   <link rel="stylesheet" href="./assets/css/components.css">
   <link rel="stylesheet" href="./assets/css/image-box.css">
-  <link rel="stylesheet" href="./assets/js/php/contact-form.css">
   <link rel="icon" href="./assets/images/logos/logo.png">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -166,8 +165,6 @@
   <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
   <script src="./assets/js/imagesloaded.min.js"></script>
   <script src="./assets/js/isotope.min.js"></script>
-  <script src="./assets/js/jquery.twbsPagination.min.js"></script>
-  <script src="./assets/js/jquery.tab-accordion.js"></script>
   <script src="./assets/js/parallax.min.js"></script>
   <script src="./assets/js/smooth.scroll.min.js"></script>
   <script src="./assets/js/header-footer.js"></script>
