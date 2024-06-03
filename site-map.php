@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Site Map</title>
-    <meta name="description" content="Site Map">
+    <meta name="description" content="Visit Goodrich Cereals' site map to browse through our assortment of healthy and flavorful cereals. Start your day with a bowl of goodness!">
+    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <meta property="og:image" content="./assets/images/logos/logo.webp">
+    <meta property="og:title" content="Goodrich | Site Map">
+    <meta property="og:description" content="Visit Goodrich Cereals' site map to browse through our assortment of healthy and flavorful cereals. Start your day with a bowl of goodness!">
+    <meta property="og:url" content="https://goodrichcereals.com/site-map.html">
+    <meta property="og:site_name" content="Goodrich | Site Map">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://goodrichcereals.com/site-map.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
@@ -26,7 +36,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-site-map.jpg">
+        <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-site-map.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">
@@ -35,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" id="granule-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-12.jpg">
+        <div class="section-bg-image parallax-window parallax-side" id="granule-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-12.webp">
             <div class="container content">
                 <div class="row">
                     <ol class="breadcrumb" style="font-style: italic;">

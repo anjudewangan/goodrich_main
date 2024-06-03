@@ -5,8 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Goodrich | Careers</title>
-    <meta name="description" content="Goodrich Careers">
+    <title>Goodrich | Careers</title>
+    <meta name="description" content="Discover rewarding career paths at Goodrich Cereals. We offer a range of opportunities in the cereal industry. Apply today and be part of our success story.">
+  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <meta property="og:image" content="./assets/images/logos/logo.webp">
+  <meta property="og:title" content="Goodrich | Careers">
+  <meta property="og:description" content="Discover rewarding career paths at Goodrich Cereals. We offer a range of opportunities in the cereal industry. Apply today and be part of our success story.">
+  <meta property="og:url" content="https://goodrichcereals.com/careers.html">
+  <meta property="og:site_name" content="Goodrich | Careers">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://goodrichcereals.com/careers.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
@@ -20,7 +28,7 @@
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href='./assets/css/components.css'>
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -42,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" id="air-dried-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/career.jpg">
+        <div class="section-bg-image parallax-window parallax-side" id="air-dried-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/career.webp">
             <div class="container content">
                 <div class="row">
                     <ol class="breadcrumb" style="font-style: italic;">

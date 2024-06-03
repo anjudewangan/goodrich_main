@@ -1936,7 +1936,7 @@ footer.footer-center .content {
     height: 270px;
     padding-top: 20px;
     opacity: 0;
-    background-image: url(../images/dashboard/Footer.jpg);
+    background-image: url(../images/dashboard/Footer.webp);
     background-position: center;
 }
 
@@ -2422,23 +2422,23 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a {
 }
 
 .bg-overlay.dotted {
-    background-image: url(images/overlay/dotted.png);
+    background-image: url(images/overlay/dotted.webp);
 }
 
 .bg-overlay.line-45 {
-    background-image: url(images/overlay/line-45.png);
+    background-image: url(images/overlay/line-45.webp);
 }
 
 .bg-overlay.carbonio {
-    background-image: url(images/overlay/carbonio.png);
+    background-image: url(images/overlay/carbonio.webp);
 }
 
 .bg-overlay.tile {
-    background-image: url(images/overlay/tile.png);
+    background-image: url(images/overlay/tile.webp);
 }
 
 .bg-overlay.points {
-    background-image: url(images/overlay/points.png);
+    background-image: url(images/overlay/points.webp);
 }
 
 .bg-overlay.transparent-dark {
@@ -2450,7 +2450,7 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a {
 }
 
 .bg-overlay.squares {
-    background-image: url(images/overlay/squares.png);
+    background-image: url(images/overlay/squares.webp);
 }
 
 .bg-overlay.tv {
@@ -2591,23 +2591,23 @@ iframe {
 }
 
 .header-animation .clouds-1 {
-    background: url(images/assets/clouds_1.png) 100px 30px repeat-x rgba(0, 0, 0, 0);
+    background: url(images/assets/clouds_1.webp) 100px 30px repeat-x rgba(0, 0, 0, 0);
 }
 
 .header-animation .clouds-2 {
-    background: url(images/assets/clouds_2.png) 200px 220px repeat-x rgba(0, 0, 0, 0);
+    background: url(images/assets/clouds_2.webp) 200px 220px repeat-x rgba(0, 0, 0, 0);
 }
 
 .header-animation .fog-1 {
-    background: url(images/assets/fog_1.png) 200px 30px repeat-x rgba(0, 0, 0, 0);
+    background: url(images/assets/fog_1.webp) 200px 30px repeat-x rgba(0, 0, 0, 0);
 }
 
 .header-animation .fog-2 {
-    background: url(images/assets/fog_1.png) 200px 160px repeat-x rgba(0, 0, 0, 0);
+    background: url(images/assets/fog_1.webp) 200px 160px repeat-x rgba(0, 0, 0, 0);
 }
 
 .header-animation .fog-3 {
-    background: url(images/assets/fog_2.png) repeat-x rgba(0, 0, 0, 0);
+    background: url(images/assets/fog_2.webp) repeat-x rgba(0, 0, 0, 0);
 }
 
 .header-animation,
@@ -4385,7 +4385,7 @@ div.title-icon p {
 .title-icon i {
     font-size: 35px;
     width: 100%;
-    background-image: url(images/assets/dotted-line.png);
+    background-image: url(images/assets/dotted-line.webp);
     color: #bdbdbd;
     margin-bottom: 5px;
 }
@@ -4525,15 +4525,15 @@ hr.f.f-dark {
 }
 
 hr.g {
-    background: url(images/overlay/dotted.png);
+    background: url(images/overlay/dotted.webp);
 }
 
 hr.h {
-    background: url(images/overlay/line-45.png);
+    background: url(images/overlay/line-45.webp);
 }
 
 hr.i {
-    background: url(images/overlay/carbonio.png);
+    background: url(images/overlay/carbonio.webp);
 }
 
 hr.mini {
@@ -4545,15 +4545,15 @@ hr.micro {
 }
 
 .white hr.h {
-    background: url(images/overlay/line-45-white.png);
+    background: url(images/overlay/line-45-white.webp);
 }
 
 .white hr.g {
-    background: url(images/overlay/dotted-white.png);
+    background: url(images/overlay/dotted-white.webp);
 }
 
 .white hr.i {
-    background: url(images/overlay/carbonio-white.png);
+    background: url(images/overlay/carbonio-white.webp);
 }
 
 body .row-1 {
@@ -6629,7 +6629,7 @@ html {
 
 .video-area {
     text-align: center;
-    background-image: url("../images/dashboard/potato.jpg");
+    background-image: url("../images/dashboard/potato.webp");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -6,18 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Blogs</title>
-    <meta name="description" content="Goodrich Cereals">
+    <meta name="description" content="Explore a variety of delicious and nutritious cereal recipes on our blog. Find inspiration for your next breakfast creation at Goodrich Cereals.">
+    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <meta property="og:image" content="./assets/images/logos/logo.webp">
+    <meta property="og:title" content="Goodrich | Blogs">
+    <meta property="og:description" content="Explore a variety of delicious and nutritious cereal recipes on our blog. Find inspiration for your next breakfast creation at Goodrich Cereals.">
+    <meta property="og:url" content="https://goodrichcereals.com/blogs.html">
+    <meta property="og:site_name" content="Goodrich | Blogs">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://goodrichcereals.com/blogs.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="stylesheet" href="./assets/css/blog-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -27,7 +37,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-9.jpg">
+        <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-9.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">
@@ -57,7 +67,7 @@
                                 </div>
                             </div> <?php if ($key % 3 == 2) : ?>
                                 <hr class="space m"> <?php endif;
-                                                endforeach; ?> <?php else : ?> <div class="col-md-12 alert alert-danger">No Records</div> <?php endif; ?> <!-- <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"> <img loading="lazy" src="./assets/images/blog/press2.png" alt="An aerial view of the Goodrich Potato factory, featuring blue roofs and industrial architecture."> </a> <div class="date"> <span>27 November 2023</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"> Goodrich Cereals entered the global dehydrated potato market with a splash</a> </h3> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash" class="blog-btn">Read More +</a> </div> </div> </div> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog1.html"><img loading="lazy" src="./assets/images/blog/blog1.jpg" alt="Potatoes in a sack with a white flower, representing a bountiful harvest of freshly harvested produce."></a> <div class="date"> <span>7 January 2020</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog1.html">Rwanda Pilots ‘Revolutionary’ Potato Seeds</a> </h3> <a target="_blank" href="blog1.html" class="blog-btn">Read More +</a> </div> </div> </div> <hr class="space m"> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog2.html"><img loading="lazy" src="./assets/images/blog/blog2.jpg" alt="A person holding potatoes - rustic, fresh, and earthy."></a> <div class="date"> <span>24 December 2019</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog2.html">New Book to Guide Potato Research and Development</a> </h3> <a target="_blank" href="blog2.html" class="blog-btn">Read More +</a> </div> </div> </div> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog3.html"><img loading="lazy" src="./assets/images/blog/blog3.jpg" alt="A row of green potato plants growing in the dirt."></a> <div class="date"> <span>10 January 2019</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog3.html">New Joint Venture of Agrico and S.V. Agri to Offer High Quality Seed Sotatoes in India</a> </h3> <a target="_blank" href="blog3.html" class="blog-btn">Read More +</a> </div> </div> </div> -->
+                                                endforeach; ?> <?php else : ?> <div class="col-md-12 alert alert-danger">No Records</div> <?php endif; ?> <!-- <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"> <img loading="lazy" src="./assets/images/blog/press2.webp" alt="An aerial view of the Goodrich Potato factory, featuring blue roofs and industrial architecture."> </a> <div class="date"> <span>27 November 2023</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash"> Goodrich Cereals entered the global dehydrated potato market with a splash</a> </h3> <a target="_blank" href="https://www.potatopro.com/news/2023/goodrich-cereals-entered-global-dehydrated-potato-market-splash" class="blog-btn">Read More +</a> </div> </div> </div> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog1.html"><img loading="lazy" src="./assets/images/blog/blog1.webp" alt="Potatoes in a sack with a white flower, representing a bountiful harvest of freshly harvested produce."></a> <div class="date"> <span>7 January 2020</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog1.html">Rwanda Pilots ‘Revolutionary’ Potato Seeds</a> </h3> <a target="_blank" href="blog1.html" class="blog-btn">Read More +</a> </div> </div> </div> <hr class="space m"> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog2.html"><img loading="lazy" src="./assets/images/blog/blog2.webp" alt="A person holding potatoes - rustic, fresh, and earthy."></a> <div class="date"> <span>24 December 2019</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog2.html">New Book to Guide Potato Research and Development</a> </h3> <a target="_blank" href="blog2.html" class="blog-btn">Read More +</a> </div> </div> </div> <div class="col-md-4"> <div class="single-blog-item"> <div class="image"> <a target="_blank" href="blog3.html"><img loading="lazy" src="./assets/images/blog/blog3.webp" alt="A row of green potato plants growing in the dirt."></a> <div class="date"> <span>10 January 2019</span> </div> </div> <div class="content"> <h3> <a target="_blank" href="blog3.html">New Joint Venture of Agrico and S.V. Agri to Offer High Quality Seed Sotatoes in India</a> </h3> <a target="_blank" href="blog3.html" class="blog-btn">Read More +</a> </div> </div> </div> -->
                 </div>
             </div>
             <hr class="space m">

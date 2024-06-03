@@ -6,7 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Goodrich | The Goodrich Legacy</title>
-  <meta name="description" content="The Goodrich Legacy">
+  <meta name="description" content="Goodrich Group of Companies excels in producing a diverse range of products, from natural starches to botanical extracts. Explore our portfolio for the Pulp & Paper, Breweries, Food Industry, and more.">
+  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <meta property="og:image" content="./assets/images/logos/logo.webp">
+  <meta property="og:title" content="Goodrich | The Goodrich Legacy">
+  <meta property="og:description" content="Goodrich Group of Companies excels in producing a diverse range of products, from natural starches to botanical extracts. Explore our portfolio for the Pulp & Paper, Breweries, Food Industry, and more.">
+  <meta property="og:url" content="https://goodrichcereals.com/the-goodrich-legacy.html">
+  <meta property="og:site_name" content="Goodrich | The Goodrich Legacy">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://goodrichcereals.com/the-goodrich-legacy.html">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="./assets/js/jquery.min.js" async></script>
   <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
@@ -19,7 +27,7 @@
   <link rel="stylesheet" href="./assets/css/components.css">
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
-  <link rel="icon" href="./assets/images/logos/logo.png">
+  <link rel="icon" href="./assets/images/logos/logo.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -27,7 +35,7 @@
   <div id="preloader"></div>
   <div class="footer-parallax-container">
     <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-    <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-2.jpg">
+    <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-2.webp">
       <div class="container">
         <div class="title-base">
           <hr class="anima">
@@ -67,9 +75,9 @@
           </div>
           <div class="col-sm-12 col-md-6">
             <div class="about-img">
-              <img loading="lazy" src="./assets/images/goodrich-legacy/about.jpg" alt="Goodrich products">
+              <img loading="lazy" src="./assets/images/goodrich-legacy/about.webp" alt="Goodrich products">
               <div class="year-shape">
-                <img loading="lazy" src="./assets/images/goodrich-legacy/dots.png" alt="Image">
+                <img loading="lazy" src="./assets/images/goodrich-legacy/dots.webp" alt="Image">
               </div>
             </div>
           </div>
@@ -130,7 +138,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/logo-agrochem.png" class="ag-timeline-card_img" alt="Agrochem Logo">
+                            <img loading="lazy" src="./assets/images/logos/logo-agrochem.webp" class="ag-timeline-card_img" alt="Agrochem Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -155,7 +163,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/gd-carbs.png" class="ag-timeline-card_img" alt="Carbs Logo">
+                            <img loading="lazy" src="./assets/images/logos/gd-carbs.webp" class="ag-timeline-card_img" alt="Carbs Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -180,7 +188,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/gd-fd-tech.png" class="ag-timeline-card_img" alt="Tech Logo">
+                            <img loading="lazy" src="./assets/images/logos/gd-fd-tech.webp" class="ag-timeline-card_img" alt="Tech Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -205,7 +213,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/gd-nu.png" class="ag-timeline-card_img" alt="Gd Nu Logo">
+                            <img loading="lazy" src="./assets/images/logos/gd-nu.webp" class="ag-timeline-card_img" alt="Gd Nu Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -230,7 +238,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/gd-cereals.png" class="ag-timeline-card_img" alt="Goodrich Cereals Logo">
+                            <img loading="lazy" src="./assets/images/logos/gd-cereals.webp" class="ag-timeline-card_img" alt="Goodrich Cereals Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -254,7 +262,7 @@
                       <div class="ag-timeline-card_item">
                         <div class="ag-timeline-card_inner">
                           <div class="ag-timeline-card_img-box">
-                            <img loading="lazy" src="./assets/images/logos/gd-farm.png" class="ag-timeline-card_img" alt="Farm Logo">
+                            <img loading="lazy" src="./assets/images/logos/gd-farm.webp" class="ag-timeline-card_img" alt="Farm Logo">
                           </div>
                         </div>
                         <div class="ag-timeline-card_arrow"></div>
@@ -268,7 +276,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-7.jpg">
+    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-7.webp">
       <div class="container content">
         <div class="row">
           <div class="col-lg-3 col-xs-3">
@@ -366,7 +374,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/goodrich-legacy/QUALITY-COMMITMENT.jpg">
+    <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/goodrich-legacy/QUALITY-COMMITMENT.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -405,7 +413,7 @@
             </p>
           </div>
           <div class="col-md-4 col-sm-4 vission-img">
-            <img loading="lazy" src="./assets/images/goodrich-legacy/vision.jpg" class="visionImg1" alt="A man in a red shirt uses binoculars to view something in the distance.">
+            <img loading="lazy" src="./assets/images/goodrich-legacy/vision.webp" class="visionImg1" alt="A man in a red shirt uses binoculars to view something in the distance.">
           </div>
         </div>
       </div>
@@ -414,7 +422,7 @@
       <div class="container content">
         <div class="row order-nowrap-reverse">
           <div class="col-md-4  col-sm-4 vission-img">
-            <img loading="lazy" src="./assets/images/goodrich-legacy/mission.png" class="visionImg2" alt="A red target with a heart and arrows, representing the Goodrich mission of hitting the mark with precision.">
+            <img loading="lazy" src="./assets/images/goodrich-legacy/mission.webp" class="visionImg2" alt="A red target with a heart and arrows, representing the Goodrich mission of hitting the mark with precision.">
           </div>
           <div class="col-md-8">
             <div class="title-base text-right text-center-sm">
@@ -433,7 +441,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-7.jpg">
+    <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-7.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -453,7 +461,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image overlay-container row-14" style="background-image: url(./assets/images/bg-img/Doodles1.jpg);">
+    <div class="section-bg-image overlay-container row-14" style="background-image: url(./assets/images/bg-img/Doodles1.webp);">
       <div class="bg-overlay"></div>
       <div class="container content overlay-content box-middle green text-center">
         <div class="title-base" data-anima="fade-top">

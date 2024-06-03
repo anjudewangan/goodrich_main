@@ -20,7 +20,15 @@ endif;
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blogs | <?php echo $rsData[0]['title']; ?></title>
-  <meta name="description" content="Goodrich Cereals">
+  <meta name="description" content="Get inspired by our blog featuring a range of tasty cereal recipes and breakfast tips. Start your day off right with Goodrich Cereals.">
+  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <meta property="og:image" content="./assets/images/logos/logo.webp">
+  <meta property="og:title" content="Goodrich | Blog Detail">
+  <meta property="og:description" content="Get inspired by our blog featuring a range of tasty cereal recipes and breakfast tips. Start your day off right with Goodrich Cereals.">
+  <meta property="og:url" content="https://goodrichcereals.com/blogs.html">
+  <meta property="og:site_name" content="Goodrich | Blog Detail">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://goodrichcereals.com/blogs.html">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="../assets/js/jquery.min.js "></script>
   <link rel="stylesheet" href="../assets/js/bootstrap/css/bootstrap.css">
@@ -30,7 +38,7 @@ endif;
   <link rel="stylesheet" href="../assets/css/content-box.css">
   <link rel="stylesheet" href="../assets/css/animations.css">
   <link rel="stylesheet" href="../assets/css/skin.css">
-  <link rel="icon" href="../assets/images/logos/logo.png">
+  <link rel="icon" href="../assets/images/logos/logo.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -38,7 +46,7 @@ endif;
   <div id="preloader"></div>
   <div class="footer-parallax-container">
     <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-    <div class="header-title ken-burn white " data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../assets/images/bg-img/bg-9.jpg">
+    <div class="header-title ken-burn white " data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="../assets/images/bg-img/bg-9.webp">
       <div class="container">
         <div class="title-base">
           <hr class="anima">

@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Privacy Policy</title>
-    <meta name="description" content="Privacy Policy">
+    <meta name="description" content="Protect your privacy with Goodrich Cereals. Learn how we collect, use, and secure your data. Your information is safe with us.">
+    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <meta property="og:image" content="./assets/images/logos/logo.webp">
+    <meta property="og:title" content="Goodrich | Privacy Policy">
+    <meta property="og:description" content="Protect your privacy with Goodrich Cereals. Learn how we collect, use, and secure your data. Your information is safe with us.">
+    <meta property="og:url" content="https://goodrichcereals.com/privacy-policy.html">
+    <meta property="og:site_name" content="Goodrich | Privacy Policy">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://goodrichcereals.com/privacy-policy.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
@@ -26,7 +36,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/privacy-policy.jpg">
+        <div class="header-title ken-burn-center white" data-parallax="scroll" data-bleed="0" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/privacy-policy.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">

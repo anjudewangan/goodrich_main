@@ -6,18 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Sustainable Potatoes</title>
-    <meta name="description" content="Sustainable Potatoes">
+    <meta name="description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
+    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <meta property="og:image" content="./assets/images/logos/logo.webp">
+    <meta property="og:title" content="Goodrich | Sustainable Potatoes">
+    <meta property="og:description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
+    <meta property="og:url" content="https://goodrichcereals.com/sustainable-potatoes.html">
+    <meta property="og:site_name" content="Goodrich | Sustainable Potatoes">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://goodrichcereals.com/sustainable-potatoes.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -25,7 +35,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-5.jpg">
+        <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-5.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">
@@ -50,11 +60,11 @@
                         </div>
                         <p class="text-justify"> At Goodrich Cereals, we don't just produce potato products; we cultivate sustainability. Our commitment to the environment goes beyond the production line, ensuring a future where nature thrives and communities flourish. </p>
                     </div>
-                    <div class="col-lg-4 col-xs-4 image-responsive"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Applications.png" alt="Fresh potatoes in a sack on a white background, showcasing the natural beauty of these wholesome vegetables."> </div>
+                    <div class="col-lg-4 col-xs-4 image-responsive"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Applications.webp" alt="Fresh potatoes in a sack on a white background, showcasing the natural beauty of these wholesome vegetables."> </div>
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-bleed="0" data-parallax="scroll" data-image-src="./assets/images/sustainable-potatoes/high-angle.jpg">
+        <div class="section-bg-image parallax-window" data-natural-height="850" data-natural-width="1920" data-bleed="0" data-parallax="scroll" data-image-src="./assets/images/sustainable-potatoes/high-angle.webp">
             <div class="container content">
                 <div class="title-base white">
                     <hr>
@@ -63,7 +73,7 @@
                 </div>
                 <hr class="space m">
                 <div class="row proporzional-row">
-                    <div class="col-md-6 col-sm-12 boxed-inverse bg-cover middle-content white text-center" style="background-image: url(./assets/images/sustainable-potatoes/block-14.jpg)">
+                    <div class="col-md-6 col-sm-12 boxed-inverse bg-cover middle-content white text-center" style="background-image: url(./assets/images/sustainable-potatoes/block-14.webp)">
                         <p class="text-normal text-italic text-l"> Potato Contract Farming </p>
                         <hr class="space s">
                         <p class="text-s" style="text-align: justify"> Potatoes, with 80% moisture content, pose a challenge for farmers due to rapid perishability. Forced to sell at low prices during procurement seasons, farmers endure losses, demotivating further cultivation. In 2011, Goodrich witnessed Punjab & Haryana farmers selling potatoes below Rs. 1 per kg due to bumper harvests. Responding decisively, Goodrich set up a cutting-edge potato flakes facility at Village Nagla, Karnal. This strategic move aims to offer farmers a profitable alternative. With a firm belief that farmers deserve fair prices, Goodrich purchases potatoes at assured rates directly from farms. Despite challenges like open sun storage, our commitment remains: ensuring farmers get the value they truly deserve for their hard work. </p>
@@ -87,7 +97,7 @@
                                 <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/SolarEnergy.jpg" alt="Solar panels in a field with city skyline in the background. Harnessing renewable energy for a sustainable future."> </div>
+                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/SolarEnergy.webp" alt="Solar panels in a field with city skyline in the background. Harnessing renewable energy for a sustainable future."> </div>
                                         </div>
                                         <div class="col-md-8">
                                             <h3>Solar Energy Integration</h3> <span class="extra-content">Sustainable Power Solutions</span>
@@ -102,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image box-middle-container overlay-container row-19" style="background-image: url(./assets/images/bg-img/Doodles2.jpg);">
+        <div class="section-bg-image box-middle-container overlay-container row-19" style="background-image: url(./assets/images/bg-img/Doodles2.webp);">
             <div class="bg-overlay"></div>
             <div class="container content overlay-content box-middle green text-center">
                 <div class="title-base" data-anima="fade-top">
@@ -130,4 +140,5 @@
     <script src="./assets/js/parallax.min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
+
 </html>

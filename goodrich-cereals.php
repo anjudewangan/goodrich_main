@@ -6,7 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Goodrich | Goodrich Cereals</title>
-    <meta name="description" content="About page with company informations.">
+    <meta name="description" content="Goodrich Cereals: Leading the way in potato processing. Our cutting-edge plant in Karnal, equipped with imported machinery, ensures top-quality products. Experience the impact of world-class potato flakes in the Indian market.">
+    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <meta property="og:image" content="./assets/images/logos/logo.webp">
+    <meta property="og:title" content="Goodrich | Goodrich Cereals">
+    <meta property="og:description" content="Goodrich Cereals: Leading the way in potato processing. Our cutting-edge plant in Karnal, equipped with imported machinery, ensures top-quality products. Experience the impact of world-class potato flakes in the Indian market.">
+    <meta property="og:url" content="https://goodrichcereals.com/goodrich-cereals.html">
+    <meta property="og:site_name" content="Goodrich | Goodrich Cereals">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://goodrichcereals.com/goodrich-cereals.html">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
@@ -20,7 +28,7 @@
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="icon" href="./assets/images/logos/logo.png">
+    <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -28,7 +36,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center black" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-3.jpg">
+        <div class="header-title ken-burn-center black" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-3.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">
@@ -63,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-3 col-center potato-img-responsive"> <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.png" alt="A cartoon potato chef wearing a chef's hat and apron, holding a spatula and smiling."> </div>
+                    <div class="col-lg-3 col-xs-3 col-center potato-img-responsive"> <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" alt="A cartoon potato chef wearing a chef's hat and apron, holding a spatula and smiling."> </div>
                 </div>
                 <hr class="space m">
                 <div class="row vertical-row">
@@ -91,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-xs-12 vission-img">
-                        <div class="img-box lightbox circle shadow-1 small-img"> <img loading="lazy" src="./assets/images/goodrich-cereals/circle-img-1.jpg" alt="Two bowls filled with chopped up pieces of potato product. "> </div>
+                        <div class="img-box lightbox circle shadow-1 small-img"> <img loading="lazy" src="./assets/images/goodrich-cereals/circle-img-1.webp" alt="Two bowls filled with chopped up pieces of potato product. "> </div>
                     </div>
                     <div class="col-lg-5 col-xs-12">
                         <div class="row">
@@ -119,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/goodrich-cereals/cereal-vision.jpg ">
+        <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/goodrich-cereals/cereal-vision.webp ">
             <div class="container content">
                 <div class="title-base">
                     <hr>
@@ -136,7 +144,7 @@
         <div class="section-bg-color">
             <div class="container content">
                 <div class="row">
-                    <div class="col-md-12 bg-cover" style="background-image: url(./assets/images/goodrich-cereals/Diversification.png)">
+                    <div class="col-md-12 bg-cover" style="background-image: url(./assets/images/goodrich-cereals/Diversification.webp)">
                         <div class="row">
                             <hr class="space">
                             <hr class="space">
@@ -188,35 +196,35 @@
                 <table class="grid-table border-table" data-anima="fade-bottom" data-timeline="asc">
                     <tbody>
                         <tr>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/al-kabeer.jpg" alt="al-kabeer"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/alnutri.jpg" alt="alnutri"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/balaji.jpg" alt="balaji"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikaji.jpg" alt="bikaji"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/al-kabeer.webp" alt="al-kabeer"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/alnutri.webp" alt="alnutri"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/balaji.webp" alt="balaji"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikaji.webp" alt="bikaji"> </td>
                         </tr>
                         <tr>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/dfm.jpg" alt="dfm"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/diamond.jpg" alt="diamond"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/engel.jpg" alt="engel"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/haldiram.jpg" alt="haldiram"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/dfm.webp" alt="dfm"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/diamond.webp" alt="diamond"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/engel.webp" alt="engel"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/haldiram.webp" alt="haldiram"> </td>
                         </tr>
                         <tr>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/indian-army.jpg" alt="indian-army"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/itc.jpg" alt="itc"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/parle.jpg" alt="parle"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/ttk.jpg" alt="ttk"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/indian-army.webp" alt="indian-army"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/itc.webp" alt="itc"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/parle.webp" alt="parle"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/ttk.webp" alt="ttk"> </td>
                         </tr>
                         <tr>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikanervala.jpg" alt="bikanervala"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl5.jpg" alt="lotte"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl7.jpg" alt="chhajed"> </td>
-                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl6.jpg" alt="roble"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/bikanervala.webp" alt="bikanervala"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl5.webp" alt="lotte"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl7.webp" alt="chhajed"> </td>
+                            <td> <img loading="lazy" class="anima" src="./assets/images/clients/cl6.webp" alt="roble"> </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <hr class="space m">
         </div>
-        <div class="section-bg-image box-middle-container overlay-container row-14" style="background-image: url(./assets/images/bg-img/Doodles1.jpg);">
+        <div class="section-bg-image box-middle-container overlay-container row-14" style="background-image: url(./assets/images/bg-img/Doodles1.webp);">
             <div class="bg-overlay"></div>
             <div class="container content overlay-content box-middle green text-center">
                 <div class="title-base" data-anima="fade-top">
