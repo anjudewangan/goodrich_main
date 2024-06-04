@@ -496,6 +496,11 @@
                 <img loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions.">
               </a>
             </li>
+            <li>
+              <a class="img-box lightbox" href="./assets/images/certificates/halal-indonesia.webp" data-lightbox-anima="show-scale">
+                <img loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia.">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
