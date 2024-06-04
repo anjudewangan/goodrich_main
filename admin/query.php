@@ -114,8 +114,10 @@ if (isset($_POST['gallery_create'])) {
 		exit;
 	} else {
 
-		$valid_extensions = array('jpeg', 'jpg', 'png');
-		$max_size = 1 * 1024 * 1024; // 1MB
+		//$valid_extensions = array('jpeg', 'jpg', 'png');
+		$valid_extensions = array("webp");
+		//$max_size = 1 * 1024 * 1024; // 1MB
+		$max_size = 100 * 1024; // 100kb
 
 		$attached_file = $_FILES['attached_file'];
 		$upload_errors = array();
@@ -193,14 +195,23 @@ if (isset($_POST['gallery_edit'])) {
 		// Check if a file was uploaded
 		if (isset($_FILES["attached_file"]["name"]) && !empty($_FILES["attached_file"]["name"])) {
 
+			$filename = $_FILES["attached_file"]['name'];
+			$file_size = $_FILES["attached_file"]['size'];
 			$target_dir = "../assets/uploads/gallery/";
-			$allowed_extensions = array("gif", "jpg", "jpeg", "png");
+			$max_size = 100 * 1024; // 100kb
+			//$allowed_extensions = array("gif", "jpg", "jpeg", "png");
+			$allowed_extensions = array("webp");
 
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_extensions)) {
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
+				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
+				exit;
+				// Check file size
+			} else if ($file_size > $max_size) {
+				echo json_encode(array("class_name" => 'attached_file', "error" => "File too large: $filename"));
 				exit;
 			} else {
 				// Upload file if everything is ok
@@ -278,14 +289,23 @@ if (isset($_POST['blog'])) {
 		// Check if a file was uploaded
 		if (isset($_FILES["attached_file"]["name"]) && !empty($_FILES["attached_file"]["name"])) {
 
+			$filename = $_FILES["attached_file"]['name'];
+			$file_size = $_FILES["attached_file"]['size'];
+			$max_size = 100 * 1024; // 100kb
 			$target_dir = "../assets/uploads/blog/";
-			$allowed_extensions = array("gif", "jpg", "jpeg", "png");
+			//$allowed_extensions = array("gif", "jpg", "jpeg", "png");
+			$allowed_extensions = array("webp");
 
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_extensions)) {
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
+				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
+				exit;
+				// Check file size
+			} else if ($file_size > $max_size) {
+				echo json_encode(array("class_name" => 'attached_file', "error" => "File too large: $filename"));
 				exit;
 			} else {
 				// Upload file if everything is ok
@@ -349,7 +369,7 @@ if (isset($_POST['banner'])) {
 			$imageHeight = $imageInfo[1];
 
 			$target_dir = "../assets/uploads/video-photo/";
-			$allowed_image = array("jpg", "jpeg");
+			$allowed_image = array("webp");
 			$allowed_video = array("mp4");
 
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
@@ -357,10 +377,10 @@ if (isset($_POST['banner'])) {
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_image) && $_POST["banner_type"] == 'image') {
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only JPG or JPEG files are allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
 				exit;
 			} elseif (!in_array($file_extension, $allowed_video) && $_POST["banner_type"] == 'video') {
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only mp4 file are allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only mp4 file is allowed."));
 				exit;
 				// Validate file size
 			} elseif (($fileSize > $maxFileSize) && $_POST["banner_type"] == 'image') {
