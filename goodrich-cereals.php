@@ -175,7 +175,7 @@
                             <p>Bringing Quality to Your Table</p>
                         </div>
                         <p class="text-justify-sm"> Goodrich Cereals has emerged as a trailblazer in the export industry, exporting Potato Flakes & other Dehydrated Potato Products in more than 40 Countries. With strategically established offices in Karnal, Delhi, Ahmedabad, London, and Melbourne, our global presence reflects our dedication to meeting the diverse needs of consumers worldwide. </p>
-                        <hr class="space s"> <img loading="lazy" src="./assets/images/goodrich-cereals/world-map.jpeg" alt="A world map with pins indicating various countries.">
+                        <hr class="space s"> <img loading="lazy" src="./assets/images/goodrich-cereals/world-map.webp" alt="A world map with pins indicating various countries.">
                     </div>
                 </div>
             </div>

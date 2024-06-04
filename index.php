@@ -1012,7 +1012,7 @@
           </div>
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-right">
             <hr class="space m visible-sm">
-            <img loading="lazy" src="./assets/images/dashboard/farmer.jpeg" alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene.">
+            <img loading="lazy" src="./assets/images/dashboard/farmer.webp" alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene.">
           </div>
         </div>
         <hr>
@@ -1020,7 +1020,7 @@
         <div class="row order-reverse">
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-left">
             <hr class="space m visible-sm">
-            <img loading="lazy" src="./assets/images/dashboard/Sustainable.jpeg" alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background.">
+            <img loading="lazy" src="./assets/images/dashboard/Sustainable.webp" alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background.">
           </div>
           <div class="col-md-5 col-sm-12 text-center-sm">
             <div class="title-base text-left text-center-sm">

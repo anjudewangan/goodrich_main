@@ -84,7 +84,7 @@
                                 <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Biomass-utilization.jpeg" alt="Potatoes growing in a field, with green leaves and brown soil."> </div>
+                                            <div class="img-box"> <img loading="lazy" src="./assets/images/sustainable-potatoes/Biomass-utilization.webp" alt="Potatoes growing in a field, with green leaves and brown soil."> </div>
                                         </div>
                                         <div class="col-md-8">
                                             <h3>Biomass Utilization</h3> <span class="extra-content">Sustainable Resource Management</span>
