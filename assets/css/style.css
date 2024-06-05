@@ -7143,6 +7143,11 @@ footer hr {
         width: 155px !important;
         height: 155px !important
     }
+
+    .global-map-img,   .spoon-images {
+        width: 100% !important;
+        height: 100% !important;
+    }
 }
 
 .first>li>a,
@@ -7523,4 +7528,13 @@ nav ul {
 .media-video {
     width: 408px;
     height: 250px;
+}
+
+.global-map-img {
+    width: 555px;
+    height: 324px;
+}
+.spoon-images{
+    width: 240px;
+    height: 240px;
 }

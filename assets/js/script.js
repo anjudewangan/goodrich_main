@@ -905,60 +905,6 @@ function isScrollView(t) {
     }
   };
 
-  //jquery.slimscroll.min.js
-  $.fn.initSlimScroll = function () {
-    var width = $(window).width();
-    function getHeightFullscreen(t, wh) {
-      var vh = $(t).attr("data-height");
-      var lh = $(t).attr("data-height-remove");
-      if (isEmpty(vh) || vh == "auto") {
-        var h =
-          wh -
-          $(t)[0].getBoundingClientRect().top -
-          $("footer").outerHeight(),
-          ch = $(t).outerHeight();
-        if (!isEmpty(lh)) h = wh - lh;
-        vh = ch < h ? ch + 30 : h - 30;
-      }
-      if (vh == "fullscreen") {
-        var h = wh;
-        if (!isEmpty(lh) && wh - lh > 150) h = wh - lh;
-        else h = wh - 100;
-        vh = h;
-      }
-      return vh;
-    }
-
-    if (!$(this).hasClass("scroll-mobile-disabled") || width > 993) {
-      var optionsString = $(this).attr("data-options");
-      var optionsArr;
-      var options = {
-        height: 0,
-        size: "4px",
-      };
-      if (!isEmpty(optionsString)) {
-        optionsArr = optionsString.split(",");
-        options = getOptionsString(optionsString, options);
-      }
-      if (width < 993) options["alwaysVisible"] = true;
-
-      var vh = getHeightFullscreen(this, $(window).height());
-      var lh = $(this).attr("data-height-remove");
-      if (isEmpty(lh)) lh = 0;
-      vh += "";
-
-      if (vh.indexOf("#") != -1 || vh.indexOf(".") != -1)
-        vh = "" + ($(this).closest(vh).height() - lh);
-
-      options["height"] = vh + "px";
-      $(this).slimScroll(options);
-
-      var gm = $(this).find(".google-map");
-      if ($.isFunction($.fn.googleMap) && $(gm).length) $(gm).googleMap();
-
-      if (!options["alwaysVisible"]) $(".slimScrollBar").hide();
-    }
-  };
 
   //jquery.flexslider-min.js
   $.fn.restartFlexSlider = function () {

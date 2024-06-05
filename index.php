@@ -195,7 +195,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Flakes</h2>
@@ -209,7 +209,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Semolina</h2>
@@ -223,7 +223,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Granules</h2>
@@ -237,7 +237,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Slices</h2>
@@ -250,7 +250,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Dices</h2>
@@ -263,7 +263,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
+                      <img loading="lazy" class="anima spoon-images" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Shreds</h2>
@@ -294,7 +294,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 col-center text-center">
-            <img loading="lazy" src="./assets/images/dashboard/map.webp" alt="A world map with pins indicating various countries.">
+            <img loading="lazy" src="./assets/images/dashboard/map.webp" alt="A world map with pins indicating various countries." class="global-map-img">
           </div>
         </div>
       </div>
