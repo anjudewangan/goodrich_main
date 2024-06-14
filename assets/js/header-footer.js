@@ -23,17 +23,17 @@ document.getElementById("section-header").innerHTML = `<div
                       <div class="col">
                         <ul class="fa-ul no-icons text-s">
                           <li>
-                            <a href="the-goodrich-legacy.html">
+                            <a href="the-goodrich-legacy">
                               The Goodrich Legacy</a
                             >
                           </li>
                           <li>
-                            <a href="goodrich-cereals.html"
+                            <a href="goodrich-cereals"
                               >Goodrich Cereals
                             </a>
                           </li>
                           <li>
-                            <a href="sustainable-potatoes.html"
+                            <a href="sustainable-potatoes"
                               >Sustainable Potatoes</a
                             >
                           </li>
@@ -42,28 +42,28 @@ document.getElementById("section-header").innerHTML = `<div
                     </div>
                   </li>
                   <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="dehydrated-potato-products.html">Dehydrated Potato Products <span
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="dehydrated-potato-products">Dehydrated Potato Products <span
                       class="caret"></span></a>
                   <div class="mega-menu dropdown-menu multi-level row">
                     <div class="col">
                       <ul class="fa-ul no-icons text-s">
                         <li>
-                          <a href="potato-flakes.html">Potato Flakes</a>
+                          <a href="potato-flakes">Potato Flakes</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#flour-sec">Potato Flours</a>
+                          <a href="dehydrated-potato-products#flour-sec">Potato Flours</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a>
+                          <a href="dehydrated-potato-products#granule-sec">Potato Granules</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#air-dried-sec">Air-Dried Potato Pieces</a>
+                          <a href="dehydrated-potato-products#air-dried-sec">Air-Dried Potato Pieces</a>
                         </li>
                       </ul>
                     </div>
                 </li>
                   <li class="dropdown">
-                    <a href="blogs.html" role="button"
+                    <a href="blogs" role="button"
                       >Blogs</a>
                   </li>
                   <li class="logo-item">
@@ -72,15 +72,15 @@ document.getElementById("section-header").innerHTML = `<div
                     </a>
                   </li>
                   <li class="dropdown">
-                    <a href="media.html" role="button"
+                    <a href="media" role="button"
                       >Media</a>
                   </li>
                   <li class="dropdown mega-dropdown mega-tabs">
-                    <a href="manufacturing-excellence.html"
+                    <a href="manufacturing-excellence"
                       >Manufacturing Excellence</a>
                   </li>
                   <li class="dropdown mega-dropdown mega-tabs">
-                    <a href="get-in-touch.html"
+                    <a href="get-in-touch"
                       >Get in Touch</a>
                   </li>
                 </ul>
@@ -135,31 +135,31 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
       <h5 class="text-bold padding-left-footer">USEFUL LINKS</h5>
       <hr class="space s">
       <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
+        <p><a href="dehydrated-potato-products">Dehydrated Potato Products</a></p>
       </div>
       <div class="col-lg-12 col-xs-6">
-        <p><a href="potato-flakes.html">Potato Flakes</a></p>
+        <p><a href="potato-flakes">Potato Flakes</a></p>
       </div>
       <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
+        <p><a href="dehydrated-potato-products#flour-sec">Potato Flour</a></p>
       </div>
       <div class="col-lg-12 col-xs-6">
-        <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
+        <p><a href="dehydrated-potato-products#granule-sec">Potato Granules</a></p>
       </div>
       <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
+        <p><a href="dehydrated-potato-products#air-dried-sec">Potato Air-Dried Pieces</a></p>
       </div>
       <div class="col-lg-12 col-xs-6">
-        <p><a href="blogs.html">Blogs</a></p>
+        <p><a href="blogs">Blogs</a></p>
       </div>
       <div class="col-lg-12 col-xs-6 col-padding">
-        <p><a href="careers.html">Careers</a></p>
+        <p><a href="careers">Careers</a></p>
       </div>
       <div class="col-lg-12 col-xs-6">
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        <p><a href="privacy-policy">Privacy Policy</a></p>
       </div>
       <div class="col-lg-12 col-xs-6 col-padding">
-      <p><a href="get-in-touch.html">Contact Sales</a></p>
+      <p><a href="get-in-touch">Contact Sales</a></p>
     </div>
     </div>
     <div class="col-lg-3 col-xs-6 footer-right text-left">
@@ -234,7 +234,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
     <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
   </div>
   <div class="col-lg-5 col-xs-6 footer-text-end">
-    <p><a href="site-map.html">Site Map</a></p>
+    <p><a href="site-map">Site Map</a></p>
   </div>
 </div>
 </div>`;

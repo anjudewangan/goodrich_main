@@ -1,0 +1,31 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Goodrich Cereals",
+    "url": "https://goodrichcereals.com/",
+    "logo": "https://goodrichcereals.com/assets/images/logos/logo.webp",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-8059800945",
+        "contactType": "Customer Service",
+        "areaServed": "IN"
+    },
+    "sameAs": [
+        "https://www.facebook.com/GoodrichCereals/",
+        "https://twitter.com/goodrichcereals/",
+        "https://www.linkedin.com/company/goodrich-cereals/",
+        "https://www.instagram.com/goodrichcereals/"
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opposite Hotel Deventure, 1st Floor, Bank of Baroda Building, Namastey Chowk",
+        "addressLocality": "Karnal",
+        "addressRegion": "Haryana",
+        "postalCode": "132001",
+        "addressCountry": "India"
+    },
+    "founder": {
+        "@type": "Person",
+        "name": "Narendra Gupta"
+    }
+}

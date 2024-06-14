@@ -2,25 +2,28 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="robots" content="index, follow">
   <title>Goodrich | Media</title>
   <meta name="description" content="Explore the latest news and updates on Goodrich Cereals through our media page. Stay informed about our products and events. Visit now!">
   <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
   <meta property="og:title" content="Goodrich | Media">
   <meta property="og:description" content="Explore the latest news and updates on Goodrich Cereals through our media page. Stay informed about our products and events. Visit now!">
-  <meta property="og:url" content="https://goodrichcereals.com/media.html">
+  <meta property="og:url" content="https://goodrichcereals.com/media">
   <meta property="og:site_name" content="Goodrich | Media">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://goodrichcereals.com/media.html">
+  <link rel="canonical" href="https://goodrichcereals.com/media">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
-    <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+  <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
+  <script src="./assets/js/script.js" async></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <noscript>
+    <link rel="stylesheet" href="style.css">
+  </noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/animations.css">
   <link rel="stylesheet" href="./assets/css/components.css">
@@ -28,6 +31,19 @@
   <link rel="icon" href="./assets/images/logos/logo.webp">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="application/ld+json" src="./assets/js/schema.json"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0S50EB0MZY');
+  </script>
 </head>
 
 <?php include_once("includes/connection_inner.php"); ?>
@@ -136,13 +152,13 @@
                 <ul class="nav navbar-nav2 over inner maso-filters scroll-spy-menu">
                   <li class="active"><a data-filter="all">All</a></li>
                   <?php
-                    $catvData = $Q_obj->MediaEventTopList('video');
-                    if (count($catvData) > 0) :
-                      foreach ($catvData as $recordVCat) :
-                        echo '<li><a data-filter="cat' . $recordVCat['id'] . '">' . $recordVCat['type_name'] . '</a></li>';
-                      endforeach;
-                    endif;
-                    ?>
+                  $catvData = $Q_obj->MediaEventTopList('video');
+                  if (count($catvData) > 0) :
+                    foreach ($catvData as $recordVCat) :
+                      echo '<li><a data-filter="cat' . $recordVCat['id'] . '">' . $recordVCat['type_name'] . '</a></li>';
+                    endforeach;
+                  endif;
+                  ?>
                 </ul>
               </div>
               <div id="video-section">
@@ -181,26 +197,26 @@
       const tabLinks = document.querySelectorAll(".nav.navbar-nav2 a");
       const videoSection = document.getElementById("video-section");
       const tabContents = videoSection.querySelectorAll(".video-sec");
-  
+
       tabLinks.forEach(function(tab) {
         tab.addEventListener("click", function(e) {
           e.preventDefault();
-  
+
           // Remove 'active' class from all tab links
           tabLinks.forEach(function(link) {
             link.classList.remove("active");
           });
-  
+
           // Add 'active' class to the clicked tab link
           tab.classList.add("active");
-  
+
           const target = this.getAttribute("data-filter");
-  
+
           // Hide all tab contents in video section
           tabContents.forEach(function(content) {
             content.style.display = "none";
           });
-  
+
           // Display the tab content corresponding to the clicked link in video section
           if (target === "all") {
             tabContents.forEach(function(content) {

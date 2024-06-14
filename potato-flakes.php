@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="index, follow">
     <title>Goodrich | Potato Flakes</title>
     <meta name="description" content="Uncover the remarkable history and nutritional value of the potato, the fourth most important crop globally. Delve into its rich content of carbohydrates, proteins, minerals, and vitamins on our website.">
     <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
     <meta property="og:title" content="Goodrich | Potato Flakes">
     <meta property="og:description" content="Uncover the remarkable history and nutritional value of the potato, the fourth most important crop globally. Delve into its rich content of carbohydrates, proteins, minerals, and vitamins on our website.">
-    <meta property="og:url" content="https://goodrichcereals.com/potato-flakes.html">
+    <meta property="og:url" content="https://goodrichcereals.com/potato-flakes">
     <meta property="og:site_name" content="Goodrich | Potato Flakes">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/potato-flakes.html">
+    <link rel="canonical" href="https://goodrichcereals.com/potato-flakes">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
@@ -34,6 +35,19 @@
     <link rel="stylesheet" href='./assets/js/jquery.flipster.min.css'>
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="application/ld+json" src="./assets/js/schema.json"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S50EB0MZY');
+    </script>
 </head>
 
 <body>
@@ -54,7 +68,7 @@
                 <div class="row">
                     <ol class="breadcrumb" style="font-style: italic;">
                         <li><a href="./">Home</a></li>
-                        <li><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></li>
+                        <li><a href="dehydrated-potato-products">Dehydrated Potato Products</a></li>
                         <li class="active">Potato Flakes</li>
                     </ol>
                 </div>
@@ -306,7 +320,7 @@
                         <p data-anima="fade-bottom"> Discover the unmatched convenience and quality of Goodrich's Potato Flakes – your secret ingredient for culinary success. </p>
                     </div>
                 </div>
-                <hr class="space m"> <a href="./get-in-touch.html" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Contact Us</a>
+                <hr class="space m"> <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Contact Us</a>
             </div>
         </div>
         <div class="section-empty no-paddings">

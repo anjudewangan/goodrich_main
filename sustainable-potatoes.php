@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="index, follow">
     <title>Goodrich | Sustainable Potatoes</title>
     <meta name="description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
     <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
     <meta property="og:title" content="Goodrich | Sustainable Potatoes">
     <meta property="og:description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
-    <meta property="og:url" content="https://goodrichcereals.com/sustainable-potatoes.html">
+    <meta property="og:url" content="https://goodrichcereals.com/sustainable-potatoes">
     <meta property="og:site_name" content="Goodrich | Sustainable Potatoes">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/sustainable-potatoes.html">
+    <link rel="canonical" href="https://goodrichcereals.com/sustainable-potatoes">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
@@ -29,6 +30,19 @@
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="application/ld+json" src="./assets/js/schema.json"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S50EB0MZY');
+    </script>
 </head>
 
 <body>

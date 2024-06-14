@@ -16,19 +16,20 @@ endif;
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="robots" content="index, follow">
   <title>Blogs | <?php echo $rsData[0]['title']; ?></title>
   <meta name="description" content="Get inspired by our blog featuring a range of tasty cereal recipes and breakfast tips. Start your day off right with Goodrich Cereals.">
   <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
   <meta property="og:title" content="Goodrich | Blog Detail">
   <meta property="og:description" content="Get inspired by our blog featuring a range of tasty cereal recipes and breakfast tips. Start your day off right with Goodrich Cereals.">
-  <meta property="og:url" content="https://goodrichcereals.com/blogs.html">
+  <meta property="og:url" content="https://goodrichcereals.com/blogs">
   <meta property="og:site_name" content="Goodrich | Blog Detail">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://goodrichcereals.com/blogs.html">
+  <link rel="canonical" href="https://goodrichcereals.com/blogs">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="../assets/js/jquery.min.js "></script>
   <link rel="stylesheet" href="../assets/js/bootstrap/css/bootstrap.css">
@@ -40,6 +41,19 @@ endif;
   <link rel="stylesheet" href="../assets/css/skin.css">
   <link rel="icon" href="../assets/images/logos/logo.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="application/ld+json" src="./assets/js/schema.json"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0S50EB0MZY');
+  </script>
 </head>
 
 <body>
@@ -60,7 +74,7 @@ endif;
         <div class="row">
           <ol class="breadcrumb" style="font-style: italic;">
             <li><a href="../">Home</a></li>
-            <li><a href="../blogs.html">Blogs</a></li>
+            <li><a href="../blogs">Blogs</a></li>
             <li class="active"><?php echo htmlspecialchars($rsData[0]['title'], ENT_QUOTES, 'UTF-8'); ?></li>
           </ol>
         </div>

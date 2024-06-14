@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="robots" content="index, follow">
   <title>Goodrich | Home</title>
   <meta name="description" content="Discover the exceptional quality of Goodrich Cereals' dehydrated potato products. As a star member of the Goodrich Group, we aim to be the leader in the industry, offering global accessibility and exceeding expectations. Join us today!">
   <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
@@ -34,6 +35,19 @@
   <!-- Plugin Css -->
   <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="application/ld+json" src="./assets/js/schema.json"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0S50EB0MZY');
+  </script>
 </head>
 
 <body>
@@ -64,44 +78,44 @@
                     <div class="col">
                       <ul class="fa-ul no-icons text-s">
                         <li>
-                          <a href="the-goodrich-legacy.html">
+                          <a href="the-goodrich-legacy">
                             The Goodrich Legacy</a>
                         </li>
                         <li>
-                          <a href="goodrich-cereals.html">Goodrich Cereals
+                          <a href="goodrich-cereals">Goodrich Cereals
                           </a>
                         </li>
                         <li>
-                          <a href="sustainable-potatoes.html">Sustainable Potatoes</a>
+                          <a href="sustainable-potatoes">Sustainable Potatoes</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="dehydrated-potato-products.html">Dehydrated
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="dehydrated-potato-products">Dehydrated
                     Potato Products <span class="caret"></span></a>
                   <div class="mega-menu dropdown-menu multi-level row">
                     <div class="col">
                       <ul class="fa-ul no-icons text-s">
                         <li>
-                          <a href="potato-flakes.html">Potato Flakes</a>
+                          <a href="potato-flakes">Potato Flakes</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#flour-sec">Potato Flours</a>
+                          <a href="dehydrated-potato-products#flour-sec">Potato Flours</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a>
+                          <a href="dehydrated-potato-products#granule-sec">Potato Granules</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html#air-dried-sec">Air-Dried Potato Pieces</a>
+                          <a href="dehydrated-potato-products#air-dried-sec">Air-Dried Potato Pieces</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li class="dropdown">
-                  <a href="blogs.html" role="button">Blogs</a>
+                  <a href="blogs" role="button">Blogs</a>
                 </li>
                 <li class="logo-item">
                   <a href="./">
@@ -109,13 +123,13 @@
                   </a>
                 </li>
                 <li class="dropdown">
-                  <a href="media.html" role="button">Media</a>
+                  <a href="media" role="button">Media</a>
                 </li>
                 <li class="dropdown mega-dropdown mega-tabs">
-                  <a href="manufacturing-excellence.html">Manufacturing Excellence</a>
+                  <a href="manufacturing-excellence">Manufacturing Excellence</a>
                 </li>
                 <li class="dropdown mega-dropdown mega-tabs">
-                  <a href="get-in-touch.html">Get in Touch</a>
+                  <a href="get-in-touch">Get in Touch</a>
                 </li>
               </ul>
             </div>
@@ -150,11 +164,11 @@
       <!-- Social Icons -->
       <ul class="social-icons social-icons-simple revicon white d-none d-lg-block">
         <li class="d-table">
-          <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL" class="social-icon"><i class="fa fa-facebook"></i>
+          <a target="_blank" href="https://www.facebook.com/GoodrichCereals/" class="social-icon"><i class="fa fa-facebook"></i>
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://twitter.com/goodrichcereals" class="social-icon"><i class="fa fa-twitter"></i>
+          <a target="_blank" href="https://twitter.com/goodrichcereals/" class="social-icon"><i class="fa fa-twitter"></i>
           </a>
         </li>
         <li class="d-table">
@@ -162,7 +176,7 @@
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://www.instagram.com/goodrichcereals?igsh=YThmZnp0ZTNoYnB2" class=" social-icon"><i class="fa fa-instagram"></i>
+          <a target="_blank" href="https://www.instagram.com/goodrichcereals/" class=" social-icon"><i class="fa fa-instagram"></i>
           </a>
         </li>
       </ul>
@@ -171,7 +185,7 @@
       <div class="container content">
         <div class="title-base">
           <hr>
-          <h2>About Us</h2>
+          <h1>About Us</h1>
           <p>One of the Largest Manufacturers and Exporters of Dehydrated Potatoes</p>
         </div>
         <div class="row">
@@ -706,7 +720,7 @@
               <div class="col-md-6">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="potato-flakes.html">
+                    <a class="img-box img-fade-bottom" href="potato-flakes">
                       <img loading="lazy" alt="A bowl of white potato flakes on a wooden table" src="./assets/images/products/L1-Flake.webp">
                     </a>
                     <div class="caption anima">
@@ -745,7 +759,7 @@
               <div class="col-md-6">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#granule-sec">
+                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products#granule-sec">
                       <img loading="lazy" alt="A bowl of white potato granules on a wooden table" src="./assets/images/products/L1-Granules.webp">
                     </a>
                     <div class="caption anima">
@@ -781,7 +795,7 @@
               <div class="col-md-6">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#flour-sec">
+                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products#flour-sec">
                       <img loading="lazy" alt="A bowl of white potato flour on a wooden table" src="./assets/images/products/L1-Flour.webp">
                     </a>
                     <div class="caption anima">
@@ -819,7 +833,7 @@
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
+                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
                       <img loading="lazy" alt="A bowl of white potato slices on a wooden table" src="./assets/images/products/L1-Slices.webp">
 
                       <div class="caption anima">
@@ -832,7 +846,7 @@
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
+                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
                       <img loading="lazy" alt="A bowl of white potato dices on a wooden table" src="./assets/images/products/L1-cube.webp">
 
                       <div class="caption anima">
@@ -845,7 +859,7 @@
               <div class="col-lg-4 col-xs-4">
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
+                    <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
                       <img loading="lazy" alt="A bowl of white potato shreds on a wooden table" src="./assets/images/products/L1-shreds.webp">
 
                       <div class="caption anima">
@@ -1007,7 +1021,7 @@
               that farmers should get the price that they actually deserve for
               their hard work.
             </p>
-            <a class="btn-text" href="./sustainable-potatoes.html">Read More</a>
+            <a class="btn-text" href="./sustainable-potatoes">Read More</a>
             <hr class="space s">
           </div>
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-right">
@@ -1041,7 +1055,7 @@
               dedication to sustainable practices: potato contract farming,
               biomass utilization, and solar energy integration.
             </p>
-            <a class="btn-text" href="./sustainable-potatoes.html">Read More</a>
+            <a class="btn-text" href="./sustainable-potatoes">Read More</a>
           </div>
         </div>
       </div>
@@ -1138,7 +1152,7 @@
                 <div class="grid-box row">
                   <?php
                   foreach ($rsData as $key => $record) :
-                    $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog-detail.html/' . $record['id'] . '"';
+                    $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog-detail/' . $record['id'] . '"';
                   ?>
                     <div class="grid-item col-md-4">
                       <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
@@ -1215,31 +1229,31 @@
             <h5 class="text-bold padding-left-footer">USEFUL LINKS</h5>
             <hr class="space s">
             <div class="col-lg-12 col-xs-6 col-padding">
-              <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
+              <p><a href="dehydrated-potato-products">Dehydrated Potato Products</a></p>
             </div>
             <div class="col-lg-12 col-xs-6">
-              <p><a href="potato-flakes.html">Potato Flakes</a></p>
+              <p><a href="potato-flakes">Potato Flakes</a></p>
             </div>
             <div class="col-lg-12 col-xs-6 col-padding">
-              <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
+              <p><a href="dehydrated-potato-products#flour-sec">Potato Flour</a></p>
             </div>
             <div class="col-lg-12 col-xs-6">
-              <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
+              <p><a href="dehydrated-potato-products#granule-sec">Potato Granules</a></p>
             </div>
             <div class="col-lg-12 col-xs-6 col-padding">
-              <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
+              <p><a href="dehydrated-potato-products#air-dried-sec">Potato Air-Dried Pieces</a></p>
             </div>
             <div class="col-lg-12 col-xs-6">
-              <p><a href="blogs.html">Blogs</a></p>
+              <p><a href="blogs">Blogs</a></p>
             </div>
             <div class="col-lg-12 col-xs-6 col-padding">
-              <p><a href="careers.html">Careers</a></p>
+              <p><a href="careers">Careers</a></p>
             </div>
             <div class="col-lg-12 col-xs-6">
-              <p><a href="privacy-policy.html">Privacy Policy</a></p>
+              <p><a href="privacy-policy">Privacy Policy</a></p>
             </div>
             <div class="col-lg-12 col-xs-6 col-padding">
-              <p><a href="get-in-touch.html">Contact Sales</a></p>
+              <p><a href="get-in-touch">Contact Sales</a></p>
             </div>
           </div>
           <div class="col-lg-3 col-xs-6 footer-right text-left">
@@ -1314,7 +1328,7 @@
           <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
         </div>
         <div class="col-lg-5 col-xs-6 footer-text-end">
-          <p><a href="site-map.html">Site Map</a></p>
+          <p><a href="site-map">Site Map</a></p>
         </div>
       </div>
     </div>
