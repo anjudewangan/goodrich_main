@@ -1,5 +1,11 @@
+#goodrich_cereals robots.txt
+
 User-agent: *
+Allow: / 
 Disallow: /admin/
 Disallow: /private/
 Disallow: /cgi-bin/
 Disallow: /images/
+Sitemap: https://goodrichcereals.com/site-map
+Sitemap: https://goodrichcereals.com/sitemap.xml
+
