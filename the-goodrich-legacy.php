@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
-  <title>Goodrich | The Goodrich Legacy</title>
-  <meta name="description" content="Goodrich Group of Companies excels in producing a diverse range of products, from natural starches to botanical extracts. Explore our portfolio for the Pulp & Paper, Breweries, Food Industry, and more.">
-  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <title>The Goodrich Legacy | Our History and Commitment</title>
+  <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+  <meta name="description" content="Explore Goodrich Cereals' rich history and commitment to premium dehydrated potato products, celebrating our legacy of quality and innovation.">
+  <meta name="keywords" content="Goodrich Cereals Legacy, Premium Dehydrated Potato Products History, Food Industry Contributions, Potato Product Innovation, Goodrich Cereals Heritage, Culinary Excellence, Company Values, Food Processing Innovations, Potato Product Manufacturing Journey, Quality Food Industry Standards">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
-  <meta property="og:title" content="Goodrich | The Goodrich Legacy">
-  <meta property="og:description" content="Goodrich Group of Companies excels in producing a diverse range of products, from natural starches to botanical extracts. Explore our portfolio for the Pulp & Paper, Breweries, Food Industry, and more.">
-  <meta property="og:url" content="https://goodrichcereals.com/the-goodrich-legacy">
-  <meta property="og:site_name" content="Goodrich | The Goodrich Legacy">
+  <meta property="og:title" content="The Goodrich Legacy | Our History and Commitment">
+  <meta property="og:description" content="Explore Goodrich Cereals' rich history and commitment to premium dehydrated potato products, celebrating our legacy of quality and innovation.">
+  <meta property="og:url" content="https://www.goodrichcereals.com/the-goodrich-legacy">
+  <meta property="og:site_name" content="The Goodrich Legacy | Our History and Commitment">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://goodrichcereals.com/the-goodrich-legacy">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -29,8 +30,8 @@
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <link rel="icon" href="./assets/images/logos/logo.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script type="application/ld+json" src="./assets/js/schema.json"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
   <script>
@@ -299,7 +300,7 @@
                 <i class="im-money text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></p>
                 <p class="text-s hidden-sm">Group Revenue (Mn $)</p>
                 <p class="text-s hidden-lg">GR</p>
               </div>
@@ -311,7 +312,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></p>
                 <p class="text-s">Employees</p>
               </div>
             </div>
@@ -322,7 +323,7 @@
                 <i class="im-globe text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="40"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="40"></label></p>
                 <p class="text-s">Countries</p>
               </div>
             </div>
@@ -333,7 +334,7 @@
                 <i class="im-building text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="6"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="6"></label></p>
                 <p class="text-s">Brands</p>
               </div>
             </div>
@@ -347,7 +348,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="27"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="27"></label></p>
                 <p class="text-s">Experience</p>
               </div>
             </div>
@@ -358,7 +359,7 @@
                 <i class="im-building text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="3"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="3"></label></p>
                 <p class="text-s">Plants</p>
               </div>
             </div>
@@ -369,7 +370,7 @@
                 <i class="im-target text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="10"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="10"></label></p>
                 <p class="text-s">Certifications</p>
               </div>
             </div>
@@ -380,7 +381,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></p>
                 <p class="text-s">Clients</p>
               </div>
             </div>

@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
-  <title>Goodrich | Media</title>
-  <meta name="description" content="Explore the latest news and updates on Goodrich Cereals through our media page. Stay informed about our products and events. Visit now!">
-  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <title>Goodrich Cereals Media | News, Updates, and Insights</title>
+  <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+  <meta name="description" content="Explore Goodrich Cereals' media section for the latest on premium dehydrated potato products, culinary excellence, and global accessibility.">
+  <meta name="keywords" content="Goodrich Cereals Media, Dehydrated Potato Products News, Potato Product Updates, Food Industry Insights, Culinary Innovation News, Global Potato Industry Updates, Potato Product Innovations, Food Manufacturing Trends, Goodrich Cereals Blog, Potato Processing News">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
-  <meta property="og:title" content="Goodrich | Media">
-  <meta property="og:description" content="Explore the latest news and updates on Goodrich Cereals through our media page. Stay informed about our products and events. Visit now!">
-  <meta property="og:url" content="https://goodrichcereals.com/media">
-  <meta property="og:site_name" content="Goodrich | Media">
+  <meta property="og:title" content="Goodrich Cereals Media | News, Updates, and Insights">
+  <meta property="og:description" content="Explore Goodrich Cereals' media section for the latest on premium dehydrated potato products, culinary excellence, and global accessibility.">
+  <meta property="og:url" content="https://www.goodrichcereals.com/media">
+  <meta property="og:site_name" content="Goodrich Cereals Media | News, Updates, and Insights">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://goodrichcereals.com/media">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -30,8 +31,8 @@
   <link rel="stylesheet" href="./assets/css/image-box.css">
   <link rel="icon" href="./assets/images/logos/logo.webp">
   <link rel="stylesheet" href="./assets/css/skin.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script type="application/ld+json" src="./assets/js/schema.json"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
   <script>

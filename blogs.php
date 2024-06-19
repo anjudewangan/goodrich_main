@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="robots" content="index, follow">
-    <title>Goodrich | Blogs</title>
-    <meta name="description" content="Explore a variety of delicious and nutritious cereal recipes on our blog. Find inspiration for your next breakfast creation at Goodrich Cereals.">
-    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <title>Goodrich Cereals Blogs | Insights, Recipes & Industry News</title>
+    <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+    <meta name="description" content="Explore Goodrich Cereals' blog for insightful articles, recipes featuring premium dehydrated potato products, and the latest industry news.">
+    <meta name="keywords" content="Dehydrated Potato Products Blog, Goodrich Cereals Recipes, Potato Product News, Food Industry Insights, Premium Potato Recipes, Industry Trends Blog, Potato Product Innovations, Goodrich Cereals Updates, Food Manufacturing Blog, Potato Processing News">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
-    <meta property="og:title" content="Goodrich | Blogs">
-    <meta property="og:description" content="Explore a variety of delicious and nutritious cereal recipes on our blog. Find inspiration for your next breakfast creation at Goodrich Cereals.">
-    <meta property="og:url" content="https://goodrichcereals.com/blogs">
-    <meta property="og:site_name" content="Goodrich | Blogs">
+    <meta property="og:title" content="Goodrich Cereals Blogs | Insights, Recipes & Industry News">
+    <meta property="og:description" content="Explore Goodrich Cereals' blog for insightful articles, recipes featuring premium dehydrated potato products, and the latest industry news.">
+    <meta property="og:url" content="https://www.goodrichcereals.com/blogs">
+    <meta property="og:site_name" content="Goodrich Cereals Blogs | Insights, Recipes & Industry News">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://goodrichcereals.com/blogs">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -31,8 +32,8 @@
     <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="stylesheet" href="./assets/css/blog-style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="application/ld+json" src="./assets/js/schema.json"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
     <script>

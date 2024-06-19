@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="robots" content="index, follow">
-    <title>Goodrich | Sustainable Potatoes</title>
-    <meta name="description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
-    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <title>Sustainable Potatoes | Goodrich Cereals' Commitment</title>
+    <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+    <meta name="description" content="Discover Goodrich Cereals' sustainable potato farming practices and commitment to eco-friendly, high-quality agriculture.">
+    <meta name="keywords" content="Sustainable Potatoes, Eco-Friendly Potato Farming, Sustainable Agriculture Practices, Environmental Potato Production, Organic Potato Farming, Green Potato Processing, Sustainable Food Industry, Goodrich Cereals Sustainability, Potato Sustainability Initiatives, Responsible Potato Farming">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
-    <meta property="og:title" content="Goodrich | Sustainable Potatoes">
-    <meta property="og:description" content="Goodrich Cereals: Nurturing nature, nourishing the future. Experience our commitment to sustainability as we go beyond potato products, creating a future where nature thrives and communities flourish.">
-    <meta property="og:url" content="https://goodrichcereals.com/sustainable-potatoes">
-    <meta property="og:site_name" content="Goodrich | Sustainable Potatoes">
+    <meta property="og:title" content="Sustainable Potatoes | Goodrich Cereals' Commitment">
+    <meta property="og:description" content="Discover Goodrich Cereals' sustainable potato farming practices and commitment to eco-friendly, high-quality agriculture.">
+    <meta property="og:url" content="https://www.goodrichcereals.com/sustainable-potatoes">
+    <meta property="og:site_name" content="Sustainable Potatoes | Goodrich Cereals' Commitment">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://goodrichcereals.com/sustainable-potatoes">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -29,8 +30,8 @@
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="application/ld+json" src="./assets/js/schema.json"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
     <script>

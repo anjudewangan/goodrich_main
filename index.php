@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
-  <title>Goodrich | Home</title>
-  <meta name="description" content="Discover the exceptional quality of Goodrich Cereals' dehydrated potato products. As a star member of the Goodrich Group, we aim to be the leader in the industry, offering global accessibility and exceeding expectations. Join us today!">
-  <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+  <title>Goodrich Cereals | Premium Quality Dehydrated Potato Products</title>
+  <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+  <meta name="description" content="Discover Goodrich Cereals' top-tier dehydrated potato products. As a leader in the Goodrich Group, we exceed global standards. Join us today!">
+  <meta name="keywords" content="Dehydrated Potato Products, Potato Flakes Supplier, Potato Granules Manufacturer, Sustainable Potato Farming, Air-Dried Potato Pieces, Exporters of Dehydrated Potatoes, Bulk Potato Products, Quality Potato Products India, Potato Semolina Uses, Industrial Potato Solutions">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
-  <meta property="og:title" content="Goodrich | Home">
-  <meta property="og:description" content="Discover the exceptional quality of Goodrich Cereals' dehydrated potato products. As a star member of the Goodrich Group, we aim to be the leader in the industry, offering global accessibility and exceeding expectations. Join us today!">
-  <meta property="og:url" content="https://goodrichcereals.com/">
-  <meta property="og:site_name" content="Goodrich | Home">
+  <meta property="og:title" content="Goodrich Cereals | Premium Quality Dehydrated Potato Products">
+  <meta property="og:description" content="Discover Goodrich Cereals' top-tier dehydrated potato products. As a leader in the Goodrich Group, we exceed global standards. Join us today!">
+  <meta property="og:url" content="https://www.goodrichcereals.com/">
+  <meta property="og:site_name" content="Goodrich Cereals | Premium Quality Dehydrated Potato Products">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://goodrichcereals.com/">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -31,11 +32,11 @@
   <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css">
   <link rel="stylesheet" href="./assets/js/magnific-popup.css">
   <link rel="icon" href="./assets/images/logos/logo.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <!-- Plugin Css -->
   <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script type="application/ld+json" src="./assets/js/schema.json"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
   <script>
@@ -65,9 +66,9 @@
                 <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand" href="./">
-                <img loading="lazy" class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="goodric-logo">
-                <img loading="lazy" class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="goodric-logo">
-                <img loading="lazy" class="logo-retina" src="./assets/images/logos/logo.webp" alt="goodric-logo">
+                <img loading="lazy" class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo">
+                <img loading="lazy" class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Scroll Show">
+                <img loading="lazy" class="logo-retina" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Retina">
               </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -185,7 +186,7 @@
       <div class="container content">
         <div class="title-base">
           <hr>
-          <h1>About Us</h1>
+          <h2>About Us</h2>
           <p>One of the Largest Manufacturers and Exporters of Dehydrated Potatoes</p>
         </div>
         <div class="row">
@@ -362,7 +363,7 @@
                 <i class="im-money text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></p>
                 <p class="text-s hidden-sm">Group Revenue (Mn $)</p>
                 <p class="text-s hidden-lg">GR</p>
               </div>
@@ -374,7 +375,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></p>
                 <p class="text-s">Employees</p>
               </div>
             </div>
@@ -385,7 +386,7 @@
                 <i class="im-globe text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="40"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="40"></label></p>
                 <p class="text-s">Countries</p>
               </div>
             </div>
@@ -396,7 +397,7 @@
                 <i class="im-building text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="6"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="6"></label></p>
                 <p class="text-s">Brands</p>
               </div>
             </div>
@@ -410,7 +411,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="27"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="27"></label></p>
                 <p class="text-s">Experience</p>
               </div>
             </div>
@@ -421,7 +422,7 @@
                 <i class="im-building text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="3"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="3"></label></p>
                 <p class="text-s">Plants</p>
               </div>
             </div>
@@ -432,7 +433,7 @@
                 <i class="im-target text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="10"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="10"></label></p>
                 <p class="text-s">Certifications</p>
               </div>
             </div>
@@ -443,7 +444,7 @@
                 <i class="im-conference text-xl"></i>
               </div>
               <div class="icon-box-cell">
-                <b><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></b>
+                <p><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></p>
                 <p class="text-s">Clients</p>
               </div>
             </div>
@@ -563,7 +564,7 @@
       <div class="container content">
         <div class="title-base">
           <hr>
-          <h2>Our manufacturing process</h2>
+          <h1>Our manufacturing process</h1>
           <p>We Love Quality in our Products</p>
         </div>
         <div class="row">
@@ -578,7 +579,7 @@
           <div class="col-md-4">
             <div class="div-shadow">
               <div class="process-step">
-                <div class="process-step-circle"><strong class="process-step-circle-content">1</strong></div>
+                <div class="process-step-circle"><span class="process-step-circle-content">1</span></div>
               </div>
               <img loading="lazy" src="./assets/images/dashboard/sorting.webp" alt="Potatoes being loaded onto a conveyor belt for cleaning, sorting, and washing.">
               <div class="caption-bottom">
@@ -590,7 +591,7 @@
           <div class="col-md-4">
             <div class="div-shadow">
               <div class="process-step">
-                <div class="process-step-circle"><strong class="process-step-circle-content">2</strong></div>
+                <div class="process-step-circle"><span class="process-step-circle-content">2</span></div>
               </div>
               <img loading="lazy" src="./assets/images/dashboard/peeling.webp" alt="Potatoes being steam peeled in a machine, undergoing processing for further use.">
               <div class="caption-bottom">
@@ -602,7 +603,7 @@
           <div class="col-md-4">
             <div class="div-shadow">
               <div class="process-step3">
-                <div class="process-step-circle3"><strong class="process-step-circle3-content">3</strong></div>
+                <div class="process-step-circle3"><span class="process-step-circle3-content">3</span></div>
               </div>
               <img loading="lazy" src="./assets/images/dashboard/finished.webp" alt="Two men in white coats standing in front of a machine, possibly used for cooking and mashing potatoes.">
               <div class="caption-bottom">

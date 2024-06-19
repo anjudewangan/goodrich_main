@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="robots" content="index, follow">
-    <title>Goodrich | Privacy Policy</title>
-    <meta name="description" content="Protect your privacy with Goodrich Cereals. Learn how we collect, use, and secure your data. Your information is safe with us.">
-    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <title>Goodrich Cereals | Privacy Policy</title>
+    <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+    <meta name="description" content="Read Goodrich Cereals' privacy policy for details on how we protect your information with transparency and security measures.">
+    <meta name="keywords" content="Goodrich Cereals Privacy Policy, Data Protection Policy Goodrich Cereals, Privacy Statement Goodrich Cereals, Personal Information Privacy Goodrich Cereals, Online Privacy Policy Goodrich Cereals, Privacy Policy Compliance, GDPR Compliance Goodrich Cereals, Privacy Policy Updates, Privacy Policy Terms, Privacy Policy Agreement">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
     <meta property="og:title" content="Goodrich | Privacy Policy">
-    <meta property="og:description" content="Protect your privacy with Goodrich Cereals. Learn how we collect, use, and secure your data. Your information is safe with us.">
-    <meta property="og:url" content="https://goodrichcereals.com/privacy-policy">
+    <meta property="og:description" content="Read Goodrich Cereals' privacy policy for details on how we protect your information with transparency and security measures.">
+    <meta property="og:url" content="https://www.goodrichcereals.com/privacy-policy">
     <meta property="og:site_name" content="Goodrich | Privacy Policy">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://goodrichcereals.com/privacy-policy">
@@ -27,11 +28,11 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="application/ld+json" src="./assets/js/schema.json"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
     <script>

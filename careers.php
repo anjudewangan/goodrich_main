@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="robots" content="index, follow">
-    <title>Goodrich | Careers</title>
-    <meta name="description" content="Discover rewarding career paths at Goodrich Cereals. We offer a range of opportunities in the cereal industry. Apply today and be part of our success story.">
-    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <title>Careers at Goodrich Cereals | Join Our Team Today!</title>
+    <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+    <meta name="description" content="Explore career opportunities at Goodrich Cereals, a leader in premium dehydrated potato products. Join our innovative team and grow in the food industry!">
+    <meta name="keywords" content="Goodrich Cereals Careers, Food Industry Careers, Potato Product Careers, Job Opportunities in Food Manufacturing, Dehydrated Potato Products Jobs, Food Industry Employment, Career Opportunities in Food Processing, Job Openings at Goodrich Cereals, Food Manufacturing Careers, Potato Processing Careers">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
-    <meta property="og:title" content="Goodrich | Careers">
-    <meta property="og:description" content="Discover rewarding career paths at Goodrich Cereals. We offer a range of opportunities in the cereal industry. Apply today and be part of our success story.">
-    <meta property="og:url" content="https://goodrichcereals.com/careers">
-    <meta property="og:site_name" content="Goodrich | Careers">
+    <meta property="og:title" content="Careers at Goodrich Cereals | Join Our Team Today!">
+    <meta property="og:description" content="Explore career opportunities at Goodrich Cereals, a leader in premium dehydrated potato products. Join our innovative team and grow in the food industry!">
+    <meta property="og:url" content="https://www.goodrichcereals.com/careers">
+    <meta property="og:site_name" content="Careers at Goodrich Cereals | Join Our Team Today!">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://goodrichcereals.com/careers">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -30,8 +31,8 @@
     <link rel="stylesheet" href='./assets/css/components.css'>
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="application/ld+json" src="./assets/js/schema.json"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
     <script>

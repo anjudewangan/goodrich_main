@@ -1,0 +1,51 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Goodrich Cereals",
+    "image": [
+      "https://goodrichcereals.com/assets/images/products/L1-Flake.webp",
+      "https://goodrichcereals.com/assets/images/products/L1-Granules.webp",
+      "https://goodrichcereals.com/assets/images/products/L1-Flour.webp",
+      "https://goodrichcereals.com/assets/images/products/L1-Slices.webp",
+      "https://goodrichcereals.com/assets/images/products/L1-cube.webp",
+      "https://goodrichcereals.com/assets/images/products/L1-shreds.webp"
+    ],
+    "description": "High-quality cereals made with the finest ingredients.",
+    "sku": "GR12345",
+    "mpn": "GR67890",
+    "brand": {
+      "@type": "Brand",
+      "name": "Goodrich"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Narendra Gupta"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "reviewCount": "150"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://goodrichcereals.com/potato-flakes",
+      "priceCurrency": "USD",
+      "price": "4.99",
+      "priceValidUntil": "2024-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Goodrich Cereals"
+      }
+    }
+  }
+  

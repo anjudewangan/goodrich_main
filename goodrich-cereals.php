@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="robots" content="index, follow">
-    <title>Goodrich | Goodrich Cereals</title>
-    <meta name="description" content="Goodrich Cereals: Leading the way in potato processing. Our cutting-edge plant in Karnal, equipped with imported machinery, ensures top-quality products. Experience the impact of world-class potato flakes in the Indian market.">
-    <meta name="keywords" content="Dehydrated potato products, Potato flakes supplier, Potato granules manufacturer, Sustainable potato farming, Air-dried potato pieces, Exporters of dehydrated potatoes, Bulk potato products, Quality potato products India, Potato semolina uses, Industrial potato solutions">
+    <title>Goodrich Cereals | Premium Potato Products & Innovations</title>
+    <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+    <meta name="description" content="Welcome to Goodrich Cereals, innovating premium dehydrated potato products for culinary excellence and global accessibility. Elevate your dishes with us.">
+    <meta name="keywords" content="Premium Dehydrated Potato Products, Goodrich Cereals, Potato Flakes Supplier, Dehydrated Potato Granules, Culinary Potato Ingredients, Innovative Potato Processing, Global Potato Products, Food Industry Potato Products, High-Quality Potato Products, Potato Product Manufacturer">
     <meta property="og:image" content="./assets/images/logos/logo.webp">
-    <meta property="og:title" content="Goodrich | Goodrich Cereals">
-    <meta property="og:description" content="Goodrich Cereals: Leading the way in potato processing. Our cutting-edge plant in Karnal, equipped with imported machinery, ensures top-quality products. Experience the impact of world-class potato flakes in the Indian market.">
-    <meta property="og:url" content="https://goodrichcereals.com/goodrich-cereals">
-    <meta property="og:site_name" content="Goodrich | Goodrich Cereals">
+    <meta property="og:title" content="Goodrich Cereals | Premium Potato Products & Innovations">
+    <meta property="og:description" content="Welcome to Goodrich Cereals, innovating premium dehydrated potato products for culinary excellence and global accessibility. Elevate your dishes with us.">
+    <meta property="og:url" content="https://www.goodrichcereals.com/goodrich-cereals">
+    <meta property="og:site_name" content="Goodrich Cereals | Premium Potato Products & Innovations">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://goodrichcereals.com/goodrich-cereals">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
@@ -30,8 +31,8 @@
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="application/ld+json" src="./assets/js/schema.json"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
     <script>
