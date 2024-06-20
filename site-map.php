@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://www.goodrichcereals.com/site-map">
     <meta property="og:site_name" content="Goodrich | Site Map">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/site-map">
+    <link rel="canonical" href="https://www.goodrichcereals.com/site-map">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">

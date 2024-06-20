@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://www.goodrichcereals.com/goodrich-cereals">
     <meta property="og:site_name" content="Goodrich Cereals | Premium Potato Products & Innovations">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/goodrich-cereals">
+    <link rel="canonical" href="https://www.goodrichcereals.com/goodrich-cereals">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">

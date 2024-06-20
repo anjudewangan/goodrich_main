@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://www.goodrichcereals.com/blogs">
     <meta property="og:site_name" content="Goodrich Cereals Blogs | Insights, Recipes & Industry News">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/blogs">
+    <link rel="canonical" href="https://www.goodrichcereals.com/blogs">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">

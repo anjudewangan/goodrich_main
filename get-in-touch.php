@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://www.goodrichcereals.com/get-in-touch">
     <meta property="og:site_name" content="Contact Goodrich Cereals | Get in Touch with Us Today!">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://goodrichcereals.com/get-in-touch">
+    <link rel="canonical" href="https://www.goodrichcereals.com/get-in-touch">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
     <script src="./assets/js/jquery.min.js" async></script>
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">

@@ -16,7 +16,7 @@
   <meta property="og:url" content="https://www.goodrichcereals.com/the-goodrich-legacy">
   <meta property="og:site_name" content="The Goodrich Legacy | Our History and Commitment">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://goodrichcereals.com/the-goodrich-legacy">
+  <link rel="canonical" href="https://www.goodrichcereals.com/the-goodrich-legacy">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
   <script src="./assets/js/jquery.min.js" async></script>
   <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
