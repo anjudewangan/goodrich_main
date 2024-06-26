@@ -18,16 +18,15 @@
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://www.goodrichcereals.com/sustainable-potatoes">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
-    <script src="./assets/js/jquery.min.js" async></script>
-    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </noscript>
-    <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/content-box.css">
-    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
     <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
@@ -149,10 +148,9 @@
     </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
-    <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/js/imagesloaded.min.js"></script>
-    <script src="./assets/js/isotope.min.js"></script>
-    <script src="./assets/js/parallax.min.js"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.2/isotope.pkgd.min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
 

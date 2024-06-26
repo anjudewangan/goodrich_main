@@ -18,24 +18,19 @@
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://www.goodrichcereals.com/">
   <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
-  <script src="./assets/js/jquery.min.js" async></script>
-  <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <script src="./assets/js/script.js" async></script>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </noscript>
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/image-box.css">
-  <link rel="stylesheet" href="./assets/css/animations.css">
-  <link rel="stylesheet" href="./assets/css/components.css">
-  <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css">
-  <link rel="stylesheet" href="./assets/js/magnific-popup.css">
+  <link rel="stylesheet" href="./assets/css/skin.css">
   <link rel="icon" href="./assets/images/logos/logo.webp">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
-  <link rel="stylesheet" href="./assets/css/skin.css">
   <!-- Plugin Css -->
-  <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
@@ -144,19 +139,19 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="auto" playsinline src="./assets/uploads/video-photo/goodrich1713963849.mp4"></video>
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963849.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="auto" playsinline src="./assets/uploads/video-photo/goodrich1713964187.mp4"></video>
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713964187.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="auto" playsinline src="./assets/uploads/video-photo/goodrich1713963784.mp4"></video>
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963784.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="auto" playsinline src="./assets/uploads/video-photo/goodrich1712576843.mp4"></video>
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1712576843.mp4"></video>
           </div>
         </div>
         <!-- Add Pagination -->
@@ -1335,13 +1330,12 @@
     </div>
   </footer>
   <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
-  <script async src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
-  <script src="./assets/js/imagesloaded.min.js"></script>
-  <script src="./assets/js/parallax.min.js"></script>
-  <script src="./assets/js/flexslider/jquery.flexslider-min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js"></script>
   <script async src="./assets/js/jquery.tab-accordion.js"></script>
-  <script async src="./assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="./assets/js/swiper.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js"></script>
   <script src="./assets/js/script.js" async></script>
   <script>
     const counters = document.querySelectorAll(".counter1");
