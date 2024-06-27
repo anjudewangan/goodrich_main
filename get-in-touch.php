@@ -18,7 +18,7 @@
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://www.goodrichcereals.com/get-in-touch">
     <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <script src="./assets/js/script.js" async></script>
     <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -261,9 +261,9 @@
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js"></script>
-    <script src="./assets/js/jquery.tab-accordion.js"></script>
+    <script async src="./assets/js/jquery.tab-accordion.js"></script>
     <script src="./assets/js/header-footer.js"></script>
     <script src="./assets/js/toast.js"></script>
     <script>
