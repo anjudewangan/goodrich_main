@@ -93,12 +93,12 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
 <div class="container">
   <div class="row">
     <div class="col-lg-3 col-xs-12 footer-left">
-      <img loading="lazy" src="./assets/images/logos/logo.webp" alt="goodrich logo" class="footer-logo">
+      <img loading="lazy" width="200" height="97" fetchpriority="low" src="./assets/images/logos/logo.webp" alt="goodrich logo">
       <hr class="space s">
       <p>Bulk supplies of all dehydrated potato products</p>
       <div class="row vission-img">
         <div class="col-lg-6 col-xs-4">
-          <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100px"
+          <img loading="lazy" width="100" height="110" fetchpriority="low" class="responsive-img" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100px"
             alt="footer potato image">
         </div>
         <div class="col-lg-6 col-xs-4">

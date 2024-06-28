@@ -39,7 +39,7 @@
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-7.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/bg-img/bg-8.webp" type="image/webp">
   <!-- Plugin Css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
   <script>
@@ -147,19 +147,19 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963849.mp4"></video>
+            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713964187.mp4"></video>
+            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963784.mp4"></video>
+            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1712576843.mp4"></video>
+            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
           </div>
         </div>
         <!-- Add Pagination -->
@@ -1344,6 +1344,58 @@
   <script async src="./assets/js/jquery.tab-accordion.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Initialize Swiper with modified script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      let swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        speed: 1500,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true
+        },
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function(index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          },
+          speed: 2000
+        },
+        on: {
+          slideChange: function() {
+            if (swiper && swiper.slides) {
+              const activeSlide = swiper.slides[swiper.activeIndex];
+              activeSlide.style.opacity = 1;
+              swiper.slides.forEach(slide => {
+                if (slide !== activeSlide) {
+                  slide.style.opacity = 0.5;
+                }
+              });
+            }
+          },
+          init: function() {
+            if (swiper && swiper.slides) {
+              swiper.slides.forEach((slide, index) => {
+                if (index === swiper.activeIndex) {
+                  slide.style.opacity = 1;
+                } else {
+                  slide.style.opacity = 0.5; 
+                }
+              });
+            }
+          }
+        }
+      });
+    });
+  </script>
   <script src="./assets/js/script.js" async></script>
   <script>
     const counters = document.querySelectorAll(".counter1");
