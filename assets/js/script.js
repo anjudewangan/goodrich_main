@@ -2034,48 +2034,59 @@ function isScrollView(t) {
       );
     });
 
-    var swiper = new Swiper(".swiper-container", {
-      effect: "coverflow",
-      speed: 1500,
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 500,
-        modifier: 1,
-        slideShadows: true,
-      },
-      autoplay: {
-        delay: 7000,
-        disableOnInteraction: false,
-      },
-      on: {
-        slideChange: function () {
-          const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
-          setTimeout(() => {
-            activeElement.play()
-          }, 800)
-          const sliders = document.querySelectorAll(".swiper-slide").forEach(element => {
-            if (!element.classList.contains("swiper-slide-active")) {
-              element.childNodes[3].pause()
-              element.childNodes[3].currentTime = 0
-            }
-          })
-        },
-        init: function () {
-          const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
-          setTimeout(() => {
-            activeElement.play()
-          }, 800)
-        }
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-      },
+    // new Swiper(".swiper-container", {
+    //     effect: "coverflow",
+    //     speed: 1500,
+    //     coverflowEffect: {
+    //       rotate: 50,
+    //       stretch: 0,
+    //       depth: 500,
+    //       modifier: 1,
+    //       slideShadows: true
+    //     },
+    //     autoplay: {
+    //       delay: 7000,
+    //       disableOnInteraction: false
+    //     },
+    //     pagination: {
+    //       el: ".swiper-pagination",
+    //       clickable: true,
+    //       renderBullet: function(index, className) {
+    //         return '<span class="' + className + '">' + (index + 1) + "</span>";
+    //       }
+    //     },
+    //     on: {
+    //       slideChange: function() {
+    //         const activeSlide = document.querySelector(".swiper-slide-active");
+    //         if (activeSlide) {
+    //           const video = activeSlide.querySelector('video');
+    //           if (video) {
+    //             setTimeout(() => {
+    //               video.play();
+    //             }, 800);
+    //           }
+    //         }
+    //         document.querySelectorAll(".swiper-slide").forEach(slide => {
+    //           const video = slide.querySelector('video');
+    //           if (video && slide !== activeSlide) {
+    //             video.pause();
+    //             video.currentTime = 0;
+    //           }
+    //         });
+    //       },
+    //       init: function() {
+    //         const activeSlide = document.querySelector(".swiper-slide-active");
+    //         if (activeSlide) {
+    //           const video = activeSlide.querySelector('video');
+    //           if (video) {
+    //             setTimeout(() => {
+    //               video.play();
+    //             }, 800);
+    //           }
+    //         }
+    //       }
+    //     }
+    //   });
     });
-  });
 })(jQuery);
 

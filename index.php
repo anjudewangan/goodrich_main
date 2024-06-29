@@ -1344,6 +1344,61 @@
   <script async src="./assets/js/jquery.tab-accordion.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new Swiper(".swiper-container", {
+        effect: "coverflow",
+        speed: 1500,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true
+        },
+        autoplay: {
+          delay: 7000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function(index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          }
+        },
+        on: {
+          slideChange: function() {
+            const activeSlide = document.querySelector(".swiper-slide-active");
+            if (activeSlide) {
+              const video = activeSlide.querySelector('video');
+              if (video) {
+                setTimeout(() => {
+                  video.play();
+                }, 800);
+              }
+            }
+            document.querySelectorAll(".swiper-slide").forEach(slide => {
+              const video = slide.querySelector('video');
+              if (video && slide !== activeSlide) {
+                video.pause();
+                video.currentTime = 0;
+              }
+            });
+          },
+          init: function() {
+            const activeSlide = document.querySelector(".swiper-slide-active");
+            if (activeSlide) {
+              const video = activeSlide.querySelector('video');
+              if (video) {
+                setTimeout(() => {
+                  video.play();
+                }, 800);
+              }
+            }
+          }
+        }
+      });
+  </script>
   <script src="./assets/js/script.js" async></script>
   <script>
     const counters = document.querySelectorAll(".counter1");
