@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Goodrich Cereals | Premium Quality Dehydrated Potato Products</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
-  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
+  <title>Goodrich Cereals | Premium Quality Dehydrated Potato Products</title>
+  <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
   <meta name="description" content="Discover Goodrich Cereals' top-tier dehydrated potato products. As a leader in the Goodrich Group, we exceed global standards. Join us today!">
   <meta name="keywords" content="Dehydrated Potato Products, Potato Flakes Supplier, Potato Granules Manufacturer, Sustainable Potato Farming, Air-Dried Potato Pieces, Exporters of Dehydrated Potatoes, Bulk Potato Products, Quality Potato Products India, Potato Semolina Uses, Industrial Potato Solutions">
   <meta property="og:image" content="./assets/images/logos/logo.webp">
@@ -16,11 +16,11 @@
   <meta property="og:url" content="https://www.goodrichcereals.com/">
   <meta property="og:site_name" content="Goodrich Cereals | Premium Quality Dehydrated Potato Products">
   <meta property="og:type" content="website">
-  <link rel="icon" href="./assets/images/logos/logo.webp">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <link rel="canonical" href="https://www.goodrichcereals.com/">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="google-site-verification" content="-C4qU4ARV2TTIFlnq3gbHmetbtm_gOMhTYDRQ-EaJIs">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <script src="./assets/js/script.js" async></script>
   <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -28,87 +28,23 @@
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/image-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
-  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
+  <link rel="icon" href="./assets/images/logos/logo.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/uploads/video-photo/banner-1.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/uploads/video-photo/banner-2.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/uploads/video-photo/banner-3.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/uploads/video-photo/banner-4.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-1.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon1.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon2.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon3.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon4.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon5.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/Spoon6.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/map.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-3.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-4.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/brcgs.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/fda-us.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/fieo.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/fssai.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/haccp-certified.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/halal.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/halal-indonesia.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/iso-22000-2015.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/paa.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/certificates/star-export.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-7.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/karnal-plant1.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/ahmednagar-plant.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/karnal-plant.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-6.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/sorting.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/peeling.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/finished.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/flake.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/granule.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/flake.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/flour.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/cube.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-Flake.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-Granules.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-Flour.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-Slices.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-cube.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/products/L1-shreds.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-5.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/1.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/2.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/3.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/4.webp" type="image/webp">
+  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-6.webp" type="image/webp">
+  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/bg-7.webp" type="image/webp">
   <link rel="preload" fetchpriority="high" as="image" href="./assets/images/bg-img/bg-8.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/farmer.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/Sustainable.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/al-kabeer.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/alnutri.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/balaji.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/bikaji.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/bikanervala.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/cl5.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/cl6.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/cl7.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/dfm.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/diamond.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/engel.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/haldiram.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/indian-army.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/itc.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/parle.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/clients/ttk.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/bg-img/Doodles2.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/dashboard/Footer.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/logos/logo.webp" type="image/webp">
-  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/goodrich-cereals/cereals-story-potato.webp" type="image/webp">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="./assets/js/script.js" async></script>
-  <script type="application/ld+json" src="./assets/js/product-schema.json"></script>
+  <!-- Plugin Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    
+
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -211,19 +147,19 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963849.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713964187.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1713963784.mp4"></video>
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
+            <video muted preload="metadata" playsinline src="./assets/uploads/video-photo/goodrich1712576843.mp4"></video>
           </div>
         </div>
         <!-- Add Pagination -->
@@ -272,7 +208,7 @@
               across the globe in over 40 countries and counting.
             </p>
             <hr class="space">
-            <div class="flexslider carousel" data-options="minWidth:150,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+            <div class="flexslider carousel" data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
               <ul class="slides">
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
@@ -535,52 +471,52 @@
           <ul class="slides">
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/brcgs.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/brcgs.webp" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/brcgs.webp" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fda-us.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fda-us.webp" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/fda-us.webp" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fieo.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fieo.webp" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/fieo.webp" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fssai.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fssai.webp" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/fssai.webp" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/haccp-certified.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/haccp-certified.webp" alt="HACCP certified logo depicting Certifications & Recognitions." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/haccp-certified.webp" alt="HACCP certified logo depicting Certifications & Recognitions." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/halal.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/halal.webp" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage" width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/halal.webp" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage" width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/iso-22000-2015.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/iso-22000-2015.webp" alt="CCL Ltd isco: Registered Indian company. Certified and recognized." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/iso-22000-2015.webp" alt="CCL Ltd isco: Registered Indian company. Certified and recognized." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/paa.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/paa.webp" alt="The Potato Association of America logo, indicating Certifications & Recognitions." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/paa.webp" alt="The Potato Association of America logo, indicating Certifications & Recognitions." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/star-export.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions." width="219" height="84" fetchpriority="low">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/halal-indonesia.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia." width="219" height="84" fetchpriority="high">
+                <img loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia." width="219" height="84" fetchpriority="low">
               </a>
             </li>
           </ul>
@@ -599,7 +535,7 @@
           <ul class="slides">
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.webp" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." width="370" height="227" fetchpriority="high"></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant1.webp" alt="Aerial view of Goodrich Potato Main Campus in Karnal (Haryana), depicting industrial activity and manufacturing process." width="370" height="227" fetchpriority="low"></a>
                 <div class="advs-box-content">
                   <h3>Main Campus in <span class="heading-green">Karnal</span> (Haryana), India</h3>
                   <p>23,04,000 Sq. Ft.</p>
@@ -608,7 +544,7 @@
             </li>
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.webp" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana)  Plant building." width="370" height="227" fetchpriority="high"></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/karnal-plant.webp" alt="A truck parked in front of the Goodrich Potato Campus in Kutail (Haryana)  Plant building." width="370" height="227" fetchpriority="low"></a>
                 <div class="advs-box-content">
                   <h3>Campus in <span class="heading-green">Kutail</span> (Haryana), India</h3>
                   <p>2,16,000 Sq. Ft.</p>
@@ -617,7 +553,7 @@
             </li>
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
-                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." width="370" height="227" fetchpriority="high"></a>
+                <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." width="370" height="227" fetchpriority="low"></a>
                 <div class="advs-box-content" style="padding-bottom: 74px">
                   <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                 </div>
@@ -648,7 +584,7 @@
               <div class="process-step">
                 <div class="process-step-circle"><span class="process-step-circle-content">1</span></div>
               </div>
-              <img loading="lazy" width="360" height="239" fetchpriority="high" src="./assets/images/dashboard/sorting.webp" alt="Potatoes being loaded onto a conveyor belt for cleaning, sorting, and washing.">
+              <img loading="lazy" width="360" height="239" fetchpriority="low" src="./assets/images/dashboard/sorting.webp" alt="Potatoes being loaded onto a conveyor belt for cleaning, sorting, and washing.">
               <div class="caption-bottom">
                 <h2>SORTING, CLEANING & WASHING</h2>
                 <p>After the sorting of potatoes, the quality potatoes are then subjected to cleaning and washing.</p>
@@ -660,7 +596,7 @@
               <div class="process-step">
                 <div class="process-step-circle"><span class="process-step-circle-content">2</span></div>
               </div>
-              <img loading="lazy" width="360" height="239" fetchpriority="high" src="./assets/images/dashboard/peeling.webp" alt="Potatoes being steam peeled in a machine, undergoing processing for further use.">
+              <img loading="lazy" width="360" height="239" fetchpriority="low" src="./assets/images/dashboard/peeling.webp" alt="Potatoes being steam peeled in a machine, undergoing processing for further use.">
               <div class="caption-bottom">
                 <h2>STEAM PEELING</h2>
                 <p>The washed potatoes go for skin removal process called Steam Peeling, followed by brushing</p>
@@ -672,7 +608,7 @@
               <div class="process-step3">
                 <div class="process-step-circle3"><span class="process-step-circle3-content">3</span></div>
               </div>
-              <img loading="lazy" width="360" height="239" fetchpriority="high" src="./assets/images/dashboard/finished.webp" alt="Two men in white coats standing in front of a machine, possibly used for cooking and mashing potatoes.">
+              <img loading="lazy" width="360" height="239" fetchpriority="low" src="./assets/images/dashboard/finished.webp" alt="Two men in white coats standing in front of a machine, possibly used for cooking and mashing potatoes.">
               <div class="caption-bottom">
                 <h2>COOKING & DRYING</h2>
                 <p>After Inspection, Blanching, Cooling the potatoes are cooked to mashed potatoes and then dried using
@@ -697,7 +633,7 @@
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                      <img loading="lazy" width="263" height="175" fetchpriority="high" alt="A bowl of white potato flakes" src="./assets/images/products/flake.webp">
+                      <img loading="lazy" width="263" height="175" fetchpriority="low" alt="A bowl of white potato flakes" src="./assets/images/products/flake.webp">
                       <div class="caption anima">
                         <h3>FLAKES</h3>
                         <p>
@@ -719,7 +655,7 @@
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                      <img loading="lazy" width="263" height="175" fetchpriority="high" alt="A bowl of white potato granules" src="./assets/images/products/granule.webp">
+                      <img loading="lazy" width="263" height="175" fetchpriority="low" alt="A bowl of white potato granules" src="./assets/images/products/granule.webp">
                       <div class="caption anima">
                         <h3>GRANULES</h3>
                         <p>
@@ -742,7 +678,7 @@
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                      <img loading="lazy" width="263" height="175" fetchpriority="high" alt="A bowl of white potato flour" src="./assets/images/products/flour.webp">
+                      <img loading="lazy" width="263" height="175" fetchpriority="low" alt="A bowl of white potato flour" src="./assets/images/products/flour.webp">
                       <div class="caption anima">
                         <h3>Semolina</h3>
                         <p>Cooked, dried, ground potatoes with no additives</p>
@@ -762,7 +698,7 @@
                 <div class="adv-img-double-content">
                   <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
-                      <img loading="lazy" width="263" height="175" fetchpriority="high" alt="A bowl of white potato cubes" src="./assets/images/products/cube.webp">
+                      <img loading="lazy" width="263" height="175" fetchpriority="low" alt="A bowl of white potato cubes" src="./assets/images/products/cube.webp">
                       <div class="caption anima">
                         <h3>AIR DRIED</h3>
                         <p>
@@ -789,7 +725,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="potato-flakes">
-                      <img loading="lazy" width="555" height="370" fetchpriority="high" alt="A bowl of white potato flakes on a wooden table" src="./assets/images/products/L1-Flake.webp">
+                      <img loading="lazy" width="555" height="370" fetchpriority="low" alt="A bowl of white potato flakes on a wooden table" src="./assets/images/products/L1-Flake.webp">
                     </a>
                     <div class="caption anima">
                       <h3>Potato Flakes</h3>
@@ -828,7 +764,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products#granule-sec">
-                      <img loading="lazy" width="555" height="370" fetchpriority="high" alt="A bowl of white potato granules on a wooden table" src="./assets/images/products/L1-Granules.webp">
+                      <img loading="lazy" width="555" height="370" fetchpriority="low" alt="A bowl of white potato granules on a wooden table" src="./assets/images/products/L1-Granules.webp">
                     </a>
                     <div class="caption anima">
                       <h3>Potato Granules</h3>
@@ -864,7 +800,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products#flour-sec">
-                      <img loading="lazy" width="555" height="370" fetchpriority="high" alt="A bowl of white potato flour on a wooden table" src="./assets/images/products/L1-Flour.webp">
+                      <img loading="lazy" width="555" height="370" fetchpriority="low" alt="A bowl of white potato flour on a wooden table" src="./assets/images/products/L1-Flour.webp">
                     </a>
                     <div class="caption anima">
                       <h3>Potato Semolina</h3>
@@ -902,7 +838,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
-                      <img loading="lazy" width="360" height="240" fetchpriority="high" alt="A bowl of white potato slices on a wooden table" src="./assets/images/products/L1-Slices.webp">
+                      <img loading="lazy" width="360" height="240" fetchpriority="low" alt="A bowl of white potato slices on a wooden table" src="./assets/images/products/L1-Slices.webp">
 
                       <div class="caption anima">
                         <h3>SLICES</h3>
@@ -915,7 +851,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
-                      <img loading="lazy" width="360" height="240" fetchpriority="high" alt="A bowl of white potato dices on a wooden table" src="./assets/images/products/L1-cube.webp">
+                      <img loading="lazy" width="360" height="240" fetchpriority="low" alt="A bowl of white potato dices on a wooden table" src="./assets/images/products/L1-cube.webp">
 
                       <div class="caption anima">
                         <h3>DICES</h3>
@@ -928,7 +864,7 @@
                 <div class="adv-img-double-content">
                   <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide">
                     <a class="img-box img-fade-bottom" href="dehydrated-potato-products#air-dried-sec">
-                      <img loading="lazy" width="360" height="240" fetchpriority="high" alt="A bowl of white potato shreds on a wooden table" src="./assets/images/products/L1-shreds.webp">
+                      <img loading="lazy" width="360" height="240" fetchpriority="low" alt="A bowl of white potato shreds on a wooden table" src="./assets/images/products/L1-shreds.webp">
 
                       <div class="caption anima">
                         <h3>SHREDS</h3>
@@ -975,7 +911,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img loading="lazy" width="263" height="367" fetchpriority="high" src="./assets/images/dashboard/1.webp" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish.">
+                <img loading="lazy" width="263" height="367" fetchpriority="low" src="./assets/images/dashboard/1.webp" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish.">
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -997,7 +933,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img loading="lazy" width="263" height="367" fetchpriority="high" src="./assets/images/dashboard/2.webp" alt="Various types of bread on a wooden table.">
+                <img loading="lazy" width="263" height="367" fetchpriority="low" src="./assets/images/dashboard/2.webp" alt="Various types of bread on a wooden table.">
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -1019,7 +955,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img loading="lazy" width="263" height="367" fetchpriority="high" src="./assets/images/dashboard/3.webp" alt="A delectable burger adorned with veggies .">
+                <img loading="lazy" width="263" height="367" fetchpriority="low" src="./assets/images/dashboard/3.webp" alt="A delectable burger adorned with veggies .">
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -1042,7 +978,7 @@
           <div class="col-lg-3 col-xs-6">
             <div class="img-box adv-img adv-img-full-content">
               <div class="img-box">
-                <img loading="lazy" width="263" height="367" fetchpriority="high" src="./assets/images/dashboard/4.webp" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs.">
+                <img loading="lazy" width="263" height="367" fetchpriority="low" src="./assets/images/dashboard/4.webp" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs.">
               </div>
               <a href="#" class="caption-bg img-box">
                 <div class="caption">
@@ -1094,7 +1030,7 @@
           </div>
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-right">
             <hr class="space m visible-sm">
-            <img loading="lazy" width="653" height="376" fetchpriority="high" class="responsive-img" src="./assets/images/dashboard/farmer.webp" alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene.">
+            <img loading="lazy" width="653" height="376" fetchpriority="low" class="responsive-img" src="./assets/images/dashboard/farmer.webp" alt="A man in a hat holds a basket of potatoes, showcasing a traditional harvest scene.">
           </div>
         </div>
         <hr>
@@ -1102,7 +1038,7 @@
         <div class="row order-reverse">
           <div class="col-md-7 col-sm-12 text-center-sm" data-anima="fade-left">
             <hr class="space m visible-sm">
-            <img loading="lazy" width="653" height="376" fetchpriority="high" class="responsive-img" src="./assets/images/dashboard/Sustainable.webp" alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background.">
+            <img loading="lazy" width="653" height="376" fetchpriority="low" class="responsive-img" src="./assets/images/dashboard/Sustainable.webp" alt="Agricultural workers tending to crops on a farm, with a picturesque landscape in the background.">
           </div>
           <div class="col-md-5 col-sm-12 text-center-sm">
             <div class="title-base text-left text-center-sm">
@@ -1144,58 +1080,58 @@
           <tbody>
             <tr>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/al-kabeer.webp" alt="al-kabeer">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/al-kabeer.webp" alt="al-kabeer">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/alnutri.webp" alt="alnutri">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/alnutri.webp" alt="alnutri">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/balaji.webp" alt="balaji">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/balaji.webp" alt="balaji">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/bikaji.webp" alt="bikaji">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/dfm.webp" alt="dfm">
-              </td>
-              <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/diamond.webp" alt="diamond">
-              </td>
-              <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/engel.webp" alt="engel">
-              </td>
-              <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/haldiram.webp" alt="haldiram">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/bikaji.webp" alt="bikaji">
               </td>
             </tr>
             <tr>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/indian-army.webp" alt="indian-army">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/dfm.webp" alt="dfm">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/itc.webp" alt="itc">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/diamond.webp" alt="diamond">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/parle.webp" alt="parle">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/engel.webp" alt="engel">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/ttk.webp" alt="ttk">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/haldiram.webp" alt="haldiram">
               </td>
             </tr>
             <tr>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/bikanervala.webp" alt="bikanervala">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/indian-army.webp" alt="indian-army">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/cl5.webp" alt="lotte">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/itc.webp" alt="itc">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/cl7.webp" alt="chhajed">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/parle.webp" alt="parle">
               </td>
               <td>
-                <img loading="lazy" width="235" height="112" fetchpriority="high" class="anima responsive-img" src="./assets/images/clients/cl6.webp" alt="roble">
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/ttk.webp" alt="ttk">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/bikanervala.webp" alt="bikanervala">
+              </td>
+              <td>
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/cl5.webp" alt="lotte">
+              </td>
+              <td>
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/cl7.webp" alt="chhajed">
+              </td>
+              <td>
+                <img loading="lazy" width="235" height="112" fetchpriority="low" class="anima responsive-img" src="./assets/images/clients/cl6.webp" alt="roble">
               </td>
             </tr>
           </tbody>
@@ -1260,12 +1196,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-xs-12 footer-left">
-            <img loading="lazy" width="200" height="97" fetchpriority="high" src="./assets/images/logos/logo.webp" alt="goodrich logo">
+            <img loading="lazy" width="200" height="97" fetchpriority="low" src="./assets/images/logos/logo.webp" alt="goodrich logo">
             <hr class="space s">
             <p>Bulk supplies of all dehydrated potato products</p>
             <div class="row vission-img">
               <div class="col-lg-6 col-xs-4">
-                <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100" height="110" fetchpriority="high" class="responsive-img" alt="footer potato image">
+                <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100" height="110" fetchpriority="low" class="responsive-img" alt="footer potato image">
               </div>
               <div class="col-lg-6 col-xs-4">
                 <div class="row">
@@ -1401,16 +1337,15 @@
       </div>
     </div>
   </footer>
+  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js" integrity="sha512-P4vXxXZrVKsyqMySOOZg5fuRHUqDLbjVnbLZP5a2MAMDbb78MY5sjhrhr4lG6C34YSGLlhzuZwuOZH4+r+UDzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script async src="./assets/js/jquery.tab-accordion.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Initialize Swiper with modified script -->
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      let swiper = new Swiper(".swiper-container", {
+  <script>
+    new Swiper(".swiper-container", {
         effect: "coverflow",
         speed: 1500,
         coverflowEffect: {
@@ -1421,7 +1356,7 @@
           slideShadows: true
         },
         autoplay: {
-          delay: 2000,
+          delay: 7000,
           disableOnInteraction: false
         },
         pagination: {
@@ -1433,16 +1368,38 @@
         },
         on: {
           slideChange: function() {
-            if (swiper && swiper.slides) {
-              const activeSlide = swiper.slides[swiper.activeIndex];
-              activeSlide.style.opacity = 1;
+            const activeSlide = document.querySelector(".swiper-slide-active");
+            if (activeSlide) {
+              const video = activeSlide.querySelector('video');
+              if (video) {
+                setTimeout(() => {
+                  video.play();
+                }, 800);
+              }
             }
+            document.querySelectorAll(".swiper-slide").forEach(slide => {
+              const video = slide.querySelector('video');
+              if (video && slide !== activeSlide) {
+                video.pause();
+                video.currentTime = 0;
+              }
+            });
           },
+          init: function() {
+            const activeSlide = document.querySelector(".swiper-slide-active");
+            if (activeSlide) {
+              const video = activeSlide.querySelector('video');
+              if (video) {
+                setTimeout(() => {
+                  video.play();
+                }, 800);
+              }
+            }
+          }
         }
       });
-    });
   </script>
-    <script src="./assets/js/script.js" async></script>
+  <script src="./assets/js/script.js" async></script>
   <script>
     const counters = document.querySelectorAll(".counter1");
     counters.forEach((counter1) => {
