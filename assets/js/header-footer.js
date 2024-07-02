@@ -8,9 +8,9 @@ document.getElementById("section-header").innerHTML = `<div
                   <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="./">
-                <img loading="lazy" class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="logo">
-                <img loading="lazy" class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="logo">
-                <img loading="lazy" class="logo-retina" src="./assets/images/logos/logo.webp" alt="logo">
+                <img class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="logo">
+                <img class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="logo">
+                <img class="logo-retina" src="./assets/images/logos/logo.webp" alt="logo">
               </a>
               </div>
               <div class="collapse navbar-collapse">
@@ -68,7 +68,7 @@ document.getElementById("section-header").innerHTML = `<div
                   </li>
                   <li class="logo-item">
                     <a href="./">
-                      <img loading="lazy" src="./assets/images/logos/logo.webp" alt="logo">
+                      <img src="./assets/images/logos/logo.webp" alt="logo">
                     </a>
                   </li>
                   <li class="dropdown">
@@ -93,12 +93,12 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
 <div class="container">
   <div class="row">
     <div class="col-lg-3 col-xs-12 footer-left">
-      <img loading="lazy" width="200" height="97" fetchpriority="low" src="./assets/images/logos/logo.webp" alt="goodrich logo">
+      <img width="200" height="97" fetchpriority="low" src="./assets/images/logos/logo.webp" alt="goodrich logo">
       <hr class="space s">
       <p>Bulk supplies of all dehydrated potato products</p>
       <div class="row vission-img">
         <div class="col-lg-6 col-xs-4">
-          <img loading="lazy" width="100" height="110" fetchpriority="low" class="responsive-img" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100px"
+          <img width="100" height="110" fetchpriority="low" class="responsive-img" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100px"
             alt="footer potato image">
         </div>
         <div class="col-lg-6 col-xs-4">

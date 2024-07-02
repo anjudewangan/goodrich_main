@@ -1,16 +1,3 @@
-/*
- * ===========================================================
- * MAIN SCRIPT- FRAMEWORK Y
- * ===========================================================
- * This script manage all the js functions and the 3r party plugins.
- * Framework website: www.framework-y.com
- *
- * ANIMATIONS
- * -------------------------------------------------------------
- * Manage all the animations on page scroll, on click, on hover
- * Manage the timeline animations
- */
-
 "use strict";
 function cssInit(delay, speed) {
   delay += "ms";

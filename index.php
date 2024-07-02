@@ -79,9 +79,9 @@
                 <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand" href="./">
-                <img loading="lazy" class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo">
-                <img loading="lazy" class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Scroll Show">
-                <img loading="lazy" class="logo-retina" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Retina">
+                <img class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo">
+                <img class="logo-default scroll-show" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Scroll Show">
+                <img class="logo-retina" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo Retina">
               </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -133,7 +133,7 @@
                 </li>
                 <li class="logo-item">
                   <a href="./">
-                    <img loading="lazy" src="./assets/images/logos/logo.webp" alt="goodric-logo">
+                    <img src="./assets/images/logos/logo.webp" alt="goodric-logo">
                   </a>
                 </li>
                 <li class="dropdown">
@@ -157,19 +157,19 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
+            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
+            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
+            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img loading="lazy" width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
+            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
           </div>
         </div>
         <!-- Add Pagination -->
@@ -314,15 +314,17 @@
           <p>Exporting to 40+ Countries</p>
         </div>
         <div class="row">
-          <div class="col-md-8 col-center text-center">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <p class="text-justify-sm">We export Potato Flakes & other Dehydrated Potato Products in more than 40
               Countries, including,
               USA, Europe, Australia, South America, Japan, South East Asia, Gulf Countries and Canada.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 col-center text-center">
-            <img loading="lazy" width="555" height="324" src="./assets/images/dashboard/map.webp" alt="A world map with pins indicating various countries." class="responsive-img">
+          <div class="col-md-12 text-center">
+            <div>
+              <img loading="lazy" width="555" height="324" src="./assets/images/dashboard/map.webp" alt="A world map with pins indicating various countries." class="responsive-img">
+            </div>
           </div>
         </div>
       </div>
@@ -1178,7 +1180,7 @@
                           <a class="block-comment" <?php echo $bloglink; ?>>2
                             <i class="fa fa-comment-o"></i></a>
                         </div>
-                        <a class="img-box" <?php echo $bloglink; ?>><img loading="lazy" width="360" height="222" fetchpriority="low" class="anima blog-img" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>"></a>
+                        <a class="img-box" <?php echo $bloglink; ?>><img loading="lazy" width="360" height="222" class="anima blog-img" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>"></a>
                         <div class="advs-box-content blog-box" style="min-height:130px;">
                           <h2>
                             <a class="blog-link-headiing" <?php echo $bloglink; ?>><?php echo $record['title']; ?></a>
@@ -1206,12 +1208,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-xs-12 footer-left">
-            <img loading="lazy" width="200" height="97" src="./assets/images/logos/logo.webp" alt="goodrich logo">
+            <img width="200" height="97" src="./assets/images/logos/logo.webp" alt="goodrich logo">
             <hr class="space s">
             <p>Bulk supplies of all dehydrated potato products</p>
             <div class="row vission-img">
               <div class="col-lg-6 col-xs-4">
-                <img loading="lazy" src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100" height="110" class="responsive-img" alt="footer potato image">
+                <img src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100" height="110" class="responsive-img" alt="footer potato image">
               </div>
               <div class="col-lg-6 col-xs-4">
                 <div class="row">
@@ -1350,9 +1352,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js" integrity="sha512-P4vXxXZrVKsyqMySOOZg5fuRHUqDLbjVnbLZP5a2MAMDbb78MY5sjhrhr4lG6C34YSGLlhzuZwuOZH4+r+UDzg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-  <script src="./assets/js/jquery.tab-accordion.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="./assets/js/jquery.tab-accordion.js" defer></script>
   <!-- Initialize Swiper with modified script -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
