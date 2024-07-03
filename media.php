@@ -95,7 +95,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-lg-9">
-            <h3 id="image-galary" class="text-black hidden-sm">Event Images</h3>
+            <h3 id="image-galary" class="text-black">Event Images</h3>
             <div class="maso-list list-sm-6 col-margins">
               <div class="navbar navbar-inner">
                 <div class="navbar-toggle">
@@ -145,7 +145,7 @@
               </div>
             </div>
             <hr class="space">
-            <h3 id="videos" class="text-black hidden-sm">Videos</h3>
+            <h3 id="videos" class="text-black">Videos</h3>
             <div class="navbar navbar-inner">
               <div class="navbar-toggle">
                 <i class="fa fa-bars"></i><span>Choose Video</span><i class="fa fa-angle-down"></i>

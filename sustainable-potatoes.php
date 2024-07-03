@@ -96,7 +96,17 @@
                         <hr class="space s">
                         <p class="text-s" style="text-align: justify"> Potatoes, with 80% moisture content, pose a challenge for farmers due to rapid perishability. Forced to sell at low prices during procurement seasons, farmers endure losses, demotivating further cultivation. In 2011, Goodrich witnessed Punjab & Haryana farmers selling potatoes below Rs. 1 per kg due to bumper harvests. Responding decisively, Goodrich set up a cutting-edge potato flakes facility at Village Nagla, Karnal. This strategic move aims to offer farmers a profitable alternative. With a firm belief that farmers deserve fair prices, Goodrich purchases potatoes at assured rates directly from farms. Despite challenges like open sun storage, our commitment remains: ensuring farmers get the value they truly deserve for their hard work. </p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12 boxed-inverse bg-cover middle-content white text-center hidden-md visible-xs-block" style="background-image: url(./assets/images/sustainable-potatoes/Biomass-utilization.webp)">
+                        <p class="text-normal text-italic text-l"> Biomass Utilization </p>
+                        <hr class="space s">
+                        <p class="text-s" style="text-align: justify"> Environmental sustainability is a core focus, and we understand the impact of industrial biomass on our planet. Through Biomass Utilization, we've embraced eco-friendly practices in our production processes. By efficiently utilizing biomass, we minimize waste, reduce our carbon footprint, and contribute to a healthier environment.  </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 boxed-inverse bg-cover middle-content white text-center hidden-md visible-xs-block" style="background-image: url(./assets/images/sustainable-potatoes/SolarEnergy.webp)">
+                        <p class="text-normal text-italic text-l">Solar Energy Integration</p>
+                        <hr class="space s">
+                        <p class="text-s" style="text-align: justify"> The energy demands of modern production can strain the environment, often relying on non-renewable sources. Embracing Solar Energy Integration, we've invested in harnessing clean, renewable energy to power our operations. Our commitment to solar energy reflects our dedication to sustainable practices, minimizing our ecological impact.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 hidden-sm vissible-md">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="advs-box advs-box-side boxed-inverse" data-anima="fade-left" data-trigger="hover">

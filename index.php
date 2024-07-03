@@ -218,7 +218,7 @@
               across the globe in over 40 countries and counting.
             </p>
             <hr class="space">
-            <div class="flexslider carousel" data-options="minWidth:150,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+            <div class="flexslider carousel hidden-sm vissible-md" data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
               <ul class="slides">
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
@@ -302,6 +302,91 @@
                   </div>
                 </li>
               </ul>
+            </div>
+            <div class="hidden-md visible-xs-block">
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Flakes</h2>
+                      <p>
+                        The widespread usage of potato flakes is due to their unique ability to reconstitute even with
+                        cold water.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Semolina</h2>
+                      <p>
+                        While potato semolina may look like finely ground potato flakes, the two products are very
+                        different
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Granules</h2>
+                      <p>
+                        Precooked, dehydrated potatoes produced in particulate form consists substantially of whole
+                        tissue cells
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Slices</h2>
+                      <p>
+                        We offer a wide variety of dehydrated potato slices for foodservice and manufacturing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Dices</h2>
+                      <p>
+                        We offer a wide variety of dehydrated potato dices for foodservice and manufacturing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                    <a class="img-box">
+                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
+                    </a>
+                    <div class="content-box">
+                      <h2>Shreds</h2>
+                      <p>
+                        We offer a wide variety of dehydrated potato shreds for foodservice and manufacturing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -566,7 +651,7 @@
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                 <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." width="370" height="227"></a>
-                <div class="advs-box-content" style="padding-bottom: 74px">
+                <div class="advs-box-content plants-img-padding-bottom">
                   <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                 </div>
               </div>
@@ -1181,7 +1266,7 @@
                             <i class="fa fa-comment-o"></i></a>
                         </div>
                         <a class="img-box" <?php echo $bloglink; ?>><img loading="lazy" width="360" height="222" class="anima blog-img" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>"></a>
-                        <div class="advs-box-content blog-box" style="min-height:130px;">
+                        <div class="advs-box-content blog-box">
                           <h2>
                             <a class="blog-link-headiing" <?php echo $bloglink; ?>><?php echo $record['title']; ?></a>
                           </h2>

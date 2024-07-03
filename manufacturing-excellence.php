@@ -150,7 +150,7 @@
                         </li>
                         <li>
                             <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India."></a>
-                                <div class="advs-box-content" style="padding-bottom: 74px">
+                                <div class="advs-box-content plants-img-padding-bottom">
                                     <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                                 </div>
                             </div>
