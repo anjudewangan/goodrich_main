@@ -1,1 +1,108 @@
-$(function(){"use strict";(r=$("#exportexample").DataTable({lengthChange:!1,buttons:["copy","excel","pdf","colvis"]})).buttons().container().appendTo("#exportexample_wrapper .col-md-6:eq(0)"),$("#example1").DataTable({language:{searchPlaceholder:"Search...",sSearch:"",lengthMenu:"_MENU_ items/page"},order:[[0,"desc"]]}),$("#example2").DataTable({responsive:!0,language:{searchPlaceholder:"Search...",sSearch:"",lengthMenu:"_MENU_ items/page"}}),$("#example3").DataTable({responsive:{details:{display:$.fn.dataTable.Responsive.display.modal({header:function(e){e=e.data();return"Details for "+e[0]+" "+e[1]}}),renderer:$.fn.dataTable.Responsive.renderer.tableAll({tableClass:"table"})}}});var r=$("#example-input").DataTable({columnDefs:[{targets:[1,2,3,4,5],render:function(e,a,t,l){var r;return"display"===a&&(a=new $.fn.dataTable.Api(l.settings),r=$("input, select, textarea",a.cell({row:l.row,column:l.col}).node()),l=$(e).wrap("<div/>").parent(),"INPUT"===r.prop("tagName")?($("input",l).attr("value",r.val()),r.prop("checked")&&$("input",l).attr("checked","checked")):"TEXTAREA"===r.prop("tagName")?$("textarea",l).html(r.val()):"SELECT"===r.prop("tagName")&&($("option:selected",l).removeAttr("selected"),$("option",l).filter(function(){return $(this).attr("value")===r.val()}).attr("selected","selected")),e=l.html()),e}}],responsive:!0});$("#example-input tbody").on("keyup change",".child input, .child select, .child textarea",function(e){var a=$(this),t=a.closest("ul").data("dtr-index"),l=a.closest("li").data("dtr-index"),l=r.cell({row:t,column:l}).node();$("input, select, textarea",l).val(a.val()),a.is(":checked")?$("input",l).prop("checked",!0):$("input",l).removeProp("checked")}),$("table").on("draw.dt",function(){$(".select2-no-search").select2({minimumResultsForSearch:1/0,placeholder:"Choose one"})})});
+$(function () {
+   'use strict'
+
+   //Data table example
+   var table = $('#exportexample').DataTable({
+      lengthChange: false,
+      buttons: ['copy', 'excel', 'pdf', 'colvis']
+   });
+   table.buttons().container()
+      .appendTo('#exportexample_wrapper .col-md-6:eq(0)');
+
+
+   $('#example1').DataTable({
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      },
+      order: [
+         [0, 'desc']
+      ] // Assuming the first column (index 0) contains the date and you want to sort it in descending order
+   });
+   $('#example2').DataTable({
+      responsive: true,
+      language: {
+         searchPlaceholder: 'Search...',
+         sSearch: '',
+         lengthMenu: '_MENU_ items/page',
+      }
+   });
+   $('#example3').DataTable({
+      responsive: {
+         details: {
+            display: $.fn.dataTable.Responsive.display.modal({
+               header: function (row) {
+                  var data = row.data();
+                  return 'Details for ' + data[0] + ' ' + data[1];
+               }
+            }),
+            renderer: $.fn.dataTable.Responsive.renderer.tableAll({
+               tableClass: 'table'
+            })
+         }
+      }
+   });
+
+   /*Input Datatable*/
+   var table = $('#example-input').DataTable({
+      'columnDefs': [{
+         'targets': [1, 2, 3, 4, 5],
+         'render': function (data, type, row, meta) {
+            if (type === 'display') {
+               var api = new $.fn.dataTable.Api(meta.settings);
+
+               var $el = $('input, select, textarea', api.cell({
+                  row: meta.row,
+                  column: meta.col
+               }).node());
+
+               var $html = $(data).wrap('<div/>').parent();
+
+               if ($el.prop('tagName') === 'INPUT') {
+                  $('input', $html).attr('value', $el.val());
+                  if ($el.prop('checked')) {
+                     $('input', $html).attr('checked', 'checked');
+                  }
+               } else if ($el.prop('tagName') === 'TEXTAREA') {
+                  $('textarea', $html).html($el.val());
+
+               } else if ($el.prop('tagName') === 'SELECT') {
+                  $('option:selected', $html).removeAttr('selected');
+                  $('option', $html).filter(function () {
+                     return ($(this).attr('value') === $el.val());
+                  }).attr('selected', 'selected');
+               }
+
+               data = $html.html();
+            }
+
+            return data;
+         }
+      }],
+      'responsive': true
+   });
+   $('#example-input tbody').on('keyup change', '.child input, .child select, .child textarea', function (e) {
+      var $el = $(this);
+      var rowIdx = $el.closest('ul').data('dtr-index');
+      var colIdx = $el.closest('li').data('dtr-index');
+      var cell = table.cell({
+         row: rowIdx,
+         column: colIdx
+      }).node();
+      $('input, select, textarea', cell).val($el.val());
+      if ($el.is(':checked')) {
+         $('input', cell).prop('checked', true);
+      } else {
+         $('input', cell).removeProp('checked');
+      }
+   });
+
+   $('table').on('draw.dt', function () {
+      $('.select2-no-search').select2({
+         minimumResultsForSearch: Infinity,
+         placeholder: 'Choose one'
+      });
+   });
+
+});
