@@ -6609,7 +6609,15 @@ html {
     color: #fff
 }
 
-.social-icons-simple li a:hover i {
+.social-icons-simple li a svg {
+    width: 14px;
+    height: 14px;
+    fill: #fff;
+    stroke: #fff;
+}
+
+.social-icons-simple li a:hover i,
+.social-icons-simple li a:hover svg {
     color: #592b1c
 }
 
@@ -7167,8 +7175,18 @@ footer hr {
     .plants-img-padding-bottom {
         padding-bottom: 50px !important;
     }
+
     .blog-box {
         min-height: 80px !important;
+    }
+
+    .block-quote.quote-1,
+    .block-quote.quote-2 {
+        line-height: 18px;
+    }
+
+    hr.d-dark {
+        margin-top: 0;
     }
 }
 

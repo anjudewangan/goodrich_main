@@ -3527,7 +3527,7 @@ body .adv-img-button-content .caption i {
         font-size: 15px
     }
 
-    .vission-img .title-base h2 {
+    .vission-img .title-base h2, .video-content h3, .blog-container .title-base h2 {
         line-height: 25px;
     }
 

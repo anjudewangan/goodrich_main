@@ -7,7 +7,7 @@ document.getElementById("section-header").innerHTML = `<div
                 <button type="button" class="navbar-toggle">
                   <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="./">
+                <a class="navbar-brand" href="../">
                 <img class="logo-default scroll-hide" src="../assets/images/logos/logo.webp" alt="logo">
                 <img class="logo-default scroll-show" src="../assets/images/logos/logo.webp" alt="logo">
                 <img class="logo-retina" src="../assets/images/logos/logo.webp" alt="logo">
