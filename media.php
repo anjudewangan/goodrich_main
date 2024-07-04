@@ -190,7 +190,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="./assets/js/jquery.tab-accordion.js" defer></script>
-  <script src="./assets/js/header-footer.js" defer></script>
+  <script src="./assets/js/header-footer.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const tabLinks = document.querySelectorAll(".nav.navbar-nav2 a");

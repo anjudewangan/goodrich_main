@@ -349,7 +349,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js" integrity="sha512-P4vXxXZrVKsyqMySOOZg5fuRHUqDLbjVnbLZP5a2MAMDbb78MY5sjhrhr4lG6C34YSGLlhzuZwuOZH4+r+UDzg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="./assets/js/jquery.tab-accordion.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-    <script src="./assets/js/header-footer.js" defer></script>
+    <script src="./assets/js/header-footer.js"></script>
 </body>
 
 </html>
