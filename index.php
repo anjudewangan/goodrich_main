@@ -28,30 +28,11 @@
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/image-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
-  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
-  <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-  <link rel="preload" as="image" href="./assets/uploads/video-photo/banner-1.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/uploads/video-photo/banner-2.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/uploads/video-photo/banner-3.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/uploads/video-photo/banner-4.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-1.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon1.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon2.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon3.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon4.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon5.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/products/Spoon6.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-3.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-4.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-7.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-6.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/dashboard/bg-5.webp" type="image/webp">
-  <link rel="preload" as="image" href="./assets/images/bg-img/bg-8.webp" type="image/webp">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="./assets/js/script.js" defer></script>
   <script type="application/ld+json" src="./assets/js/product-schema.json" defer></script>
   <!-- Google tag (gtag.js) -->
-  <script src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY" defer></script>
+  <!-- <script src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY" defer></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -61,7 +42,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-0S50EB0MZY');
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -76,7 +57,7 @@
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle">
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" aria-hidden="true"></i>
               </button>
               <a class="navbar-brand" href="./">
                 <img class="logo-default scroll-hide" src="./assets/images/logos/logo.webp" alt="Goodrich Cereals Logo">
@@ -153,36 +134,39 @@
     </header>
     <!-- Start Slider Section -->
     <section class="slider p-md-0">
-      <div class="swiper-container">
+      <div class="swiper-container hidden-sm vissible-md">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
+            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
+            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
+            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
+            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
           </div>
         </div>
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
-      <!-- Social Icons -->
+      <div class="hidden-md visible-xs-block">
+        <img src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
+      </div>
       <ul class="social-icons social-icons-simple revicon white d-none d-lg-block">
         <li class="d-table">
           <a target="_blank" href="https://www.facebook.com/GoodrichCereals/" class="social-icon"><i class="fa fa-facebook"></i>
           </a>
         </li>
         <li class="d-table">
-          <a target="_blank" href="https://twitter.com/goodrichcereals/" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+          <a target="_blank" href="https://twitter.com/goodrichcereals/" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg>
           </a>
         </li>
         <li class="d-table">
@@ -195,7 +179,7 @@
         </li>
       </ul>
     </section>
-    <div class="section-bg-image parallax-window" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-1.webp">
+    <div class="section-bg-image parallax-window hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-1.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -223,7 +207,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Flakes</h2>
@@ -237,7 +221,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Semolina</h2>
@@ -251,7 +235,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Granules</h2>
@@ -265,7 +249,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Slices</h2>
@@ -278,7 +262,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Dices</h2>
@@ -291,7 +275,7 @@
                 <li>
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="240" height="240" fetchpriority="high" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
+                      <img class="anima" width="240" height="240" loading="lazy" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Shreds</h2>
@@ -308,7 +292,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon3.webp" alt=" A spoonful of potato flakes on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Flakes</h2>
@@ -322,7 +306,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon1.webp" alt=" A spoonful of potato flour on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Semolina</h2>
@@ -336,7 +320,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon2.webp" alt=" A spoonful of potato granules on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Granules</h2>
@@ -350,7 +334,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon4.webp" alt=" A spoonful of potato slices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Slices</h2>
@@ -363,7 +347,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon6.webp" alt=" A spoonful of potato dices on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Dices</h2>
@@ -376,7 +360,7 @@
                 <div class="col-xs-6">
                   <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                     <a class="img-box">
-                      <img loading="lazy" class="anima" width="150" height="150" fetchpriority="high" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
+                      <img class="anima" width="150" height="150" loading="lazy" src="./assets/images/products/Spoon5.webp" alt=" A spoonful of potato shreds on a white background .">
                     </a>
                     <div class="content-box">
                       <h2>Shreds</h2>
@@ -414,7 +398,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-3.webp">
+    <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-3.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -454,13 +438,13 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/dashboard/bg-4.webp">
+    <div class="section-bg-image parallax-window hide-section-bg-image" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/dashboard/bg-4.webp">
       <div class="container content padding-bottom-col">
         <div class="row">
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-money text-xl"></i>
+                <i class="fa fa-money text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></p>
@@ -472,7 +456,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-users text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></p>
@@ -483,7 +467,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-globe text-xl"></i>
+                <i class="fa fa-globe text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="40"></label></p>
@@ -494,7 +478,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-building text-xl"></i>
+                <i class="fa fa-building-o text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="6"></label></p>
@@ -508,7 +492,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-user-plus text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="27"></label></p>
@@ -519,7 +503,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-building text-xl"></i>
+                <i class="fa fa-building-o text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="3"></label></p>
@@ -530,7 +514,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-target text-xl"></i>
+                <i class="fa fa-bullseye text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="10"></label></p>
@@ -541,7 +525,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-users text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></p>
@@ -651,8 +635,8 @@
             <li>
               <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
                 <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India." width="370" height="227"></a>
-                <div class="advs-box-content plants-img-padding-bottom">
-                  <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
+                <div class="advs-box-content">
+                  <h3 class="plants-img-padding-bottom">Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                 </div>
               </div>
             </li>
@@ -660,7 +644,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-6.webp">
+    <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-6.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -996,7 +980,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.webp">
+    <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.webp">
       <div class="container content">
         <div class="title-base">
           <hr>
@@ -1098,7 +1082,7 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/bg-8.webp">
+    <div class="section-bg-image parallax-window hide-section-bg-image" data-natural-width="1920" data-natural-height="1080" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/bg-8.webp">
       <div class="container content">
         <div class="row">
           <div class="col-md-5 col-sm-12 text-center-sm">
@@ -1251,7 +1235,7 @@
             <div class="col-md-12 col-sm-12">
               <div class="grid-list grid-layout col-margins">
                 <div class="grid-box row">
-                <?php
+                  <?php
                   foreach ($rsData as $key => $record) :
                     $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog/' . $record['slug'] . '"';
                   ?>
@@ -1287,7 +1271,7 @@
     <?php
     endif; ?>
   </div>
-  <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+  <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
   <footer class="footer-base footer-parallax">
     <div class="content">
       <div class="container">

@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     <link rel="preload" as="image" href="./assets/images/bg-img/bg-6.webp" type="image/webp">
     <link rel="preload" as="image" href="./assets/images/bg-img/bg-15.webp" type="image/webp">
@@ -74,7 +73,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-15.webp">
+        <div class="section-bg-image parallax-window hide-section-bg-image" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-15.webp">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center">
@@ -248,7 +247,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.webp">
+        <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/dashboard/bg-5.webp">
             <div class="container content">
                 <div class="title-base">
                     <hr>
@@ -342,7 +341,8 @@
                 <hr class="space m">
             </div>
         </div>
-    </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    </div> 
+    <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax" id="section-footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

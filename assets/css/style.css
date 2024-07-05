@@ -1672,10 +1672,6 @@ div.mega-menu-fullwidth .mega-dropdown .mega-menu {
     width: calc(100% - 30px)
 }
 
-.mega-menu .fa-ul.no-icons {
-    margin-left: 1px
-}
-
 .navbar-big-logo .navbar-brand {
     position: relative;
     top: -36px;
@@ -3535,7 +3531,8 @@ i.onlycover:before {
 .icon-box.icon-box-top-bottom .icon-box-cell>i {
     float: none;
     margin: 7px 0;
-    display: inline-block
+    display: inline-block;
+    opacity: 0.9;
 }
 
 .icon-list.icon-list-top-bottom .list-item i {
@@ -7173,7 +7170,7 @@ footer hr {
     }
 
     .plants-img-padding-bottom {
-        padding-bottom: 50px !important;
+        padding-bottom: 30px !important;
     }
 
     .blog-box {
@@ -7187,6 +7184,10 @@ footer hr {
 
     hr.d-dark {
         margin-top: 0;
+    }
+
+    .hide-section-bg-image {
+        background-image: none !important;
     }
 
 }
@@ -8497,7 +8498,7 @@ nav ul {
     font-size: 55px;
     line-height: 55px;
     display: inline-block;
-    content: '\f104';
+    content: '\2190';
     color: #333;
     text-shadow: 0 0 2px #fff
 }
@@ -8508,7 +8509,7 @@ nav ul {
 }
 
 .flex-direction-nav a.flex-next:before {
-    content: '\f105'
+    content: '\2192'
 }
 
 .flex-direction-nav .flex-prev {
@@ -9200,5 +9201,5 @@ nav ul {
 }
 
 .plants-img-padding-bottom {
-    padding-bottom: 74px;
+    padding-bottom: 40px;
 }

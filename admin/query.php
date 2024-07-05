@@ -4,40 +4,6 @@ require_once(dirname(__DIR__) . '/includes/connection_inner.php');
 
 $today = date("Y-m-d");
 
-function convertToWebP($source, $destination, $quality = 80)
-{
-	// Get the image info
-	$info = getimagesize($source);
-	$mime = $info['mime'];
-
-	// Create a new image from file
-	switch ($mime) {
-		case 'image/jpeg':
-		case 'image/jpg':
-			$image = imagecreatefromjpeg($source);
-			break;
-		case 'image/png':
-			$image = imagecreatefrompng($source);
-			// Preserve transparency
-			imagepalettetotruecolor($image);
-			imagealphablending($image, true);
-			imagesavealpha($image, true);
-			break;
-		default:
-			throw new Exception('Unsupported image type: ' . $mime);
-	}
-
-	// Save the image as a WebP file
-	if (imagewebp($image, $destination, $quality)) {
-		// Free up memory
-		imagedestroy($image);
-		return true;
-	} else {
-		// Free up memory
-		imagedestroy($image);
-		return false;
-	}
-}
 
 //-------Login------------
 if (isset($_POST['login'])) {
@@ -150,7 +116,6 @@ if (isset($_POST['gallery_create'])) {
 	} else {
 
 		$valid_extensions = array('webp', 'jpeg', 'jpg', 'png');
-		$check_extensions = array("webp");
 
 		//$max_size = 1 * 1024 * 1024; // 1MB
 		$max_size = 100 * 1024; // 100kb
@@ -185,24 +150,9 @@ if (isset($_POST['gallery_create'])) {
 			}
 
 			// Move file to upload directory
-			//$photo_name = 'goodrich' . round(microtime(true)) . '.' . $file_ext;
-			//if (in_array($file_ext, $check_extensions)) {
 			$photo_name = $file_name;
 			$target_file = $target_dir . basename($photo_name);
 			move_uploaded_file($file_tmp, $target_file);
-			/* } else {
-				$target_file = $target_dir . basename($file_name);
-				//move_uploaded_file($file_tmp, $target_file);
-				if (move_uploaded_file($file_tmp, $target_file)) {
-					$photo_name = $target_dir . pathinfo($target_file, PATHINFO_FILENAME) . '.webp';
-					
-					if (convertToWebP($target_dir, $photo_name)) {
-						// Unlink (delete) the original uploaded file
-						unlink($target_dir);
-					}
-				}
-			} */
-
 
 			//----Insert Data for Gallery---------
 			$_POST["photo_sorting"] = $_POST["photo_sorting"] + $key;
@@ -249,15 +199,14 @@ if (isset($_POST['gallery_edit'])) {
 			$file_size = $_FILES["attached_file"]['size'];
 			$target_dir = "../assets/uploads/gallery/";
 			$max_size = 100 * 1024; // 100kb
-			//$allowed_extensions = array("gif", "jpg", "jpeg", "png");
-			$allowed_extensions = array("webp");
+			$allowed_extensions = array("webp", "jpg", "jpeg", "png");
 
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_extensions)) {
-				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, webp and JPEG files are allowed."));
+				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
 				exit;
 				// Check file size
 			} else if ($file_size > $max_size) {
@@ -343,15 +292,14 @@ if (isset($_POST['blog'])) {
 			$file_size = $_FILES["attached_file"]['size'];
 			$max_size = 100 * 1024; // 100kb
 			$target_dir = "../assets/uploads/blog/";
-			//$allowed_extensions = array("gif", "jpg", "jpeg", "png");
-			$allowed_extensions = array("webp");
-
+			$allowed_extensions = array("webp", "jpg", "jpeg", "png");
+			
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_extensions)) {
-				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, GIF and JPEG files are allowed."));
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, webp and JPEG files are allowed."));
+				//echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
 				exit;
 				// Check file size
 			} else if ($file_size > $max_size) {
@@ -419,7 +367,8 @@ if (isset($_POST['banner'])) {
 			$imageHeight = $imageInfo[1];
 
 			$target_dir = "../assets/uploads/video-photo/";
-			$allowed_image = array("webp");
+			//$allowed_image = array("webp");
+			$allowed_image = array("webp", "jpg", "jpeg", "png");
 			$allowed_video = array("mp4");
 
 			$file_extension = strtolower(pathinfo($_FILES["attached_file"]["name"], PATHINFO_EXTENSION));
@@ -427,7 +376,7 @@ if (isset($_POST['banner'])) {
 
 			// Check if the file extension is allowed
 			if (!in_array($file_extension, $allowed_image) && $_POST["banner_type"] == 'image') {
-				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only webp file is allowed."));
+				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only PNG, JPG, webp and JPEG files are allowed."));
 				exit;
 			} elseif (!in_array($file_extension, $allowed_video) && $_POST["banner_type"] == 'video') {
 				echo json_encode(array("class_name" => 'attached_file', "error" => "Sorry, only mp4 file is allowed."));

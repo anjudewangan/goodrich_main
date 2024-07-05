@@ -1028,7 +1028,15 @@ body .block-quote.quote-2:after,
 body .block-quote.quote-2:before {
     color: rgba(113, 130, 138, .34);
     font-size: 95px;
-    line-height: 46px
+    line-height: 46px;
+}
+
+body .block-quote.quote-2:after {
+    content: "\201d";
+} 
+
+body .block-quote.quote-2:before {
+    content: "\201c";
 }
 
 .block-quote.quote-1 {
@@ -1042,7 +1050,7 @@ body .block-quote.quote-2:before {
 }
 
 .block-quote.quote-2:after {
-    margin-top: -5px
+    margin-top: 17px
 }
 
 .latest-post-list h5 {
@@ -1663,8 +1671,8 @@ div .countdown .countdown-values {
 }
 
 .btn-text:after {
-    content: "\edaf";
-    transform: rotate(90deg);
+    content: "\2192";
+    /* transform: rotate(90deg); */
     font-family: icomoon !important;
     margin: -13px 0 0;
     text-decoration: none;
@@ -1864,7 +1872,7 @@ header .navbar-nav li li:hover {
 }
 
 .col .fa-ul {
-    margin-left: 43px
+    margin-left: 0;
 }
 
 .side-menu i {
@@ -3193,7 +3201,7 @@ body .adv-img-button-content .caption i {
 
     .navbar-toggle>i,
     header .fa-bars {
-        font-size: 34px;
+        font-size: 24px;
         margin-top: 0
     }
 
@@ -3311,7 +3319,7 @@ body .adv-img-button-content .caption i {
     }
 
     .col .fa-ul {
-        margin-left: 60px;
+        margin-left: 0 !important;
         width: calc(100% - 80px)
     }
 
@@ -3368,7 +3376,8 @@ body .adv-img-button-content .caption i {
         height: 40px;
         width: 40px;
         color: #fff;
-        background-color: #000
+        background-color: #000;
+        font-size: 20px;
     }
 
     .adv-img-full-content:hover>.img-box:not(.caption-bg),

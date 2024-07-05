@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     <link rel="preload" as="image" href="./assets/images/bg-img/bg-2.webp" type="image/webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
@@ -150,8 +149,8 @@
                         </li>
                         <li>
                             <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover"> <a class="img-box"><img loading="lazy" class="anima" src="./assets/images/dashboard/ahmednagar-plant.webp" alt="A white building with a tower in the background on a campus in Ahmednagar, Maharashtra, India."></a>
-                                <div class="advs-box-content plants-img-padding-bottom">
-                                    <h3>Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
+                                <div class="advs-box-content">
+                                    <h3 class="plants-img-padding-bottom">Campus in <span class="heading-green">Ahmednagar</span> (Maharashtra), India</h3>
                                 </div>
                             </div>
                         </li>
@@ -165,10 +164,11 @@
                 <div class="title-base" data-anima="fade-top">
                     <hr>
                     <h2>FOR BULK BUYING OF DEHYDRATED POTATO PRODUCTS</h2>
-                </div> <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Contact Us</a>
+                </div> <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact Us</a>
             </div>
         </div>
-    </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    </div>
+    <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax" id="section-footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

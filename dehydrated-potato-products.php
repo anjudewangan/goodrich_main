@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     <link rel="preload" as="image" href="./assets/images/bg-img/bg-10.webp" type="image/webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
@@ -157,7 +156,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" id="flour-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-11.webp">
+        <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" id="flour-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-11.webp">
             <div class="container content text-center">
                 <div class="title-base">
                     <h2>Flours</h2>
@@ -167,9 +166,9 @@
                 <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
-                        <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>
-                        <li><a href="#"><i class="im-four-fingerstouch"></i> Recommended Uses</a></li>
-                        <li><a href="#"><i class="im-gaugage-2"></i> Rehydration</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Characterstics</a></li>
+                        <li><a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Recommended Uses</a></li>
+                        <li><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i> Rehydration</a></li>
                     </ul>
                     <div class="panel-box col-md-12">
                         <div class="panel active padding-right">
@@ -218,7 +217,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" id="granule-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-1.webp">
+        <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" id="granule-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-1.webp">
             <div class="container content text-center">
                 <div class="title-base">
                     <h2>Granules</h2>
@@ -229,9 +228,9 @@
                 <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
-                        <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>
-                        <li><a href="#"><i class="im-four-fingerstouch"></i> Recommended Uses</a></li>
-                        <li><a href="#"><i class="im-gaugage-2"></i> Rehydration</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Characterstics</a></li>
+                        <li><a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Recommended Uses</a></li>
+                        <li><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i> Rehydration</a></li>
                     </ul>
                     <div class="panel-box col-md-12">
                         <div class="panel active padding-right">
@@ -280,7 +279,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-bg-image parallax-window parallax-side" id="air-dried-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-12.webp">
+        <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" id="air-dried-sec" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-12.webp">
             <div class="container content text-center">
                 <div class="title-base">
                     <h2>Air Dried</h2>
@@ -291,9 +290,9 @@
                 <hr class="space m">
                 <div class="tab-box" data-tab-anima="fade-left">
                     <ul class="nav nav-tabs nav-justified">
-                        <li class="active"><a href="#"><i class="im-flick"></i> Characterstics</a></li>
-                        <li><a href="#"><i class="im-four-fingerstouch"></i> Recommended Uses</a></li>
-                        <li><a href="#"><i class="im-gaugage-2"></i> Rehydration</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Characterstics</a></li>
+                        <li><a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Recommended Uses</a></li>
+                        <li><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i> Rehydration</a></li>
                     </ul>
                     <div class="panel-box col-md-12">
                         <div class="panel active padding-right">
@@ -342,7 +341,8 @@
                 </div>
             </div>
         </div>
-    </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    </div>
+    <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax" id="section-footer"> </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

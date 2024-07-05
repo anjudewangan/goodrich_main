@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="./assets/js/script.js" defer></script>
     <script type="application/ld+json" src="./assets/js/product-schema.json" defer></script>
@@ -140,7 +139,7 @@
                                         <input type="file" id="cvInput" name="attached_file" style="display: none;">
                                     </div>
                                     <button class="anima-button circle-button btn-xs btn" type="submit">
-                                        <i class="im-envelope-2"></i>Submit
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>Submit
                                     </button>
                                     <div class="Inpt attached_file"></div>
                                 </div>
@@ -161,7 +160,8 @@
                 </div>
             </div>
         </div>
-    </div> <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    </div> 
+    <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

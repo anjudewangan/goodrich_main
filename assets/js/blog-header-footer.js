@@ -5,7 +5,7 @@ document.getElementById("section-header").innerHTML = `<div
             <div class="container">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle">
-                  <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
                 <a class="navbar-brand" href="../">
                 <img class="logo-default scroll-hide" src="../assets/images/logos/logo.webp" alt="logo">

@@ -28,7 +28,6 @@
   <link rel="stylesheet" href="./assets/css/content-box.css">
   <link rel="stylesheet" href="./assets/css/image-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
-  <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
   <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
   <link rel="preload" as="image" href="./assets/images/bg-img/bg-2.webp" type="image/webp">
   <link rel="preload" as="image" href="./assets/images/bg-img/bg-7.webp" type="image/webp">
@@ -296,13 +295,13 @@
         </div>
       </div>
     </div>
-    <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-7.webp">
+    <div class="section-bg-image parallax-window parallax-side hide-section-bg-image" data-sub-height="0" data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll" data-image-src="./assets/images/bg-img/bg-7.webp">
       <div class="container content">
         <div class="row">
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-money text-xl"></i>
+                <i class="fa fa-money text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="120000000"></label></p>
@@ -314,7 +313,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-users text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="2000"></label></p>
@@ -325,7 +324,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-globe text-xl"></i>
+                <i class="fa fa-globe text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="40"></label></p>
@@ -336,7 +335,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-building text-xl"></i>
+                <i class="fa fa-building-o text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="6"></label></p>
@@ -350,7 +349,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-user-plus text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="27"></label></p>
@@ -361,7 +360,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-building text-xl"></i>
+                <i class="fa fa-building-o text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="3"></label></p>
@@ -372,7 +371,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-target text-xl"></i>
+                <i class="fa fa-bullseye text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="10"></label></p>
@@ -383,7 +382,7 @@
           <div class="col-lg-3 col-xs-3">
             <div class="icon-box icon-box-top-bottom">
               <div class="icon-box-cell">
-                <i class="im-conference text-xl"></i>
+                <i class="fa fa-users text-xl" aria-hidden="true"></i>
               </div>
               <div class="icon-box-cell">
                 <p><label class="counter1 text-m" data-speed="20000" data-count="5000"></label></p>
@@ -496,12 +495,12 @@
             </p>
           </div>
         </div>
-        <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Get In
+        <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="fa fa-envelope-o" aria-hidden="true"></i>Get In
           Touch</a>
       </div>
     </div>
   </div>
-  <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+  <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
   <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

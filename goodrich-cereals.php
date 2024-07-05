@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="./assets/css/content-box.css">
     <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <link rel="stylesheet" href="./assets/js/iconsmind/line-icons.min.css">
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     <link rel="preload" as="image" href="./assets/images/bg-img/bg-3.webp" type="image/webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
@@ -252,11 +251,11 @@
                     <div class="col-md-8 col-center">
                         <p data-anima="fade-bottom"> Goodrich Cereals stands as a beacon of trust in the world of dehydrated potato products. </p>
                     </div>
-                </div> <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Get In Touch</a>
+                </div> <a href="./get-in-touch" class="circle-button btn btn-sm anima-button"><i class="fa fa-envelope-o" aria-hidden="true"></i>Get In Touch</a>
             </div>
         </div>
     </div>
-    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
