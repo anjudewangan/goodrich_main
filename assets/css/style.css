@@ -8406,16 +8406,6 @@ nav ul {
     transform: translate3d(0, 0, 0)
 }
 
-@font-face {
-    font-family: flexslider-icon;
-    src: url('../js/flexslider/fonts/flexslider-icon.eot');
-    src: url('../js/flexslider/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../js/flexslider/fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+0025-00FF;
-}
-
 .flex-control-nav,
 .flex-direction-nav,
 .slides,
