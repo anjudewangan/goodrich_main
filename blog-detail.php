@@ -1,6 +1,6 @@
 <?php include_once("includes/connection_inner.php");
 
-$rsData = $Q_obj->getRecords('blogs', $_GET['id']);
+$rsData = $Q_obj->viewBlog($_GET['slug']);
 if (count($rsData) == 0) :
   header("Location: ../");
   exit;
@@ -98,7 +98,6 @@ endif;
         </div>
       </div>
     </div>
-
   </div>
   <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
   <footer class="footer-base footer-parallax bg-white" id="section-footer"></footer>

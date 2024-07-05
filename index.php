@@ -1251,9 +1251,9 @@
             <div class="col-md-12 col-sm-12">
               <div class="grid-list grid-layout col-margins">
                 <div class="grid-box row">
-                  <?php
+                <?php
                   foreach ($rsData as $key => $record) :
-                    $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog-detail/' . $record['id'] . '"';
+                    $bloglink = (isset($record['external_url'])  && $record['external_url'] != null) ? 'href="' . $record['external_url'] . '" target="_blank"' : 'href="blog/' . $record['slug'] . '"';
                   ?>
                     <div class="grid-item col-md-4">
                       <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">

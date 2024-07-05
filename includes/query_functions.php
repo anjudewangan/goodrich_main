@@ -62,6 +62,13 @@ class Query_Functions extends sqlConnection
 		return $sql_data->rows;
 	}
 
+	//------------------view blog Records--------------------
+	public function viewBlog($slug)
+	{
+		$sql_data = $this->query("select * from blogs where slug='" . $slug . "' limit 0,1");
+		return $sql_data->rows;
+	}
+
 	//------------------Delete Records--------------------
 	public function DeleteRecords($tablname, $id)
 	{
@@ -211,9 +218,9 @@ class Query_Functions extends sqlConnection
 			} else {
 				$atchdata = '';
 			}
-			$this->query("Update blogs set title='" . input_fields($data['title']) . "' " . $atchdata . ", external_url='" . input_fields($data['external_url']) . "', blog_description='" . $this->getRequest($data['blog_description']) . "', blog_date='" . input_fields($data['blog_date']) . "' where id='" . $data['id'] . "'");
+			$this->query("Update blogs set title='" . input_fields($data['title']) . "', slug='" . $data['slug'] . "' " . $atchdata . ", external_url='" . input_fields($data['external_url']) . "', blog_description='" . $this->getRequest($data['blog_description']) . "', blog_date='" . input_fields($data['blog_date']) . "' where id='" . $data['id'] . "'");
 		} else {
-			$this->query("Insert into blogs set title='" . input_fields($data['title']) . "', attached_file='" . input_fields($data['attached_file']) . "', external_url='" . input_fields($data['external_url']) . "', blog_description='" . $this->getRequest($data['blog_description']) . "', blog_date='" . input_fields($data['blog_date']) . "', created_at='" . date('Y-m-d H:i:s') . "'");
+			$this->query("Insert into blogs set title='" . input_fields($data['title']) . "', slug='" . $data['slug'] . "', attached_file='" . input_fields($data['attached_file']) . "', external_url='" . input_fields($data['external_url']) . "', blog_description='" . $this->getRequest($data['blog_description']) . "', blog_date='" . input_fields($data['blog_date']) . "', created_at='" . date('Y-m-d H:i:s') . "'");
 		}
 	}
 

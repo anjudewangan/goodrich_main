@@ -4,6 +4,41 @@ require_once(dirname(__DIR__) . '/includes/connection_inner.php');
 
 $today = date("Y-m-d");
 
+function convertToWebP($source, $destination, $quality = 80)
+{
+	// Get the image info
+	$info = getimagesize($source);
+	$mime = $info['mime'];
+
+	// Create a new image from file
+	switch ($mime) {
+		case 'image/jpeg':
+		case 'image/jpg':
+			$image = imagecreatefromjpeg($source);
+			break;
+		case 'image/png':
+			$image = imagecreatefrompng($source);
+			// Preserve transparency
+			imagepalettetotruecolor($image);
+			imagealphablending($image, true);
+			imagesavealpha($image, true);
+			break;
+		default:
+			throw new Exception('Unsupported image type: ' . $mime);
+	}
+
+	// Save the image as a WebP file
+	if (imagewebp($image, $destination, $quality)) {
+		// Free up memory
+		imagedestroy($image);
+		return true;
+	} else {
+		// Free up memory
+		imagedestroy($image);
+		return false;
+	}
+}
+
 //-------Login------------
 if (isset($_POST['login'])) {
 
@@ -114,13 +149,15 @@ if (isset($_POST['gallery_create'])) {
 		exit;
 	} else {
 
-		//$valid_extensions = array('jpeg', 'jpg', 'png');
-		$valid_extensions = array("webp");
+		$valid_extensions = array('webp', 'jpeg', 'jpg', 'png');
+		$check_extensions = array("webp");
+
 		//$max_size = 1 * 1024 * 1024; // 1MB
 		$max_size = 100 * 1024; // 100kb
 
 		$attached_file = $_FILES['attached_file'];
 		$upload_errors = array();
+		$target_dir = "../assets/uploads/gallery/";
 
 		foreach ($attached_file['tmp_name'] as $key => $tmp_name) {
 			$file_name = $attached_file['name'][$key];
@@ -149,10 +186,23 @@ if (isset($_POST['gallery_create'])) {
 
 			// Move file to upload directory
 			//$photo_name = 'goodrich' . round(microtime(true)) . '.' . $file_ext;
+			//if (in_array($file_ext, $check_extensions)) {
 			$photo_name = $file_name;
-			$target_dir = "../assets/uploads/gallery/";
 			$target_file = $target_dir . basename($photo_name);
 			move_uploaded_file($file_tmp, $target_file);
+			/* } else {
+				$target_file = $target_dir . basename($file_name);
+				//move_uploaded_file($file_tmp, $target_file);
+				if (move_uploaded_file($file_tmp, $target_file)) {
+					$photo_name = $target_dir . pathinfo($target_file, PATHINFO_FILENAME) . '.webp';
+					
+					if (convertToWebP($target_dir, $photo_name)) {
+						// Unlink (delete) the original uploaded file
+						unlink($target_dir);
+					}
+				}
+			} */
+
 
 			//----Insert Data for Gallery---------
 			$_POST["photo_sorting"] = $_POST["photo_sorting"] + $key;
@@ -162,7 +212,7 @@ if (isset($_POST['gallery_create'])) {
 
 		// Prepare JSON response
 		if (!empty($upload_errors)) {
-			$response = array("class_name" => 'attached_file', "error" => "Some files could not be uploaded", "errors" => $upload_errors);
+			$response = array("class_name" => 'attached_file', "error" => $upload_errors);
 		} else {
 			$response = array("class_name" => '', "purl" => 'view-gallery.php', "msg" => 'Successfully data saved!');
 		}
@@ -324,7 +374,7 @@ if (isset($_POST['blog'])) {
 		}
 
 		//----Insert/Update Data for Blog---------
-
+		$_POST["slug"] = url_slug($_POST["title"]);
 		$Q_obj->BlogSubmitUpdate($_POST);
 
 		echo json_encode(array("class_name" => '', "purl" => 'view-blog.php', "msg" => 'Successfully data saved!'));
@@ -457,4 +507,20 @@ if (isset($_GET['mediasort']) && $_GET['mediasort'] == 'video') {
 	}
 	echo json_encode(array('status' => 'success', 'data' => $data));
 	exit;
+}
+
+/**
+ * Prepare the url_slug.
+ */
+function url_slug($feilds)
+{
+	return strtolower(strip_tags(trim(preg_replace(
+		'~[^0-9A-Za-z]+~i',
+		'-',
+		html_entity_decode(preg_replace(
+			'~&([A-Za-z]{1,2})(?:acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml);~i',
+			'$1',
+			htmlentities(preg_replace('/[&]/', ' and ', $feilds), ENT_QUOTES, 'UTF-8')
+		), ENT_QUOTES, 'UTF-8')
+	), '-')));
 }
