@@ -19,19 +19,18 @@
     <link rel="icon" href="./assets/images/logos/logo.webp">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
     <link rel="canonical" href="https://www.goodrichcereals.com/potato-flakes">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="./assets/css/style.css">
     </noscript>
-    <link rel="stylesheet" href="./assets/css/content-box.css">
-    <link rel="stylesheet" href="./assets/css/image-box.css">
     <link rel="stylesheet" href="./assets/css/skin.css">
-    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-    <link rel="preload" as="image" href="./assets/images/bg-img/bg-6.webp" type="image/webp">
-    <link rel="preload" as="image" href="./assets/images/bg-img/bg-15.webp" type="image/webp">
-    <link rel="preload" as="image" href="./assets/images/bg-img/bg-13.webp" type="image/webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="./assets/js/script.js" defer></script>
     <script type="application/ld+json" src="./assets/js/product-schema.json" defer></script>
@@ -53,7 +52,7 @@
     <div id="preloader"></div>
     <div class="footer-parallax-container">
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in" id="section-header"></header>
-        <div class="header-title ken-burn-center dark" data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-6.webp">
+        <div class="header-title ken-burn-center dark " data-parallax="scroll" data-position="top" data-natural-height="850" data-natural-width="1920" data-image-src="./assets/images/bg-img/bg-6.webp">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima">
@@ -87,9 +86,9 @@
                     <div class="col-md-6">
                         <div class="coverflow-slider" data-options="enableMousewheel:false" data-width="45">
                             <ul class="slides">
-                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img loading="lazy" src="./assets/images/products/Bowl-1.webp" alt="Mashed potatoes in a green bowl with a spoon, a classic side dish ."></span> </a> </li>
-                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img loading="lazy" src="./assets/images/products/Bowl-2.webp" alt="Image of a potato and green leaf on a matching green background."></span> </a> </li>
-                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img loading="lazy" src="./assets/images/products/Bowl-3.webp" alt="Fresh potatoes in a rustic basket."></span> </a> </li>
+                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img src="./assets/images/products/Bowl-1.webp" alt="Mashed potatoes in a green bowl with a spoon, a classic side dish ."></span> </a> </li>
+                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img src="./assets/images/products/Bowl-2.webp" alt="Image of a potato and green leaf on a matching green background."></span> </a> </li>
+                                <li> <a class="img-box lightbox thumbnail medium-circle-img" data-lightbox-anima="show-scale"> <span><img src="./assets/images/products/Bowl-3.webp" alt="Fresh potatoes in a rustic basket."></span> </a> </li>
                             </ul>
                         </div>
                     </div>
@@ -121,10 +120,10 @@
                         <hr class="space l">
                         <div class="row" data-anima="fade-top" data-timeline="asc" data-timeline-time="200">
                             <div class="col-lg-2 hidden-sm"> </div>
-                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/mashed.webp" alt="A delectable bowl of mashed potatoes"> </a> </div>
-                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake1.webp" alt="A bowl of white potato flakes"> </a> </div>
-                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/img1.webp" alt="A plate of creamy mashed potatoes garnished with a generous amount of butter and a sprinkle of salt"> </a> </div>
-                            <div class="col-lg-2 col-xs-3 anima small-circle-img"> <a class="img-box circle lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake4.webp" alt="A bowl of potato flakes dark background"> </a> </div>
+                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img src="./assets/images/products/mashed.webp" alt="A delectable bowl of mashed potatoes"> </a> </div>
+                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake1.webp" alt="A bowl of white potato flakes"> </a> </div>
+                            <div class="col-lg-2 col-xs-3 anima"> <a class="img-box circle lightbox small-circle-img" data-lightbox-anima="show-scale"> <img src="./assets/images/products/img1.webp" alt="A plate of creamy mashed potatoes garnished with a generous amount of butter and a sprinkle of salt"> </a> </div>
+                            <div class="col-lg-2 col-xs-3 anima small-circle-img"> <a class="img-box circle lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake4.webp" alt="A bowl of potato flakes dark background"> </a> </div>
                             <div class="col-lg-2 hidden-sm"> </div>
                         </div>
                     </div>
@@ -133,7 +132,7 @@
         </div>
         <div class="section-two-blocks blocks-right bg-white">
             <div class="row">
-                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/bg-img/bg-14.webp" alt="A bowl filled with mashed potatoes, a spoon resting on top."></a> </div>
+                <div class="col-md-6"> <a class="img-box"><img src="./assets/images/bg-img/bg-14.webp" alt="A bowl filled with mashed potatoes, a spoon resting on top."></a> </div>
                 <div class="col-md-6">
                     <div class="content">
                         <div class="title-base text-left">
@@ -176,7 +175,7 @@
         </div>
         <div class="section-two-blocks bg-white">
             <div class="row">
-                <div class="col-md-6"> <a class="img-box"><img loading="lazy" src="./assets/images/products/flake6.webp" alt="A bowl of white potato flakes"></a> </div>
+                <div class="col-md-6"> <a class="img-box"><img src="./assets/images/products/flake6.webp" alt="A bowl of white potato flakes"></a> </div>
                 <div class="col-md-6">
                     <div class="content">
                         <div class="title-base text-left">
@@ -242,7 +241,7 @@
                         <hr class="space s">
                     </div>
                     <div class="col-md-6 col-sm-12 text-center-sm" data-anima="fade-right">
-                        <hr class="space m visible-sm"> <img loading="lazy" src="./assets/images/products/potato-flakes-mashed.webp" alt="Step-by-step guide on making potato flakes from mashed potato">
+                        <hr class="space m visible-sm"> <img src="./assets/images/products/potato-flakes-mashed.webp" alt="Step-by-step guide on making potato flakes from mashed potato">
                     </div>
                 </div>
             </div>
@@ -258,7 +257,7 @@
                 <div class="row padding-bottom-col">
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/1.webp" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish."> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img src="./assets/images/dashboard/1.webp" alt="Potato soup with crispy bacon and crunchy nuts, a comforting and flavorful dish."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
                                         <h2> For <br> Thickening </h2>
@@ -270,7 +269,7 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/2.webp" alt="Various types of bread on a wooden table."> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img src="./assets/images/dashboard/2.webp" alt="Various types of bread on a wooden table."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
                                         <h2> For <br> Baking </h2>
@@ -282,7 +281,7 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/3.webp" alt="A delectable burger adorned with veggies ."> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img src="./assets/images/dashboard/3.webp" alt="A delectable burger adorned with veggies ."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
                                         <h2> For Formed <br> Products </h2>
@@ -294,7 +293,7 @@
                     </div>
                     <div class="col-lg-3 col-xs-6">
                         <div class="img-box adv-img adv-img-full-content">
-                            <div class="img-box"> <img loading="lazy" src="./assets/images/dashboard/4.webp" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs."> </div> <a href="#" class="caption-bg img-box">
+                            <div class="img-box"> <img src="./assets/images/dashboard/4.webp" alt="Aloo Bhujiya: A spoon of Indian dish made with crispy potato strands, spices, and herbs."> </div> <a href="#" class="caption-bg img-box">
                                 <div class="caption">
                                     <div class="inner">
                                         <h2> For Packed <br> Snacks </h2>
@@ -326,22 +325,22 @@
             <div class="content">
                 <div class="flexslider carousel nav-inner" data-options="minWidth:120,itemMargin:0,numItems:6,controlNav:true,directionNav:false">
                     <ul class="slides">
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/L1-Flake.webp" alt="A bowl of white potato flakes on a wooden table"> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake2.webp" alt=" Image of a bowl filled with potato flakes."> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake1.webp" alt="A bowl of white potato flakes"> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake3.webp" alt=" A bowl of fluffy potato flakes, perfect for making mashed potatoes or as a crispy coating for fried dishes."> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake4.webp" alt="A bowl of potato flakes dark background"> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake-mash.webp" alt="A bag of potato flakes beside a bowl of mashed potato."> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake-Granule.webp" alt="a bowl of potato flakes and a bowl of potato granule ."> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake5.webp" alt="a bag of potato flakes and a bag of potato flakes"> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/flake.webp" alt="A bowl of white potato flakes"> </a> </li>
-                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img loading="lazy" src="./assets/images/products/Flake2.webp" alt=" Image of a bowl filled with potato flakes."> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/L1-Flake.webp" alt="A bowl of white potato flakes on a wooden table"> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake2.webp" alt=" Image of a bowl filled with potato flakes."> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake1.webp" alt="A bowl of white potato flakes"> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake3.webp" alt=" A bowl of fluffy potato flakes, perfect for making mashed potatoes or as a crispy coating for fried dishes."> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake4.webp" alt="A bowl of potato flakes dark background"> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake-mash.webp" alt="A bag of potato flakes beside a bowl of mashed potato."> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake-Granule.webp" alt="a bowl of potato flakes and a bowl of potato granule ."> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake5.webp" alt="a bag of potato flakes and a bag of potato flakes"> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/flake.webp" alt="A bowl of white potato flakes"> </a> </li>
+                        <li> <a class="img-box lightbox" data-lightbox-anima="show-scale"> <img src="./assets/images/products/Flake2.webp" alt=" Image of a bowl filled with potato flakes."> </a> </li>
                     </ul>
                 </div>
                 <hr class="space m">
             </div>
         </div>
-    </div> 
+    </div>
     <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
     <footer class="footer-base footer-parallax" id="section-footer"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

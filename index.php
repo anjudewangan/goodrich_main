@@ -19,7 +19,12 @@
   <link rel="icon" href="./assets/images/logos/logo.webp">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/apple-touch-icon.webp">
   <link rel="canonical" href="https://www.goodrichcereals.com/">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
@@ -29,10 +34,27 @@
   <link rel="stylesheet" href="./assets/css/image-box.css">
   <link rel="stylesheet" href="./assets/css/skin.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
   <script src="./assets/js/script.js" defer></script>
   <script type="application/ld+json" src="./assets/js/product-schema.json" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const lazyImages = document.querySelectorAll("img.lazyload");
+
+      lazyImages.forEach(img => {
+        if (img.complete) {
+          img.classList.add("ls-is-cached", "lazyloaded");
+        } else {
+          img.addEventListener("load", function() {
+            img.classList.add("lazyloaded");
+          });
+        }
+      });
+    });
+  </script>
   <!-- Google tag (gtag.js) -->
-  <!-- <script src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY" defer></script>
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-0S50EB0MZY" defer></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -42,7 +64,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-0S50EB0MZY');
-  </script> -->
+  </script>
 </head>
 
 <body>
@@ -134,29 +156,26 @@
     </header>
     <!-- Start Slider Section -->
     <section class="slider p-md-0">
-      <div class="swiper-container hidden-sm vissible-md">
+      <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
+            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-1-375w.webp" alt="Banner Potato" srcset="./assets/uploads/video-photo/banner-1-375w.webp 375w, ./assets/uploads/video-photo/banner-1.webp 1000w, ./assets/uploads/video-photo/banner-1.webp 1500w">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-2.webp" alt="Banner Mashing Potato">
+            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-2-375w.webp" alt="Banner Mashing Potato" srcset="./assets/uploads/video-photo/banner-2-375w.webp 375w, ./assets/uploads/video-photo/banner-2.webp 1000w, ./assets/uploads/video-photo/banner-2.webp 1500w">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-3.webp" alt="Banner Potato Form">
+            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-3-375w.webp" alt="Banner Potato Form" srcset="./assets/uploads/video-photo/banner-3-375w.webp 375w, ./assets/uploads/video-photo/banner-3.webp 1000w, ./assets/uploads/video-photo/banner-3.webp 1500w">
           </div>
           <div class="swiper-slide">
             <div class="bg-overlay"></div>
-            <img width="1920" fetchpriority="high" loading="lazy" src="./assets/uploads/video-photo/banner-4.webp" alt="Banner Potato Flkes">
+            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-4-375w.webp" alt="Banner Potato Flkes" srcset="./assets/uploads/video-photo/banner-4-375w.webp 375w, ./assets/uploads/video-photo/banner-4.webp 1000w, ./assets/uploads/video-photo/banner-4.webp 1500w">
           </div>
         </div>
         <div class="swiper-pagination"></div>
-      </div>
-      <div class="hidden-md visible-xs-block">
-        <img src="./assets/uploads/video-photo/banner-1.webp" alt="Banner Potato">
       </div>
       <ul class="social-icons social-icons-simple revicon white d-none d-lg-block">
         <li class="d-table">
@@ -548,59 +567,113 @@
             <hr class="space m">
           </div>
         </div>
-        <div class="flexslider carousel nav-inner" data-options="minWidth:120,itemMargin:0,numItems:6,controlNav:true,directionNav:false">
+        <div class="flexslider carousel nav-inner hidden-sm vissible-md" data-options="minWidth:120,itemMargin:0,numItems:6,controlNav:true,directionNav:false">
           <ul class="slides">
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/brcgs.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/brcgs.webp" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/brcgs.webp" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fda-us.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fda-us.webp" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/fda-us.webp" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fieo.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fieo.webp" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/fieo.webp" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/fssai.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/fssai.webp" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/fssai.webp" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/haccp-certified.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/haccp-certified.webp" alt="HACCP certified logo depicting Certifications & Recognitions." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/haccp-certified.webp" alt="HACCP certified logo depicting Certifications & Recognitions.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/halal.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/halal.webp" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage" width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/halal.webp" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/iso-22000-2015.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/iso-22000-2015.webp" alt="CCL Ltd isco: Registered Indian company. Certified and recognized." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/iso-22000-2015.webp" alt="CCL Ltd isco: Registered Indian company. Certified and recognized.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/paa.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/paa.webp" alt="The Potato Association of America logo, indicating Certifications & Recognitions." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/paa.webp" alt="The Potato Association of America logo, indicating Certifications & Recognitions.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/star-export.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions.">
               </a>
             </li>
             <li>
               <a class="img-box lightbox" href="./assets/images/certificates/halal-indonesia.webp" data-lightbox-anima="show-scale">
-                <img loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia." width="219" height="84">
+                <img loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia.">
               </a>
             </li>
           </ul>
+        </div>
+        <div class="hidden-md visible-xs-block">
+          <div class="row">
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/brcgs.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/brcgs.webp" alt="BRGS Food Safety Certified logo: A symbol representing the certification and recognition of food safety standards.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/fda-us.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/fda-us.webp" alt="FDA logo with words 'FDA U.S. Food and Drug Administration'. Certifications & Recognitions.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/fieo.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/fieo.webp" alt="Certifications & Recognitions: A seal with the words Certified and Recognized surrounded by laurel leaves.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/fssai.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/fssai.webp" alt="FSSAI logo: A distinctive emblem representing the Food Safety and Standards Authority of India (FSSAI), symbolizing certifications and recognitions.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/haccp-certified.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/haccp-certified.webp" alt="HACCP certified logo depicting Certifications & Recognitions.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/iso-22000-2015.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/iso-22000-2015.webp" alt="CCL Ltd isco: Registered Indian company. Certified and recognized.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/halal.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/halal.webp" alt="HALAL Certification logo with 'Certifications & Recognitions'. Provides authentication for Hajj pilgrimage">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/paa.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/paa.webp" alt="The Potato Association of America logo, indicating Certifications & Recognitions.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/star-export.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/star-export.webp" alt="Star Medical Center logo: A blue star with a white cross in the center, representing excellence in medical care. Certifications & Recognitions.">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="img-box lightbox" href="./assets/images/certificates/halal-indonesia.webp" data-lightbox-anima="show-scale">
+                <img width="158" height="61" loading="lazy" src="./assets/images/certificates/halal-indonesia.webp" alt="Logo of Halal Indonesia with a green crescent moon and star, symbolizing halal certification in Indonesia.">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1223,7 +1296,7 @@
     $rsData = $Q_obj->BlogsList(3);
     if (count($rsData) > 0) :
     ?>
-      <div class="section-bg-image box-middle-container overlay-container row-21" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/Doodles2.webp">
+      <div class="section-bg-image box-middle-container overlay-container row-21 hide-section-bg-image" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-bleed="0" data-image-src="./assets/images/bg-img/Doodles2.webp">
         <div class="container content overlay-content box-middle text-center">
           <div class="title-base">
             <hr>
@@ -1249,7 +1322,7 @@
                           <a class="block-comment" <?php echo $bloglink; ?>>2
                             <i class="fa fa-comment-o"></i></a>
                         </div>
-                        <a class="img-box" <?php echo $bloglink; ?>><img loading="lazy" width="360" height="222" class="anima blog-img" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>"></a>
+                        <a class="img-box" <?php echo $bloglink; ?>><img width="330" height="220" class="anima blog-img lazyload" data-src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>"></a>
                         <div class="advs-box-content blog-box">
                           <h2>
                             <a class="blog-link-headiing" <?php echo $bloglink; ?>><?php echo $record['title']; ?></a>
@@ -1272,7 +1345,7 @@
     endif; ?>
   </div>
   <i class="fa fa-long-arrow-up scroll-top scroll-top-mobile show" aria-hidden="true"></i>
-  <footer class="footer-base footer-parallax">
+  <footer class="footer-base footer-parallax ">
     <div class="content">
       <div class="container">
         <div class="row">
@@ -1282,7 +1355,7 @@
             <p>Bulk supplies of all dehydrated potato products</p>
             <div class="row vission-img">
               <div class="col-lg-6 col-xs-4">
-                <img src="./assets/images/goodrich-cereals/cereals-story-potato.webp" width="100" height="110" class="responsive-img" alt="footer potato image">
+                <img data-src="./assets/images/goodrich-cereals/cereals-story-potato.webp" class="responsive-img lazyload" alt="footer potato image">
               </div>
               <div class="col-lg-6 col-xs-4">
                 <div class="row">
@@ -1422,7 +1495,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js" integrity="sha512-P4vXxXZrVKsyqMySOOZg5fuRHUqDLbjVnbLZP5a2MAMDbb78MY5sjhrhr4lG6C34YSGLlhzuZwuOZH4+r+UDzg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.0.4/js/swiper.min.js" integrity="sha512-TD31E8Lt5YSFYd8TM13Mx84TE28wMf2R27CXrwaR6qMh+CeLHsmp7Vj8DsFd5ukyf1ZBB73z54lvAaoT6NXRrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <script src="./assets/js/jquery.tab-accordion.js" defer></script>
   <!-- Initialize Swiper with modified script -->
   <script>
@@ -1511,7 +1583,6 @@
       document.getElementById("airdriedClick").click()
     }
   </script>
-
 </body>
 
 </html>

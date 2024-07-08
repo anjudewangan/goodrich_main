@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Montserrat:300,400,500,600);
-
 .fancybox-container,
 .fancybox-infobar,
 .fancybox-thumbs,
@@ -4753,7 +4751,7 @@ body.fancybox-iosfix {
 }
 
 .fancybox-close-small:after {
-    content: "×";
+    content: "Ã—";
     position: absolute;
     top: 5px;
     right: 5px;

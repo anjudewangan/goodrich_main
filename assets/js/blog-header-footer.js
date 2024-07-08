@@ -98,8 +98,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
       <p>Bulk supplies of all dehydrated potato products</p>
       <div class="row vission-img">
         <div class="col-lg-6 col-xs-4">
-          <img width="100" height="110" fetchpriority="low" class="responsive-img" src="../assets/images/goodrich-cereals/cereals-story-potato.webp" width="100px"
-            alt="footer potato image">
+          <img src="./assets/images/goodrich-cereals/cereals-story-potato.webp" class="responsive-img" alt="footer potato image">
         </div>
         <div class="col-lg-6 col-xs-4">
           <div class="row">
