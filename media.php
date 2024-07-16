@@ -133,7 +133,7 @@
                           <a href="#" class="caption-bg img-box">
                             <div class="caption">
                               <div class="inner">
-                                <p class="sub"><?php echo $record['type_name']; ?></p>
+                                <p class="sub"><?php echo $record['photo_title']; ?></p>
                               </div>
                             </div>
                           </a>

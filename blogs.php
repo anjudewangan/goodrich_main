@@ -82,7 +82,7 @@
                 <div class="single-blog-item">
                   <div class="image">
                     <a <?php echo $bloglink; ?>>
-                      <img src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>" /></a>
+                      <img width="330" height="220" src="<?php echo './assets/uploads/' . $record['attached_file']; ?>" alt="<?php echo $record['title']; ?>" /></a>
                     <div class="date">
                       <span><?= date("d M, Y", strtotime($record['blog_date'])); ?></span>
                     </div>

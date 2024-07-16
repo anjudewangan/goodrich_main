@@ -70,7 +70,7 @@
 <body>
   <div id="preloader"></div>
   <?php
-  include_once("includes/connection_inner.php");
+  include("includes/connection_inner.php");
   ?>
   <div class="footer-parallax-container">
     <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in">
@@ -158,22 +158,26 @@
     <section class="slider p-md-0">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="bg-overlay"></div>
-            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-1-375w.webp" alt="Banner Potato" srcset="./assets/uploads/video-photo/banner-1-375w.webp 375w, ./assets/uploads/video-photo/banner-1.webp 1000w, ./assets/uploads/video-photo/banner-1.webp 1500w">
-          </div>
-          <div class="swiper-slide">
-            <div class="bg-overlay"></div>
-            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-2-375w.webp" alt="Banner Mashing Potato" srcset="./assets/uploads/video-photo/banner-2-375w.webp 375w, ./assets/uploads/video-photo/banner-2.webp 1000w, ./assets/uploads/video-photo/banner-2.webp 1500w">
-          </div>
-          <div class="swiper-slide">
-            <div class="bg-overlay"></div>
-            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-3-375w.webp" alt="Banner Potato Form" srcset="./assets/uploads/video-photo/banner-3-375w.webp 375w, ./assets/uploads/video-photo/banner-3.webp 1000w, ./assets/uploads/video-photo/banner-3.webp 1500w">
-          </div>
-          <div class="swiper-slide">
-            <div class="bg-overlay"></div>
-            <img sizes="50vw" data-src="./assets/uploads/video-photo/banner-4-375w.webp" alt="Banner Potato Flkes" srcset="./assets/uploads/video-photo/banner-4-375w.webp 375w, ./assets/uploads/video-photo/banner-4.webp 1000w, ./assets/uploads/video-photo/banner-4.webp 1500w">
-          </div>
+        <?php
+          $rsData = $Q_obj->BannersList('asc');
+          if (count($rsData) > 0) {
+            foreach ($rsData as $i => $record) {
+              if ($record['banner_type'] == 'video') :
+          ?>
+                <div class="swiper-slide">
+                  <div class="bg-overlay"></div>
+                  <video muted autoplay type='video/mp4' src="./assets/uploads/<?= $record['attached_file'] ?>"></video>
+                </div>
+              <?php else : ?>
+                <div class="swiper-slide">
+                  <div class="bg-overlay"></div>
+                  <img sizes="50vw" data-src="./assets/uploads/<?= $record['attached_file'] ?>" alt="Banner Potato" srcset="./assets/uploads/<?= $record['attached_file'] ?> 375w, ./assets/uploads/<?= $record['attached_file'] ?> 1000w, ./assets/uploads/<?= $record['attached_file'] ?> 1500w">
+                  
+                  <!-- <img src="./assets/uploads/<?= $record['attached_file'] ?>" alt="<?php echo $record['banner_title']; ?>"> -->
+                </div>
+              <?php endif; ?>
+          <?php }
+          } ?>
         </div>
         <div class="swiper-pagination"></div>
       </div>
