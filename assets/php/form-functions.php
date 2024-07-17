@@ -70,7 +70,7 @@ if (isset($_POST["btnform"]) && $_POST["btnform"] == 'contact') {
 		//----Insert Data for Contact---------
 		$Q_obj->ConatctSubmit($_POST);
 
-		echo json_encode(array("class_name" => '', "purl" => '', "msg" => 'Awesome start! Your green commitment is noted. Expect a response from us soon.!'));
+		echo json_encode(array("class_name" => '', "purl" => '', "msg" => 'Thank you! We have received your message. Check out our delicious potato cereals while we respond shortly!'));
 
 		exit;
 	}
@@ -165,7 +165,7 @@ if (isset($_POST["btnform"]) && $_POST["btnform"] == 'career') {
 		//----Insert Data for Career---------
 		$Q_obj->CareersSubmit($_POST);
 
-		echo json_encode(array("class_name" => '', "purl" => '', "msg" => 'Awesome start! Your green commitment is noted. Expect a response from us soon.!'));
+		echo json_encode(array("class_name" => '', "purl" => '', "msg" => 'Thank you! We have received your message. Check out our delicious potato cereals while we respond shortly!'));
 
 		exit;
 	}
