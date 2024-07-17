@@ -267,7 +267,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha512-Hr4vRkx/ftAu39Bbzt2vboiggxVCtqqLwU+eLdo7jpYFJQHdwYYoE5nVNN3Oe1910B3u5JZvcxWhOEA4T6tkwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="./assets/js/jquery.tab-accordion.js" defer></script>
     <script src="./assets/js/header-footer.js"></script>
-    <script src="./assets/js/toast.js" defer></script>
+    <script src="./assets/js/postscript.js"></script>
+    <script src="./assets/js/toast.js"></script>
     <script>
         const textarea = document.getElementById('message');
         const charCount = document.getElementById('charCount');

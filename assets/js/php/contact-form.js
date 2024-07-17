@@ -1,1 +1,89 @@
-!function(r,n,t){"use strict";r(t).ready(function(){r(".form-ajax").each(function(t){var e=this,a=r(this).attr("data-email");isEmpty(a)&&(a="");var o=r(this).attr("data-subject");isEmpty(o)&&(o=""),r(e).submit(function(t){if(r(".form-group").removeClass("has-error"),r(".help-block").remove(),"undefined"!=typeof grecaptcha&&r(this).find(".g-recaptcha").length&&0===grecaptcha.getResponse().length)return t.preventDefault,!1;r(e).find(".cf-loader").show();var i={values:{},domain:n.location.hostname.replace("www.",""),email:a,subject_email:o};r(e).find(".form-value").each(function(){var t,e,a=r(this).val();isEmpty(a)||(t=r(this).attr("data-name"),isEmpty(t)&&(t=r(this).attr("name")),isEmpty(t)&&(t=r(this).attr("id")),e=r(this).attr("data-error"),isEmpty(e)&&(e=""),i.values[t]=[a,e])}),r.ajax({type:"POST",url:r(e).attr("action"),data:i,dataType:"json",encode:!0}).done(function(t){t.success?r(e).html(r(e).find(".success-box").html()):(console.log(t),r(e).find(".error-box").show()),r(e).find(".cf-loader").hide()}).fail(function(t){console.log(t),r(e).find(".error-box").show(),r(e).find(".cf-loader").hide()}),t.preventDefault()})})})}(jQuery,window,document);
+/*
+--------------------------------
+Ajax Contact Form
+--------------------------------
++ https://github.com/pinceladasdaweb/Ajax-Contact-Form
++ A Simple Ajax Contact Form developed in PHP with HTML5 Form validation.
++ Has a fallback in jQuery for browsers that do not support HTML5 form validation.
++ version 1.0.1
++ Copyright 2014 Pedro Rogerio
++ Licensed under the MIT license
++ https://github.com/pinceladasdaweb/Ajax-Contact-Form
+*/
+
+(function ($, window, document, undefined) {
+    'use strict';
+
+    $(document).ready(function () {
+        $('.form-ajax').each(function (index) {
+            var form = this;
+            var sendToEmail = $(this).attr("data-email");
+            if (isEmpty(sendToEmail)) sendToEmail = '';
+            var subject = $(this).attr("data-subject");
+            if (isEmpty(subject)) subject = '';
+
+            $(form).submit(function (e) {
+                // remove the error class
+                $('.form-group').removeClass('has-error');
+                $('.help-block').remove();
+
+                // Google reCaptcha
+                if ((typeof grecaptcha !== 'undefined') && $(this).find(".g-recaptcha").length) {
+                    if (grecaptcha.getResponse().length === 0) {
+                        e.preventDefault;
+                        return false;
+                    }
+                }
+
+                $(form).find(".cf-loader").show();
+
+                // get the form data
+                var formData = {
+                    'values': {},
+                    'domain': window.location.hostname.replace("www.", ""),
+                    'email': sendToEmail,
+                    'subject_email': subject
+                };
+
+                $(form).find(".form-value").each(function () {
+                    var val = $(this).val();
+                    if (!isEmpty(val)) {
+                        var name = $(this).attr("data-name");
+                        if (isEmpty(name)) name = $(this).attr("name");
+                        if (isEmpty(name)) name = $(this).attr("id");
+                        var error_msg = $(this).attr("data-error");
+                        if (isEmpty(error_msg)) error_msg = "";
+                        formData['values'][name] = [val, error_msg];
+                    }
+                });
+
+                // process the form
+                $.ajax({
+                    type: 'POST',
+                    url: $(form).attr("action"),
+                    data: formData,
+                    dataType: 'json',
+                    encode: true
+                }).done(function (data) {
+                    if (!data.success) {
+                        // Error
+                        console.log(data);
+                        $(form).find(".error-box").show();
+                    } else {
+                        // Success
+                        $(form).html($(form).find(".success-box").html());
+                    }
+                    $(form).find(".cf-loader").hide();
+                }).fail(function (data) {
+                    // Error
+                    console.log(data);
+                    $(form).find(".error-box").show();
+                    $(form).find(".cf-loader").hide();
+                });
+
+                e.preventDefault();
+            });
+        });
+    });
+
+}(jQuery, window, document));
