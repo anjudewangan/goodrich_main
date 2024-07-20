@@ -139,11 +139,12 @@
                                         <label for="cvInput" style="cursor: pointer;">
                                             Attach File
                                         </label>
-                                        <input type="file" id="cvInput" name="attached_file" style="display: none;">
+                                        <input type="file" id="cvInput" onchange="preview_image(event)" name="attached_file" style="display: none;">
                                     </div>
                                     <button class="anima-button circle-button btn-xs btn" type="submit">
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>Submit
                                     </button>
+                                    <div class="upload_file"></div>
                                     <div class="Inpt attached_file"></div>
                                 </div>
 
@@ -182,6 +183,11 @@
             }
             charCount.textContent = `${currentLength}/${maxLength}`;
         });
+
+        function preview_image(event) {
+            var output = document.getElementById('cvInput').value;
+            $('.upload_file').text(output.split("\\").pop());
+        }
     </script>
 </body>
 
